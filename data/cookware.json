@@ -1,0 +1,212 @@
+[
+  {
+    "id": "cw-01",
+    "name": "Classic Fry Pan 24cm",
+    "category": "Non-Stick",
+    "description": "Everyday non-stick frying pan with forged aluminum body and PFOA-free coating. Ideal for high-volume retail.",
+    "image": "/images/products/cookware/classic-fry-24.jpg",
+    "specs": [
+      "Diameter: 24 cm",
+      "Body: forged aluminum, 3.5 mm thick",
+      "Coating: 3-layer PFOA-free non-stick",
+      "Compatibility: gas, electric, ceramic, induction-ready",
+      "Handle: riveted Bakelite with soft-touch grip"
+    ]
+  },
+  {
+    "id": "cw-02",
+    "name": "Classic Fry Pan 28cm",
+    "category": "Non-Stick",
+    "description": "Larger format non-stick fry pan for family-size cooking. Induction-compatible base available.",
+    "image": "/images/products/cookware/classic-fry-28.jpg",
+    "specs": [
+      "Diameter: 28 cm",
+      "Body: forged aluminum, 3.5 mm thick",
+      "Coating: 3-layer PFOA-free non-stick",
+      "Induction-compatible stainless steel base plate",
+      "Handle: riveted Bakelite with soft-touch grip"
+    ]
+  },
+  {
+    "id": "cw-03",
+    "name": "Deep Non-Stick Saut\u00e9 26cm",
+    "category": "Non-Stick",
+    "description": "High-walled saut\u00e9 pan with 3-layer non-stick interior. Glass lid included for OEM packages.",
+    "image": "/images/products/cookware/deep-saute-26.jpg",
+    "specs": [
+      "Diameter: 26 cm, wall height: 7 cm",
+      "Body: forged aluminum, 4 mm thick",
+      "Coating: 3-layer non-stick interior",
+      "Includes tempered glass lid with steam vent",
+      "Compatibility: all hob types including induction"
+    ]
+  },
+  {
+    "id": "cw-04",
+    "name": "Non-Stick Wok 30cm",
+    "category": "Non-Stick",
+    "description": "Lightweight forged wok with durable non-stick finish. Suitable for gas and induction cooktops.",
+    "image": "/images/products/cookware/nonstick-wok-30.jpg",
+    "specs": [
+      "Diameter: 30 cm",
+      "Body: forged aluminum, 3 mm thick",
+      "Coating: 2-layer PFOA-free non-stick",
+      "Weight: approx. 0.9 kg",
+      "Handle: riveted long handle + helper handle"
+    ]
+  },
+  {
+    "id": "cw-05",
+    "name": "Pro Stainless Saut\u00e9 28cm",
+    "category": "Stainless Steel",
+    "description": "Tri-ply stainless steel saut\u00e9 pan with aluminum core for even heat distribution. Oven-safe to 260\u00b0C.",
+    "image": "/images/products/cookware/pro-saute-28.jpg",
+    "specs": [
+      "Diameter: 28 cm",
+      "Construction: tri-ply 18/10 stainless steel + aluminum core",
+      "Oven-safe up to 260\u00b0C",
+      "Dishwasher safe",
+      "Compatible with all cooktops including induction"
+    ]
+  },
+  {
+    "id": "cw-06",
+    "name": "Stainless Stockpot 24cm",
+    "category": "Stainless Steel",
+    "description": "Professional-grade 18/10 stainless stockpot with encapsulated base. Riveted handles, dishwasher safe.",
+    "image": "/images/products/cookware/stainless-stockpot-24.jpg",
+    "specs": [
+      "Diameter: 24 cm, capacity: 7.5 L",
+      "Material: 18/10 stainless steel",
+      "Base: encapsulated aluminum for even heating",
+      "Riveted stainless steel handles",
+      "Dishwasher and oven safe to 240\u00b0C"
+    ]
+  },
+  {
+    "id": "cw-07",
+    "name": "Stainless Fry Pan 26cm",
+    "category": "Stainless Steel",
+    "description": "Mirror-polished stainless fry pan designed for the premium retail segment. Lifetime warranty eligible.",
+    "image": "/images/products/cookware/stainless-fry-26.jpg",
+    "specs": [
+      "Diameter: 26 cm",
+      "Construction: tri-ply 18/10 stainless steel",
+      "Finish: mirror polish exterior",
+      "Lifetime warranty eligible",
+      "Induction compatible"
+    ]
+  },
+  {
+    "id": "cw-08",
+    "name": "Stainless Saucepan 18cm",
+    "category": "Stainless Steel",
+    "description": "Compact tri-ply saucepan with pour spouts and fitted lid. Ideal for sauces and reductions.",
+    "image": "/images/products/cookware/stainless-saucepan-18.jpg",
+    "specs": [
+      "Diameter: 18 cm, capacity: 2.5 L",
+      "Construction: tri-ply stainless + aluminum core",
+      "Dual pour spouts for drip-free pouring",
+      "Includes fitted stainless steel lid",
+      "Oven-safe to 240\u00b0C"
+    ]
+  },
+  {
+    "id": "cw-09",
+    "name": "Heritage Skillet 25cm",
+    "category": "Cast Iron",
+    "description": "Pre-seasoned cast iron skillet using traditional sand-casting methods. Built to last generations.",
+    "image": "/images/products/cookware/heritage-skillet-25.jpg",
+    "specs": [
+      "Diameter: 25 cm",
+      "Material: cast iron, sand-cast",
+      "Pre-seasoned with food-grade oil",
+      "Weight: approx. 2.8 kg",
+      "Compatible with all heat sources including open flame"
+    ]
+  },
+  {
+    "id": "cw-10",
+    "name": "Cast Iron Dutch Oven 5.5L",
+    "category": "Cast Iron",
+    "description": "Enamelled cast iron dutch oven with self-basting lid. Available in 12 exterior color options.",
+    "image": "/images/products/cookware/dutch-oven-5l.jpg",
+    "specs": [
+      "Capacity: 5.5 L, diameter: 26 cm",
+      "Material: enamelled cast iron",
+      "Self-basting lid with condensation ridges",
+      "Oven-safe to 260\u00b0C",
+      "Available in 12 exterior color options"
+    ]
+  },
+  {
+    "id": "cw-11",
+    "name": "Cast Iron Griddle Pan 28cm",
+    "category": "Cast Iron",
+    "description": "Ribbed griddle pan for searing and grilling. Pre-seasoned with food-grade flaxseed oil.",
+    "image": "/images/products/cookware/griddle-28.jpg",
+    "specs": [
+      "Size: 28 cm square",
+      "Material: cast iron",
+      "Pre-seasoned with food-grade flaxseed oil",
+      "Ribbed surface for sear marks",
+      "Compatible with all heat sources including oven and grill"
+    ]
+  },
+  {
+    "id": "cw-12",
+    "name": "Ceramic Fry Pan 24cm",
+    "category": "Ceramic",
+    "description": "Eco-friendly ceramic-coated pan with water-based non-stick finish. Health-conscious market segment.",
+    "image": "/images/products/cookware/ceramic-fry-24.jpg",
+    "specs": [
+      "Diameter: 24 cm",
+      "Coating: water-based ceramic non-stick (PTFE-free)",
+      "Body: forged aluminum, 3.5 mm thick",
+      "Eco-friendly manufacturing process",
+      "Handle: riveted soft-touch with hanging loop"
+    ]
+  },
+  {
+    "id": "cw-13",
+    "name": "Ceramic Saut\u00e9 Pan 28cm",
+    "category": "Ceramic",
+    "description": "Deep-walled ceramic saut\u00e9 pan with soft-touch ergonomic handle. Vibrant exterior finishes available.",
+    "image": "/images/products/cookware/ceramic-saute-28.jpg",
+    "specs": [
+      "Diameter: 28 cm, wall height: 6.5 cm",
+      "Coating: ceramic non-stick interior",
+      "Body: forged aluminum",
+      "Vibrant exterior finishes available (6 colors)",
+      "Soft-touch ergonomic handle"
+    ]
+  },
+  {
+    "id": "cw-14",
+    "name": "Ceramic Saucepan Set 16/18/20cm",
+    "category": "Ceramic",
+    "description": "Three-piece ceramic saucepan set for retail packaging. Matching lids and stackable design.",
+    "image": "/images/products/cookware/ceramic-set-3pc.jpg",
+    "specs": [
+      "Sizes: 16 cm, 18 cm, 20 cm",
+      "Coating: ceramic non-stick (PTFE-free)",
+      "Includes matching tempered glass lids",
+      "Stackable design for efficient retail packaging",
+      "Induction-compatible bases"
+    ]
+  },
+  {
+    "id": "cw-15",
+    "name": "Ceramic Wok 30cm",
+    "category": "Ceramic",
+    "description": "Large ceramic-coated wok with stay-cool handle. PTFE-free coating for the health-focused market.",
+    "image": "/images/products/cookware/ceramic-wok-30.jpg",
+    "specs": [
+      "Diameter: 30 cm",
+      "Coating: ceramic non-stick (PTFE-free)",
+      "Body: forged aluminum, 3 mm thick",
+      "Stay-cool Bakelite handle",
+      "Suitable for gas, electric, ceramic, and induction"
+    ]
+  }
+]

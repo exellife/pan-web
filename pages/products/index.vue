@@ -20,12 +20,12 @@
             v-for="division in divisions"
             :key="division.title"
             :to="division.to"
-            class="group bg-white border border-steel-200 rounded-lg overflow-hidden hover:border-accent-400 hover:shadow-lg transition-all"
+            class="group flex flex-col bg-white border border-steel-200 rounded-lg overflow-hidden hover:border-accent-400 hover:shadow-lg transition-all"
           >
             <div class="bg-steel-100 h-56 flex items-center justify-center">
               <span class="text-steel-400 text-lg">[{{ division.title }} photo]</span>
             </div>
-            <div class="p-8">
+            <div class="p-8 flex flex-col flex-1">
               <h2 class="text-2xl font-display font-bold text-steel-900 mb-3 group-hover:text-accent-600 transition-colors">
                 {{ division.title }}
               </h2>
@@ -40,7 +40,7 @@
                   {{ line }}
                 </li>
               </ul>
-              <span class="text-accent-600 font-semibold text-sm uppercase tracking-wide">
+              <span class="mt-auto self-end text-accent-600 font-semibold text-sm uppercase tracking-wide">
                 View Product Lines &rarr;
               </span>
             </div>

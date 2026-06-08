@@ -92,17 +92,17 @@
             v-for="division in divisions"
             :key="division.title"
             :to="division.to"
-            class="group bg-white border border-steel-200 rounded-lg overflow-hidden hover:border-accent-400 transition-colors"
+            class="group flex flex-col bg-white border border-steel-200 rounded-lg overflow-hidden hover:border-accent-400 transition-colors"
           >
             <div class="bg-steel-100 h-48 flex items-center justify-center">
               <span class="text-steel-400 text-lg">[{{ division.title }} photo]</span>
             </div>
-            <div class="p-8">
+            <div class="p-8 flex flex-col flex-1">
               <h3 class="text-2xl font-display font-bold text-steel-900 mb-3 group-hover:text-accent-600 transition-colors">
                 {{ division.title }}
               </h3>
               <p class="text-steel-500 leading-relaxed mb-4">{{ division.description }}</p>
-              <span class="text-accent-600 font-semibold text-sm uppercase tracking-wide">
+              <span class="mt-auto self-end text-accent-600 font-semibold text-sm uppercase tracking-wide">
                 View Products &rarr;
               </span>
             </div>

@@ -1,0 +1,212 @@
+[
+  {
+    "id": "rd-01",
+    "name": "Compact Panel 600x800",
+    "category": "Panel",
+    "description": "Type 11 single-panel radiator for apartments and small rooms. Space-saving profile with high heat output.",
+    "image": "/images/products/radiators/compact-600x800.jpg",
+    "specs": [
+      "Type: 11 (single panel, single convector)",
+      "Dimensions: 600 mm (H) x 800 mm (W) x 63 mm (D)",
+      "Heat output: 694 W (EN 442)",
+      "Working pressure: 10 bar, test pressure: 13 bar",
+      "Finish: powder-coated RAL 9016 (white)"
+    ]
+  },
+  {
+    "id": "rd-02",
+    "name": "Compact Panel 600x1200",
+    "category": "Panel",
+    "description": "Mid-size Type 11 panel radiator for living areas. Powder-coated finish with RAL color options.",
+    "image": "/images/products/radiators/compact-600x1200.jpg",
+    "specs": [
+      "Type: 11 (single panel, single convector)",
+      "Dimensions: 600 mm (H) x 1200 mm (W) x 63 mm (D)",
+      "Heat output: 1041 W (EN 442)",
+      "RAL color options available on request",
+      "Side or bottom connection options"
+    ]
+  },
+  {
+    "id": "rd-03",
+    "name": "Double Panel 600x1000",
+    "category": "Panel",
+    "description": "Type 22 double-panel radiator delivering increased BTU output. Ideal for larger residential spaces.",
+    "image": "/images/products/radiators/double-600x1000.jpg",
+    "specs": [
+      "Type: 22 (double panel, double convector)",
+      "Dimensions: 600 mm (H) x 1000 mm (W) x 100 mm (D)",
+      "Heat output: 1784 W (EN 442)",
+      "Working pressure: 10 bar",
+      "Supplied with wall brackets and air vent"
+    ]
+  },
+  {
+    "id": "rd-04",
+    "name": "Double Panel 500x1400",
+    "category": "Panel",
+    "description": "Wide-format Type 22 panel for under-window installation. Low profile, high efficiency.",
+    "image": "/images/products/radiators/double-500x1400.jpg",
+    "specs": [
+      "Type: 22 (double panel, double convector)",
+      "Dimensions: 500 mm (H) x 1400 mm (W) x 100 mm (D)",
+      "Heat output: 2081 W (EN 442)",
+      "Designed for under-window installation",
+      "Low profile for unobstructed window sills"
+    ]
+  },
+  {
+    "id": "rd-05",
+    "name": "Triple Panel 600x1200",
+    "category": "Panel",
+    "description": "Type 33 triple-panel radiator for maximum heat output. Suited for poorly insulated or large rooms.",
+    "image": "/images/products/radiators/triple-600x1200.jpg",
+    "specs": [
+      "Type: 33 (triple panel, triple convector)",
+      "Dimensions: 600 mm (H) x 1200 mm (W) x 157 mm (D)",
+      "Heat output: 3120 W (EN 442)",
+      "Working pressure: 10 bar, test pressure: 13 bar",
+      "Ideal for poorly insulated or large-volume rooms"
+    ]
+  },
+  {
+    "id": "rd-06",
+    "name": "Vertical Panel 1800x500",
+    "category": "Panel",
+    "description": "Tall vertical panel radiator for narrow wall spaces. Modern aesthetic with top-mounted connections.",
+    "image": "/images/products/radiators/vertical-1800x500.jpg",
+    "specs": [
+      "Type: 21 (double panel, single convector)",
+      "Dimensions: 1800 mm (H) x 500 mm (W) x 77 mm (D)",
+      "Heat output: 1886 W (EN 442)",
+      "Top-mounted connections for clean installation",
+      "Modern flat-front design"
+    ]
+  },
+  {
+    "id": "rd-07",
+    "name": "Classic Column 2-col 600mm",
+    "category": "Column",
+    "description": "Two-column steel radiator with timeless design. Available in 4 to 30 sections for custom lengths.",
+    "image": "/images/products/radiators/column-2col-600.jpg",
+    "specs": [
+      "Type: 2-column steel tubular",
+      "Height: 600 mm, depth: 65 mm",
+      "Available in 4 to 30 sections",
+      "Heat output: 62 W per section (EN 442)",
+      "Working pressure: 10 bar"
+    ]
+  },
+  {
+    "id": "rd-08",
+    "name": "Classic Column 3-col 1200mm",
+    "category": "Column",
+    "description": "Tall three-column radiator for period properties and premium renovations. Chrome finish available.",
+    "image": "/images/products/radiators/column-3col-1200.jpg",
+    "specs": [
+      "Type: 3-column steel tubular",
+      "Height: 1200 mm, depth: 101 mm",
+      "Chrome or powder-coat finish options",
+      "Heat output: 145 W per section (EN 442)",
+      "Suited for period properties and premium interiors"
+    ]
+  },
+  {
+    "id": "rd-09",
+    "name": "Column 4-col 600mm",
+    "category": "Column",
+    "description": "Four-column high-output radiator for heritage installations. Cast iron or steel construction.",
+    "image": "/images/products/radiators/column-4col-600.jpg",
+    "specs": [
+      "Type: 4-column (cast iron or steel)",
+      "Height: 600 mm, depth: 140 mm",
+      "Heat output: 107 W per section (EN 442)",
+      "Heritage style, suitable for listed buildings",
+      "Working pressure: 10 bar (steel), 6 bar (cast iron)"
+    ]
+  },
+  {
+    "id": "rd-10",
+    "name": "Horizontal Column 300x1500",
+    "category": "Column",
+    "description": "Low-profile horizontal column radiator for under-window placement. Brushed nickel finish option.",
+    "image": "/images/products/radiators/horizontal-column-300x1500.jpg",
+    "specs": [
+      "Type: 2-column horizontal steel",
+      "Dimensions: 300 mm (H) x 1500 mm (W)",
+      "Heat output: 1020 W (EN 442)",
+      "Brushed nickel finish option available",
+      "Under-window or kickboard installation"
+    ]
+  },
+  {
+    "id": "rd-11",
+    "name": "Vertical Column 1800x380",
+    "category": "Column",
+    "description": "Slim vertical column radiator for hallways and narrow spaces. Dual-fuel compatible.",
+    "image": "/images/products/radiators/vertical-column-1800x380.jpg",
+    "specs": [
+      "Type: 2-column vertical steel",
+      "Dimensions: 1800 mm (H) x 380 mm (W)",
+      "Heat output: 1248 W (EN 442)",
+      "Dual-fuel compatible (central heating + electric element)",
+      "Available in white, anthracite, or custom RAL"
+    ]
+  },
+  {
+    "id": "rd-12",
+    "name": "Industrial Floor Unit HD-2000",
+    "category": "Industrial",
+    "description": "Heavy-duty floor-standing unit for warehouses and factories. Anti-corrosion treated for harsh environments.",
+    "image": "/images/products/radiators/industrial-hd2000.jpg",
+    "specs": [
+      "Type: floor-standing convector unit",
+      "Heat output: 2000 W",
+      "Construction: heavy-gauge steel with anti-corrosion coating",
+      "Working pressure: 16 bar",
+      "Designed for warehouses, factories, and workshops"
+    ]
+  },
+  {
+    "id": "rd-13",
+    "name": "Industrial Wall Mount WM-1500",
+    "category": "Industrial",
+    "description": "Wall-mounted industrial radiator for commercial buildings. High-output steel panel construction.",
+    "image": "/images/products/radiators/industrial-wm1500.jpg",
+    "specs": [
+      "Type: wall-mounted steel panel",
+      "Heat output: 1500 W",
+      "Construction: heavy-duty powder-coated steel",
+      "Working pressure: 12 bar",
+      "Suitable for commercial and light industrial spaces"
+    ]
+  },
+  {
+    "id": "rd-14",
+    "name": "Industrial Floor Unit HD-3000",
+    "category": "Industrial",
+    "description": "Extra-capacity floor unit for large industrial halls. Working pressure up to 16 bar.",
+    "image": "/images/products/radiators/industrial-hd3000.jpg",
+    "specs": [
+      "Type: floor-standing convector unit",
+      "Heat output: 3000 W",
+      "Construction: reinforced steel with anti-corrosion treatment",
+      "Working pressure: 16 bar, test pressure: 24 bar",
+      "Suitable for halls up to 300 m\u00b2"
+    ]
+  },
+  {
+    "id": "rd-15",
+    "name": "Industrial Ceiling Mount CM-1200",
+    "category": "Industrial",
+    "description": "Ceiling-suspended heating unit for workshops with limited wall and floor space. Thermostatic valve ready.",
+    "image": "/images/products/radiators/industrial-cm1200.jpg",
+    "specs": [
+      "Type: ceiling-suspended convector unit",
+      "Heat output: 1200 W",
+      "Includes mounting brackets and suspension kit",
+      "Thermostatic valve ready (valve sold separately)",
+      "Ideal for workshops with limited wall/floor space"
+    ]
+  }
+]
