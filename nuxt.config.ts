@@ -6,6 +6,10 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
   ],
 
+  nitro: {
+    static: true,
+  },
+
   app: {
     head: {
       title: 'PanCraft - Premium Frying Pans & Cookware',
