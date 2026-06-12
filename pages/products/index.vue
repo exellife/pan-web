@@ -81,23 +81,23 @@ useHead({
 const divisions = [
   {
     title: 'Cookware',
-    description: 'Premium frying pans and cookware for professional kitchens and home cooks. Manufactured from forged aluminum, stainless steel, and cast iron.',
+    description: 'Fry pans, sauce pans, casseroles, woks, grills and roasters across 30+ collections — in forged aluminum, die-cast, and stone-coated finishes, each offered in multiple sizes.',
     to: '/products/cookware',
     lines: [
-      'Classic Non-Stick Series',
-      'Pro Stainless Steel Line',
-      'Heritage Cast Iron',
-      'EcoCeram Ceramic-Coated Series',
+      'Forged & Pressed Aluminum Series',
+      'Die-cast & Granite Stone-Coat Collections',
+      'Classic, Diamond & Nature Lines',
+      'Grill, Roaster & Multi-functional Range',
     ],
   },
   {
     title: 'Heating Radiators',
-    description: 'High-efficiency heating radiators for residential and industrial applications. Engineered for optimal heat output, durability, and modern aesthetics.',
+    description: 'High-efficiency heating radiators with EN-rated heat output for residential and commercial applications. Engineered for durability and modern aesthetics.',
     to: '/products/radiators',
     lines: [
-      'Panel Radiators (Residential)',
-      'Column Radiators (Decorative)',
-      'Industrial Heating Units',
+      'Aluminum Radiators',
+      'Bimetal Radiators',
+      'Towel Radiators',
     ],
   },
 ]

@@ -9,7 +9,7 @@
         <NuxtLink to="/products/radiators" class="text-accent-600 hover:text-accent-700 text-sm font-medium uppercase tracking-wide mb-4 inline-block">
           &larr; Radiator Catalog
         </NuxtLink>
-        <p class="text-accent-600 font-semibold text-sm uppercase tracking-widest mb-2">Heating Division</p>
+        <p class="text-accent-600 font-semibold text-sm uppercase tracking-widest mb-2">{{ titleCase(product.category) }} · Heating Division</p>
         <h1 class="text-4xl md:text-5xl font-display font-bold text-steel-900">{{ product.name }}</h1>
       </div>
     </section>
@@ -19,25 +19,35 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
           <!-- Image -->
-          <div class="bg-steel-100 h-80 lg:h-[28rem] rounded-lg flex items-center justify-center">
-            <span class="text-steel-400 text-sm">[{{ product.name }} photo]</span>
+          <div class="bg-steel-50 border border-steel-200 rounded-lg h-80 lg:h-[28rem] flex items-center justify-center p-8">
+            <img
+              v-if="product.full"
+              :src="product.full"
+              :alt="product.name"
+              class="max-h-full max-w-full object-contain"
+            />
+            <span v-else class="text-steel-300 text-sm">No image available</span>
           </div>
 
           <!-- Info -->
           <div class="flex flex-col">
-            <span class="text-accent-600 font-semibold text-xs uppercase tracking-widest">
-              {{ product.category }}
-            </span>
-            <h2 class="text-3xl font-display font-bold text-steel-900 mt-2">{{ product.name }}</h2>
-            <p class="text-steel-500 leading-relaxed mt-4">{{ product.description }}</p>
+            <div class="flex flex-wrap gap-2">
+              <span class="text-accent-700 bg-accent-50 font-semibold text-xs uppercase tracking-widest px-3 py-1 rounded">
+                {{ titleCase(product.category) }}
+              </span>
+              <span v-if="product.model" class="text-steel-500 bg-steel-100 font-mono text-xs px-3 py-1 rounded">
+                {{ product.model }}
+              </span>
+            </div>
+            <h2 class="text-3xl font-display font-bold text-steel-900 mt-4">{{ product.name }}</h2>
 
-            <!-- Specs -->
-            <ul class="mt-6 space-y-2">
-              <li v-for="(spec, i) in product.specs" :key="i" class="flex items-start gap-2 text-steel-600 text-sm">
-                <span class="text-accent-600 mt-0.5">&bull;</span>
-                <span>{{ spec }}</span>
-              </li>
-            </ul>
+            <!-- Specs table -->
+            <dl class="mt-6 divide-y divide-steel-100 border-y border-steel-100">
+              <div v-for="(spec, i) in product.specs" :key="i" class="flex gap-4 py-2.5 text-sm">
+                <dt class="w-48 shrink-0 text-steel-400">{{ spec.split(':')[0] }}</dt>
+                <dd class="text-steel-700">{{ spec.split(':').slice(1).join(':').trim() }}</dd>
+              </div>
+            </dl>
 
             <!-- CTA Buttons -->
             <div class="mt-8 flex flex-wrap gap-4">
@@ -56,9 +66,29 @@
             </div>
           </div>
         </div>
+
+        <!-- Related in category -->
+        <div v-if="related.length" class="mt-20 pt-12 border-t border-steel-200">
+          <h2 class="text-2xl font-display font-bold text-steel-900 mb-8">More {{ titleCase(product.category) }} radiators</h2>
+          <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
+            <NuxtLink
+              v-for="rel in related"
+              :key="rel.id"
+              :to="`/products/radiators/${rel.id}`"
+              class="group flex flex-col bg-white border border-steel-200 rounded-lg overflow-hidden hover:border-accent-400 hover:shadow-lg transition-all"
+            >
+              <div class="bg-steel-50 aspect-square flex items-center justify-center p-3">
+                <img v-if="rel.image" :src="rel.image" :alt="rel.name" loading="lazy" class="max-h-full max-w-full object-contain" />
+                <span v-else class="text-steel-300 text-xs">No image</span>
+              </div>
+              <div class="p-3 border-t border-steel-100">
+                <h3 class="text-sm text-steel-800 group-hover:text-accent-600 transition-colors truncate">{{ rel.name }}</h3>
+              </div>
+            </NuxtLink>
+          </div>
+        </div>
       </div>
     </section>
-
   </div>
 
   <!-- Not Found -->
@@ -82,6 +112,14 @@ import products from '~/data/radiators.json'
 
 const route = useRoute()
 const product = products.find(p => p.id === route.params.id)
+
+const titleCase = (s: string) => s.split(' ').map(w => w.charAt(0) + w.slice(1).toLowerCase()).join(' ')
+
+const related = computed(() =>
+  product
+    ? products.filter(p => p.category === product.category && p.id !== product.id).slice(0, 8)
+    : [],
+)
 
 useHead({
   title: product

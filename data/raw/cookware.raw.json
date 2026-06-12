@@ -1,0 +1,5773 @@
+[
+  {
+    "series": "Baby Bear",
+    "type": "SAUCE PAN",
+    "art_no": "TM-WM16CM",
+    "size": "Φ16x8",
+    "wall": "1.7",
+    "bottom": "4.0",
+    "page": 19,
+    "id": 1,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p19_02.webp",
+    "photos": [
+      "effects/web/thumb/p19_02.webp"
+    ]
+  },
+  {
+    "series": "Baby Bear",
+    "type": "FRY PAN",
+    "art_no": "TM-WF16CM",
+    "size": "Φ16x4.5",
+    "wall": "1.7",
+    "bottom": "4.0",
+    "page": 19,
+    "id": 2,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p19_03.webp",
+    "photos": [
+      "effects/web/thumb/p19_03.webp"
+    ]
+  },
+  {
+    "series": "Lace",
+    "type": "SAUCE PAN",
+    "art_no": "TM-CM16CM",
+    "size": "Φ16x8.5",
+    "wall": "1.8-2.2",
+    "bottom": "4.0",
+    "page": 19,
+    "id": 3,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p19_07.webp",
+    "photos": [
+      "effects/web/thumb/p19_07.webp"
+    ]
+  },
+  {
+    "series": "Lace",
+    "type": "CASSEROLE",
+    "art_no": "TM-CS20CM",
+    "size": "Φ20x10",
+    "wall": "1.9-2.3",
+    "bottom": "4.0",
+    "page": 19,
+    "id": 4,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p19_10.webp",
+    "photos": [
+      "effects/web/thumb/p19_10.webp"
+    ]
+  },
+  {
+    "series": "Lace",
+    "type": "CASSEROLE",
+    "art_no": "TM-CS24CM",
+    "size": "Φ24x12",
+    "wall": "2.0-2.4",
+    "bottom": "4.0",
+    "page": 19,
+    "id": 5,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p19_10.webp",
+    "photos": [
+      "effects/web/thumb/p19_10.webp"
+    ]
+  },
+  {
+    "series": "Lace",
+    "type": "CASSEROLE",
+    "art_no": "TM-CS28CM",
+    "size": "Φ28x14",
+    "wall": "2.1-2.5",
+    "bottom": "4.0",
+    "page": 19,
+    "id": 6,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p19_10.webp",
+    "photos": [
+      "effects/web/thumb/p19_10.webp"
+    ]
+  },
+  {
+    "series": "Lace",
+    "type": "SHALLOW CASSEROLE",
+    "art_no": "TM-CST28CM",
+    "size": "Φ28x7.5",
+    "wall": "1.9-2.3",
+    "bottom": "4.0",
+    "page": 19,
+    "id": 7,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p19_08.webp",
+    "photos": [
+      "effects/web/thumb/p19_08.webp"
+    ]
+  },
+  {
+    "series": "Lace",
+    "type": "FRY PAN",
+    "art_no": "TM-CF24CM",
+    "size": "Φ24x5.5",
+    "wall": "1.8-2.2",
+    "bottom": "4.0",
+    "page": 19,
+    "id": 8,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p19_09.webp",
+    "photos": [
+      "effects/web/thumb/p19_09.webp"
+    ]
+  },
+  {
+    "series": "Mini",
+    "type": "SAUCE PAN",
+    "art_no": "TM-IM10CM",
+    "size": "Φ10x5.5",
+    "wall": "1.2",
+    "bottom": "4.0",
+    "page": 19,
+    "id": 9,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p19_04.webp",
+    "photos": [
+      "effects/web/thumb/p19_04.webp"
+    ]
+  },
+  {
+    "series": "Mini",
+    "type": "CASSEROLE",
+    "art_no": "TM-IS12CM",
+    "size": "Φ12x6",
+    "wall": "1.2",
+    "bottom": "4.4",
+    "page": 19,
+    "id": 10,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p19_05.webp",
+    "photos": [
+      "effects/web/thumb/p19_05.webp"
+    ]
+  },
+  {
+    "series": "Mini",
+    "type": "FRY PAN",
+    "art_no": "TM-IF14CM",
+    "size": "Φ14x3.5",
+    "wall": "1.2",
+    "bottom": "4.3",
+    "page": 19,
+    "id": 11,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p19_06.webp",
+    "photos": [
+      "effects/web/thumb/p19_06.webp"
+    ]
+  },
+  {
+    "series": "Diamond",
+    "type": "SAUCE PAN",
+    "art_no": "TM-PM16CM",
+    "size": "Φ16x8.0",
+    "wall": "1.6-2.4",
+    "bottom": "4.5",
+    "page": 15,
+    "id": 12,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p15_01.webp",
+    "photos": [
+      "effects/web/thumb/p15_01.webp"
+    ]
+  },
+  {
+    "series": "Diamond",
+    "type": "CASSEROLE",
+    "art_no": "TM-PS20CM",
+    "size": "Φ20x9.5",
+    "wall": "1.6-2.4",
+    "bottom": "4.5",
+    "page": 15,
+    "id": 13,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p15_02.webp",
+    "photos": [
+      "effects/web/thumb/p15_02.webp"
+    ]
+  },
+  {
+    "series": "Diamond",
+    "type": "CASSEROLE",
+    "art_no": "TM-PS24CM",
+    "size": "Φ24x11.5",
+    "wall": "1.6-2.6",
+    "bottom": "4.5",
+    "page": 15,
+    "id": 14,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p15_02.webp",
+    "photos": [
+      "effects/web/thumb/p15_02.webp"
+    ]
+  },
+  {
+    "series": "Diamond",
+    "type": "CASSEROLE",
+    "art_no": "TM-PS28CM",
+    "size": "Φ28x12.5",
+    "wall": "1.6-2.8",
+    "bottom": "4.5",
+    "page": 15,
+    "id": 15,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p15_02.webp",
+    "photos": [
+      "effects/web/thumb/p15_02.webp"
+    ]
+  },
+  {
+    "series": "Diamond",
+    "type": "CASSEROLE",
+    "art_no": "TM-PS32CM",
+    "size": "Φ32x14",
+    "wall": "1.6-2.8",
+    "bottom": "4.5",
+    "page": 15,
+    "id": 16,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p15_02.webp",
+    "photos": [
+      "effects/web/thumb/p15_02.webp"
+    ]
+  },
+  {
+    "series": "Diamond",
+    "type": "SHALLOW CASSEROLE",
+    "art_no": "TM-PST28CM",
+    "size": "Φ28x8",
+    "wall": "1.6-2.8",
+    "bottom": "3.6",
+    "page": 15,
+    "id": 17,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p15_05.webp",
+    "photos": [
+      "effects/web/thumb/p15_05.webp"
+    ]
+  },
+  {
+    "series": "Diamond",
+    "type": "FRY PAN",
+    "art_no": "TM-PF24CM",
+    "size": "Φ24x5.5",
+    "wall": "1.6-2.6",
+    "bottom": "4.5",
+    "page": 15,
+    "id": 18,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p15_03.webp",
+    "photos": [
+      "effects/web/thumb/p15_03.webp"
+    ]
+  },
+  {
+    "series": "Diamond",
+    "type": "FRY PAN",
+    "art_no": "TM-PF28CM",
+    "size": "Φ28x6",
+    "wall": "1.6-2.6",
+    "bottom": "4.5",
+    "page": 15,
+    "id": 19,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p15_03.webp",
+    "photos": [
+      "effects/web/thumb/p15_03.webp"
+    ]
+  },
+  {
+    "series": "Diamond",
+    "type": "DOUBLE FRY PAN",
+    "art_no": "TM-PDG32CM",
+    "size": "32x24.5x7.5",
+    "wall": "1.9",
+    "bottom": "3.6",
+    "page": 15,
+    "id": 20,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p15_04.webp",
+    "photos": [
+      "effects/web/thumb/p15_04.webp"
+    ]
+  },
+  {
+    "series": "Luxurious",
+    "type": "SAUCE PAN",
+    "art_no": "TM-EM16CM",
+    "size": "Φ16x8",
+    "wall": "1.8",
+    "bottom": "4.0",
+    "page": 17,
+    "id": 21,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p17_10.webp",
+    "photos": [
+      "effects/web/thumb/p17_10.webp"
+    ]
+  },
+  {
+    "series": "Luxurious",
+    "type": "FRY PAN",
+    "art_no": "TM-EF24CM",
+    "size": "Φ24x5.5",
+    "wall": "1.8",
+    "bottom": "4.0",
+    "page": 17,
+    "id": 22,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p17_11.webp",
+    "photos": [
+      "effects/web/thumb/p17_11.webp"
+    ]
+  },
+  {
+    "series": "Luxurious",
+    "type": "FRY PAN",
+    "art_no": "TM-EF28CM",
+    "size": "Φ28x6.0",
+    "wall": "1.8",
+    "bottom": "4.0",
+    "page": 17,
+    "id": 23,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p17_11.webp",
+    "photos": [
+      "effects/web/thumb/p17_11.webp"
+    ]
+  },
+  {
+    "series": "Luxurious",
+    "type": "SHALLOW CASSEROLE",
+    "art_no": "TM-EST28CM",
+    "size": "Φ28x7.5",
+    "wall": "2.0",
+    "bottom": "4.0",
+    "page": 17,
+    "id": 24,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p17_12.webp",
+    "photos": [
+      "effects/web/thumb/p17_12.webp"
+    ]
+  },
+  {
+    "series": "Luxurious",
+    "type": "CASSEROLE",
+    "art_no": "TM-ES16CM",
+    "size": "Φ16x8.0",
+    "wall": "0.9-1.6",
+    "bottom": "4.5",
+    "page": 17,
+    "id": 25,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p17_09.webp",
+    "photos": [
+      "effects/web/thumb/p17_09.webp"
+    ]
+  },
+  {
+    "series": "Luxurious",
+    "type": "CASSEROLE",
+    "art_no": "TM-ES20CM",
+    "size": "Φ20x9.5",
+    "wall": "1.8",
+    "bottom": "4.0",
+    "page": 17,
+    "id": 26,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p17_09.webp",
+    "photos": [
+      "effects/web/thumb/p17_09.webp"
+    ]
+  },
+  {
+    "series": "Luxurious",
+    "type": "CASSEROLE",
+    "art_no": "TM-ES24CM",
+    "size": "Φ24x11.5",
+    "wall": "1.8",
+    "bottom": "4.0",
+    "page": 17,
+    "id": 27,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p17_09.webp",
+    "photos": [
+      "effects/web/thumb/p17_09.webp"
+    ]
+  },
+  {
+    "series": "Luxurious",
+    "type": "CASSEROLE",
+    "art_no": "TM-ES28CM",
+    "size": "Φ28x13.5",
+    "wall": "2.0",
+    "bottom": "4.0",
+    "page": 17,
+    "id": 28,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p17_09.webp",
+    "photos": [
+      "effects/web/thumb/p17_09.webp"
+    ]
+  },
+  {
+    "series": "Luxurious",
+    "type": "CASSEROLE",
+    "art_no": "TM-ES32CM",
+    "size": "Φ32x14.5",
+    "wall": "1.6-2.0",
+    "bottom": "4.5",
+    "page": 17,
+    "id": 29,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p17_09.webp",
+    "photos": [
+      "effects/web/thumb/p17_09.webp"
+    ]
+  },
+  {
+    "series": "Die-cast New Collection",
+    "type": "WOK",
+    "art_no": "TM-FW32CM",
+    "size": "Φ32x9",
+    "wall": "1.8",
+    "bottom": "4.0",
+    "page": 17,
+    "id": 30,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p17_07.webp",
+    "photos": [
+      "effects/web/thumb/p17_07.webp"
+    ]
+  },
+  {
+    "series": "Die-cast New Collection",
+    "type": "DEEP FRY PAN",
+    "art_no": "TM-FDF24CM",
+    "size": "Φ24x7.5",
+    "wall": "1.8",
+    "bottom": "4.0",
+    "page": 17,
+    "id": 31,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p17_06.webp",
+    "photos": [
+      "effects/web/thumb/p17_06.webp"
+    ]
+  },
+  {
+    "series": "Die-cast New Collection",
+    "type": "DEEP FRY PAN",
+    "art_no": "TM-FDF28CM",
+    "size": "Φ28x8",
+    "wall": "1.8",
+    "bottom": "4.0",
+    "page": 17,
+    "id": 32,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p17_06.webp",
+    "photos": [
+      "effects/web/thumb/p17_06.webp"
+    ]
+  },
+  {
+    "series": "Die-cast New Collection",
+    "type": "SAUCE PAN",
+    "art_no": "TM-FPM16CM",
+    "size": "Φ16x9.0",
+    "wall": "1.8",
+    "bottom": "3.8",
+    "page": 17,
+    "id": 33,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p17_03.webp",
+    "photos": [
+      "effects/web/thumb/p17_03.webp"
+    ]
+  },
+  {
+    "series": "Die-cast New Collection",
+    "type": "CASSEROLE",
+    "art_no": "TM-FS18CM",
+    "size": "Φ18x9.5",
+    "wall": "1.8",
+    "bottom": "4.0",
+    "page": 17,
+    "id": 34,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p17_04.webp",
+    "photos": [
+      "effects/web/thumb/p17_04.webp"
+    ]
+  },
+  {
+    "series": "Die-cast New Collection",
+    "type": "CASSEROLE",
+    "art_no": "TM-FS20CM",
+    "size": "Φ20x10",
+    "wall": "2.0",
+    "bottom": "4.0",
+    "page": 17,
+    "id": 35,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p17_04.webp",
+    "photos": [
+      "effects/web/thumb/p17_04.webp"
+    ]
+  },
+  {
+    "series": "Die-cast New Collection",
+    "type": "CASSEROLE",
+    "art_no": "TM-FS24CM",
+    "size": "Φ24x12",
+    "wall": "1.8",
+    "bottom": "4.0",
+    "page": 17,
+    "id": 36,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p17_04.webp",
+    "photos": [
+      "effects/web/thumb/p17_04.webp"
+    ]
+  },
+  {
+    "series": "Die-cast New Collection",
+    "type": "CASSEROLE",
+    "art_no": "TM-FS28CM",
+    "size": "Φ28x14",
+    "wall": "1.8",
+    "bottom": "4.0",
+    "page": 17,
+    "id": 37,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p17_04.webp",
+    "photos": [
+      "effects/web/thumb/p17_04.webp"
+    ]
+  },
+  {
+    "series": "Die-cast New Collection",
+    "type": "CASSEROLE",
+    "art_no": "TM-FS32CM",
+    "size": "Φ32x17",
+    "wall": "2.0",
+    "bottom": "4.0",
+    "page": 17,
+    "id": 38,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p17_04.webp",
+    "photos": [
+      "effects/web/thumb/p17_04.webp"
+    ]
+  },
+  {
+    "series": "Die-cast New Collection",
+    "type": "SHALLOW CASSEROLE",
+    "art_no": "TM-FST32CM",
+    "size": "Φ32x8.5",
+    "wall": "1.8",
+    "bottom": "4.0",
+    "page": 17,
+    "id": 39,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p17_05.webp",
+    "photos": [
+      "effects/web/thumb/p17_05.webp"
+    ]
+  },
+  {
+    "series": "LEGO (Fixed Handle)",
+    "type": "SAUCE PAN",
+    "art_no": "TM-AEPM18",
+    "size": "Φ18x8",
+    "wall": "1.4",
+    "bottom": "4.0",
+    "page": 4,
+    "id": 40,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p04_15.webp",
+    "photos": [
+      "effects/web/thumb/p04_15.webp"
+    ]
+  },
+  {
+    "series": "LEGO (Fixed Handle)",
+    "type": "CASSEROLE",
+    "art_no": "TM-AES26",
+    "size": "Φ26x11.5",
+    "wall": "1.4",
+    "bottom": "4.0",
+    "page": 4,
+    "id": 41,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p04_02.webp",
+    "photos": [
+      "effects/web/thumb/p04_02.webp"
+    ]
+  },
+  {
+    "series": "LEGO (Fixed Handle)",
+    "type": "SHALLOW CASSEROLE",
+    "art_no": "TM-AEST26",
+    "size": "Φ26x8",
+    "wall": "1.4",
+    "bottom": "4.0",
+    "page": 4,
+    "id": 42,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p04_03.webp",
+    "photos": [
+      "effects/web/thumb/p04_03.webp"
+    ]
+  },
+  {
+    "series": "LEGO (Fixed Handle)",
+    "type": "DEEP FRY PAN",
+    "art_no": "TM-AEDF26",
+    "size": "Φ26x8",
+    "wall": "1.4",
+    "bottom": "4.0",
+    "page": 4,
+    "id": 43,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p04_04.webp",
+    "photos": [
+      "effects/web/thumb/p04_04.webp"
+    ]
+  },
+  {
+    "series": "LEGO (Fixed Handle)",
+    "type": "FRY PAN",
+    "art_no": "TM-AEF26",
+    "size": "Φ28x4.5",
+    "wall": "1.4",
+    "bottom": "4.6",
+    "page": 4,
+    "id": 44,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p04_05.webp",
+    "photos": [
+      "effects/web/thumb/p04_05.webp",
+      "effects/web/thumb/p04_18.webp"
+    ]
+  },
+  {
+    "series": "LEGO (Fixed Handle)",
+    "type": "FRY PAN",
+    "art_no": "TM-AEF20CM",
+    "size": "Φ20x4.5",
+    "wall": "1.4",
+    "bottom": "4.0",
+    "page": 4,
+    "id": 45,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p04_05.webp",
+    "photos": [
+      "effects/web/thumb/p04_05.webp",
+      "effects/web/thumb/p04_18.webp"
+    ]
+  },
+  {
+    "series": "LEGO (Fixed Handle)",
+    "type": "FRY PAN",
+    "art_no": "TM-AEF24CM",
+    "size": "Φ24x4.5",
+    "wall": "1.4",
+    "bottom": "4.0",
+    "page": 4,
+    "id": 46,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p04_05.webp",
+    "photos": [
+      "effects/web/thumb/p04_05.webp",
+      "effects/web/thumb/p04_18.webp"
+    ]
+  },
+  {
+    "series": "LEGO (Fixed Handle)",
+    "type": "FRY PAN",
+    "art_no": "TM-MF28CM",
+    "size": "Φ28x5.0",
+    "wall": "1.4",
+    "bottom": "4.0",
+    "page": 4,
+    "id": 47,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p04_05.webp",
+    "photos": [
+      "effects/web/thumb/p04_05.webp",
+      "effects/web/thumb/p04_18.webp"
+    ]
+  },
+  {
+    "series": "Cosmos",
+    "type": "SAUCE PAN",
+    "art_no": "TM-AFM18CM",
+    "size": "Φ18x8.5",
+    "wall": "1.2-1.9",
+    "bottom": "3.5",
+    "page": 6,
+    "id": 48,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p06_12.webp",
+    "photos": [
+      "effects/web/thumb/p06_12.webp"
+    ]
+  },
+  {
+    "series": "Cosmos",
+    "type": "CASSEROLE",
+    "art_no": "TM-AFS20CM",
+    "size": "Φ20x10.0",
+    "wall": "1.2-1.9",
+    "bottom": "3.5",
+    "page": 6,
+    "id": 49,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p06_14.webp",
+    "photos": [
+      "effects/web/thumb/p06_14.webp"
+    ]
+  },
+  {
+    "series": "Cosmos",
+    "type": "CASSEROLE",
+    "art_no": "TM-AFS24CM",
+    "size": "Φ24x11.5",
+    "wall": "1.2-1.9",
+    "bottom": "3.5",
+    "page": 6,
+    "id": 50,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p06_14.webp",
+    "photos": [
+      "effects/web/thumb/p06_14.webp"
+    ]
+  },
+  {
+    "series": "Cosmos",
+    "type": "CASSEROLE",
+    "art_no": "TM-AFS28CM",
+    "size": "Φ28x13.0",
+    "wall": "1.2-1.9",
+    "bottom": "3.5",
+    "page": 6,
+    "id": 51,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p06_14.webp",
+    "photos": [
+      "effects/web/thumb/p06_14.webp"
+    ]
+  },
+  {
+    "series": "Cosmos",
+    "type": "SHALLOW CASSEROLE",
+    "art_no": "TM-AFST28CM",
+    "size": "Φ28x8.0",
+    "wall": "1.2-1.9",
+    "bottom": "3.5",
+    "page": 6,
+    "id": 52,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p06_15.webp",
+    "photos": [
+      "effects/web/thumb/p06_15.webp"
+    ]
+  },
+  {
+    "series": "Cosmos",
+    "type": "DEEP FRY PAN",
+    "art_no": "TM-AFDF26CM",
+    "size": "Φ26x8.0",
+    "wall": "1.2-1.9",
+    "bottom": "3.5",
+    "page": 6,
+    "id": 53,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p06_13.webp",
+    "photos": [
+      "effects/web/thumb/p06_13.webp"
+    ]
+  },
+  {
+    "series": "Cosmos",
+    "type": "FRY PAN",
+    "art_no": "TM-AFF20CM",
+    "size": "Φ20x4.8",
+    "wall": "1.2-1.9",
+    "bottom": "3.5",
+    "page": 6,
+    "id": 54,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p06_16.webp",
+    "photos": [
+      "effects/web/thumb/p06_16.webp"
+    ]
+  },
+  {
+    "series": "Cosmos",
+    "type": "FRY PAN",
+    "art_no": "TM-AFF24CM",
+    "size": "Φ24x6.0",
+    "wall": "1.2-1.9",
+    "bottom": "3.5",
+    "page": 6,
+    "id": 55,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p06_16.webp",
+    "photos": [
+      "effects/web/thumb/p06_16.webp"
+    ]
+  },
+  {
+    "series": "Cosmos",
+    "type": "FRY PAN",
+    "art_no": "TM-AFF28CM",
+    "size": "Φ28x6.0",
+    "wall": "1.2-1.9",
+    "bottom": "3.5",
+    "page": 6,
+    "id": 56,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p06_16.webp",
+    "photos": [
+      "effects/web/thumb/p06_16.webp"
+    ]
+  },
+  {
+    "series": "Smart",
+    "type": "SAUCE PAN",
+    "art_no": "TM-ACM18CM",
+    "size": "Φ18x9",
+    "wall": "1.8",
+    "bottom": "4.5",
+    "page": 6,
+    "id": 57,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p06_04.webp",
+    "photos": [
+      "effects/web/thumb/p06_04.webp"
+    ]
+  },
+  {
+    "series": "Smart",
+    "type": "CASSEROLE",
+    "art_no": "TM-ACS20CM",
+    "size": "Φ20x10.0",
+    "wall": "1.6",
+    "bottom": "4.5",
+    "page": 6,
+    "id": 58,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p06_06.webp",
+    "photos": [
+      "effects/web/thumb/p06_06.webp"
+    ]
+  },
+  {
+    "series": "Smart",
+    "type": "CASSEROLE",
+    "art_no": "TM-ACS24CM",
+    "size": "Φ24x13",
+    "wall": "1.8",
+    "bottom": "4.5",
+    "page": 6,
+    "id": 59,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p06_06.webp",
+    "photos": [
+      "effects/web/thumb/p06_06.webp"
+    ]
+  },
+  {
+    "series": "Smart",
+    "type": "CASSEROLE",
+    "art_no": "TM-ACS28CM",
+    "size": "Φ28x13.5",
+    "wall": "1.8",
+    "bottom": "4.5",
+    "page": 6,
+    "id": 60,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p06_06.webp",
+    "photos": [
+      "effects/web/thumb/p06_06.webp"
+    ]
+  },
+  {
+    "series": "Smart",
+    "type": "DEEP FRY PAN",
+    "art_no": "TM-ACDF26CM",
+    "size": "Φ26x7.8",
+    "wall": "1.6",
+    "bottom": "4.5",
+    "page": 6,
+    "id": 61,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p06_08.webp",
+    "photos": [
+      "effects/web/thumb/p06_08.webp"
+    ]
+  },
+  {
+    "series": "Smart",
+    "type": "DEEP FRY PAN",
+    "art_no": "TM-ACDF28CM",
+    "size": "Φ28x8.5",
+    "wall": "1.5",
+    "bottom": "4.3",
+    "page": 6,
+    "id": 62,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p06_08.webp",
+    "photos": [
+      "effects/web/thumb/p06_08.webp"
+    ]
+  },
+  {
+    "series": "Smart",
+    "type": "FRY PAN",
+    "art_no": "TM-ACDF26CM",
+    "size": "Φ20x5.0",
+    "wall": "1.6",
+    "bottom": "4.5",
+    "page": 6,
+    "id": 63,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p06_09.webp",
+    "photos": [
+      "effects/web/thumb/p06_09.webp"
+    ]
+  },
+  {
+    "series": "Smart",
+    "type": "FRY PAN",
+    "art_no": "TM-ACDF28CM",
+    "size": "Φ24x5.0",
+    "wall": "1.6",
+    "bottom": "4.5",
+    "page": 6,
+    "id": 64,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p06_09.webp",
+    "photos": [
+      "effects/web/thumb/p06_09.webp"
+    ]
+  },
+  {
+    "series": "Smart",
+    "type": "FRY PAN",
+    "art_no": "TM-ACDF26CM",
+    "size": "Φ26x6.0",
+    "wall": "1.6",
+    "bottom": "4.5",
+    "page": 6,
+    "id": 65,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p06_09.webp",
+    "photos": [
+      "effects/web/thumb/p06_09.webp"
+    ]
+  },
+  {
+    "series": "Smart",
+    "type": "FRY PAN",
+    "art_no": "TM-ACDF28CM",
+    "size": "Φ28x6.5",
+    "wall": "1.6",
+    "bottom": "4.5",
+    "page": 6,
+    "id": 66,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p06_09.webp",
+    "photos": [
+      "effects/web/thumb/p06_09.webp"
+    ]
+  },
+  {
+    "series": "Berger",
+    "type": "WOK",
+    "art_no": "TM-YJPGF28-H",
+    "size": "Φ28x10.5",
+    "wall": "1.5",
+    "bottom": "4.5",
+    "page": 7,
+    "id": 67,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p07_14.webp",
+    "photos": [
+      "effects/web/thumb/p07_14.webp"
+    ]
+  },
+  {
+    "series": "Berger",
+    "type": "DEEP FRY PAN",
+    "art_no": "TM-YJPGF26CM",
+    "size": "Φ26x7.5",
+    "wall": "1.8",
+    "bottom": "4.0",
+    "page": 7,
+    "id": 68,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p07_07.webp",
+    "photos": [
+      "effects/web/thumb/p07_07.webp"
+    ]
+  },
+  {
+    "series": "Berger",
+    "type": "DEEP FRY PAN",
+    "art_no": "TM-YJPGF28CM",
+    "size": "Φ28x8.5",
+    "wall": "1.8",
+    "bottom": "4.0",
+    "page": 7,
+    "id": 69,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p07_07.webp",
+    "photos": [
+      "effects/web/thumb/p07_07.webp"
+    ]
+  },
+  {
+    "series": "Berger",
+    "type": "DEEP FRY PAN",
+    "art_no": "TM-YJPGF30CM",
+    "size": "Φ30x9.0",
+    "wall": "1.8",
+    "bottom": "4.0",
+    "page": 7,
+    "id": 70,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p07_07.webp",
+    "photos": [
+      "effects/web/thumb/p07_07.webp"
+    ]
+  },
+  {
+    "series": "Berger",
+    "type": "FRY PAN",
+    "art_no": "TM-YJF20CM",
+    "size": "Φ20x5.5",
+    "wall": "1.8",
+    "bottom": "4.0",
+    "page": 7,
+    "id": 71,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p07_09.webp",
+    "photos": [
+      "effects/web/thumb/p07_09.webp"
+    ]
+  },
+  {
+    "series": "Berger",
+    "type": "FRY PAN",
+    "art_no": "TM-YJF24CM",
+    "size": "Φ24x5.5",
+    "wall": "1.8",
+    "bottom": "4.0",
+    "page": 7,
+    "id": 72,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p07_09.webp",
+    "photos": [
+      "effects/web/thumb/p07_09.webp"
+    ]
+  },
+  {
+    "series": "Berger",
+    "type": "FRY PAN",
+    "art_no": "TM-YJF26CM",
+    "size": "Φ26x6.5",
+    "wall": "1.8",
+    "bottom": "4.0",
+    "page": 7,
+    "id": 73,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p07_09.webp",
+    "photos": [
+      "effects/web/thumb/p07_09.webp"
+    ]
+  },
+  {
+    "series": "Berger",
+    "type": "FRY PAN",
+    "art_no": "TM-YJF28CM",
+    "size": "Φ28x6.5",
+    "wall": "1.8",
+    "bottom": "4.0",
+    "page": 7,
+    "id": 74,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p07_09.webp",
+    "photos": [
+      "effects/web/thumb/p07_09.webp"
+    ]
+  },
+  {
+    "series": "Berger",
+    "type": "SAUCE PAN",
+    "art_no": "TM-YJM18CM",
+    "size": "Φ18x8.5",
+    "wall": "1.8",
+    "bottom": "4.0",
+    "page": 7,
+    "id": 75,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p07_06.webp",
+    "photos": [
+      "effects/web/thumb/p07_06.webp"
+    ]
+  },
+  {
+    "series": "Berger",
+    "type": "CASSEROLE",
+    "art_no": "TM-YJS20CM",
+    "size": "Φ20x10",
+    "wall": "1.6",
+    "bottom": "4.5",
+    "page": 7,
+    "id": 76,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p07_11.webp",
+    "photos": [
+      "effects/web/thumb/p07_11.webp"
+    ]
+  },
+  {
+    "series": "Berger",
+    "type": "CASSEROLE",
+    "art_no": "TM-YJS24CM",
+    "size": "Φ24x12.0",
+    "wall": "1.8",
+    "bottom": "4.0",
+    "page": 7,
+    "id": 77,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p07_11.webp",
+    "photos": [
+      "effects/web/thumb/p07_11.webp"
+    ]
+  },
+  {
+    "series": "Berger",
+    "type": "CASSEROLE",
+    "art_no": "TM-YJS28CM",
+    "size": "Φ28x13",
+    "wall": "1.8",
+    "bottom": "4.0",
+    "page": 7,
+    "id": 78,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p07_11.webp",
+    "photos": [
+      "effects/web/thumb/p07_11.webp"
+    ]
+  },
+  {
+    "series": "Berger",
+    "type": "SHALLOW CASSEROLE",
+    "art_no": "TM-YJST26CM",
+    "size": "Φ26x7.5",
+    "wall": "1.6",
+    "bottom": "4.5",
+    "page": 7,
+    "id": 79,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p07_10.webp",
+    "photos": [
+      "effects/web/thumb/p07_10.webp"
+    ]
+  },
+  {
+    "series": "Armor",
+    "type": "SAUCE PAN",
+    "art_no": "TM-TM16CM",
+    "size": "Φ16x8",
+    "wall": "1.8-4.6",
+    "bottom": "5.0",
+    "page": 9,
+    "id": 80,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p09_09.webp",
+    "photos": [
+      "effects/web/thumb/p09_09.webp"
+    ]
+  },
+  {
+    "series": "Armor",
+    "type": "SAUCE PAN",
+    "art_no": "TM-TM20CM",
+    "size": "Φ20x10",
+    "wall": "1.8-4.6",
+    "bottom": "4.0",
+    "page": 9,
+    "id": 81,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p09_09.webp",
+    "photos": [
+      "effects/web/thumb/p09_09.webp"
+    ]
+  },
+  {
+    "series": "Armor",
+    "type": "CASSEROLE",
+    "art_no": "TM-TS20CM",
+    "size": "Φ20x10",
+    "wall": "1.8-4.6",
+    "bottom": "4.0",
+    "page": 9,
+    "id": 82,
+    "spec_conflict": true,
+    "photo": "effects/web/thumb/p09_06.webp",
+    "photos": [
+      "effects/web/thumb/p09_06.webp"
+    ]
+  },
+  {
+    "series": "Armor",
+    "type": "CASSEROLE",
+    "art_no": "TM-TS24CM",
+    "size": "Φ24x12",
+    "wall": "1.8-4.6",
+    "bottom": "4.7",
+    "page": 9,
+    "id": 83,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p09_06.webp",
+    "photos": [
+      "effects/web/thumb/p09_06.webp"
+    ]
+  },
+  {
+    "series": "Armor",
+    "type": "CASSEROLE",
+    "art_no": "TM-TS28CM",
+    "size": "Φ28x13.5",
+    "wall": "1.8-4.6",
+    "bottom": "4.6",
+    "page": 9,
+    "id": 84,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p09_06.webp",
+    "photos": [
+      "effects/web/thumb/p09_06.webp"
+    ]
+  },
+  {
+    "series": "Armor",
+    "type": "CASSEROLE",
+    "art_no": "TM-TS32CM",
+    "size": "Φ32x14.2",
+    "wall": "1.8-4.6",
+    "bottom": "4.0",
+    "page": 9,
+    "id": 85,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p09_06.webp",
+    "photos": [
+      "effects/web/thumb/p09_06.webp"
+    ]
+  },
+  {
+    "series": "Armor",
+    "type": "SHALLOW CASSEROLE",
+    "art_no": "TM-TST28CM",
+    "size": "Φ28x8.0",
+    "wall": "1.8-4.6",
+    "bottom": "3.7",
+    "page": 9,
+    "id": 86,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p09_07.webp",
+    "photos": [
+      "effects/web/thumb/p09_07.webp"
+    ]
+  },
+  {
+    "series": "Armor",
+    "type": "SHALLOW CASSEROLE",
+    "art_no": "TM-TST30CM",
+    "size": "Φ30x8.5",
+    "wall": "1.8-4.6",
+    "bottom": "5.0",
+    "page": 9,
+    "id": 87,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p09_07.webp",
+    "photos": [
+      "effects/web/thumb/p09_07.webp"
+    ]
+  },
+  {
+    "series": "Armor",
+    "type": "SHALLOW CASSEROLE",
+    "art_no": "TM-TST34CM",
+    "size": "Φ34x9.5",
+    "wall": "1.8-4.6",
+    "bottom": "4.5",
+    "page": 9,
+    "id": 88,
+    "spec_conflict": true,
+    "photo": "effects/web/thumb/p09_07.webp",
+    "photos": [
+      "effects/web/thumb/p09_07.webp"
+    ]
+  },
+  {
+    "series": "Armor",
+    "type": "DEEP FRY PAN",
+    "art_no": "TM-TDF28CM",
+    "size": "Φ28x8",
+    "wall": "1.8-4.6",
+    "bottom": "4.0",
+    "page": 9,
+    "id": 89,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p09_08.webp",
+    "photos": [
+      "effects/web/thumb/p09_08.webp"
+    ]
+  },
+  {
+    "series": "Armor",
+    "type": "WOK",
+    "art_no": "TM-TW28CM",
+    "size": "Φ28x8.5",
+    "wall": "1.8-4.6",
+    "bottom": "4.0",
+    "page": 9,
+    "id": 90,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p09_01.webp",
+    "photos": [
+      "effects/web/thumb/p09_01.webp",
+      "effects/web/thumb/p09_02.webp",
+      "effects/web/thumb/p09_03.webp"
+    ]
+  },
+  {
+    "series": "Armor",
+    "type": "WOK",
+    "art_no": "TM-TW30CM",
+    "size": "Φ30x9.0",
+    "wall": "1.8-4.6",
+    "bottom": "4.5",
+    "page": 9,
+    "id": 91,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p09_01.webp",
+    "photos": [
+      "effects/web/thumb/p09_01.webp",
+      "effects/web/thumb/p09_02.webp",
+      "effects/web/thumb/p09_03.webp"
+    ]
+  },
+  {
+    "series": "Armor",
+    "type": "WOK",
+    "art_no": "TM-TW32CM",
+    "size": "Φ32x9.5",
+    "wall": "1.8-4.6",
+    "bottom": "4.5",
+    "page": 9,
+    "id": 92,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p09_01.webp",
+    "photos": [
+      "effects/web/thumb/p09_01.webp",
+      "effects/web/thumb/p09_02.webp",
+      "effects/web/thumb/p09_03.webp"
+    ]
+  },
+  {
+    "series": "Armor",
+    "type": "FRY PAN",
+    "art_no": "TM-TF20CM",
+    "size": "Φ20x5.0",
+    "wall": "1.8-4.6",
+    "bottom": "4.5",
+    "page": 9,
+    "id": 93,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p09_04.webp",
+    "photos": [
+      "effects/web/thumb/p09_04.webp"
+    ]
+  },
+  {
+    "series": "Armor",
+    "type": "FRY PAN",
+    "art_no": "TM-TF24CM",
+    "size": "Φ24x5.5",
+    "wall": "1.8-4.6",
+    "bottom": "4.5",
+    "page": 9,
+    "id": 94,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p09_04.webp",
+    "photos": [
+      "effects/web/thumb/p09_04.webp"
+    ]
+  },
+  {
+    "series": "Armor",
+    "type": "FRY PAN",
+    "art_no": "TM-TF26CM",
+    "size": "Φ26x6.0",
+    "wall": "1.8-4.6",
+    "bottom": "4.5",
+    "page": 9,
+    "id": 95,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p09_04.webp",
+    "photos": [
+      "effects/web/thumb/p09_04.webp"
+    ]
+  },
+  {
+    "series": "Armor",
+    "type": "FRY PAN",
+    "art_no": "TM-TF28CM",
+    "size": "Φ28x6.0",
+    "wall": "1.8-4.6",
+    "bottom": "4.0",
+    "page": 9,
+    "id": 96,
+    "spec_conflict": true,
+    "photo": "effects/web/thumb/p09_04.webp",
+    "photos": [
+      "effects/web/thumb/p09_04.webp"
+    ]
+  },
+  {
+    "series": "Armor",
+    "type": "FRY PAN",
+    "art_no": "TM-TF30CM",
+    "size": "Φ30x6.5",
+    "wall": "1.8-4.6",
+    "bottom": "4.0",
+    "page": 9,
+    "id": 97,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p09_04.webp",
+    "photos": [
+      "effects/web/thumb/p09_04.webp"
+    ]
+  },
+  {
+    "series": "Armor",
+    "type": "FRY PAN",
+    "art_no": "TM-TF32CM",
+    "size": "Φ32x7.0",
+    "wall": "1.8-4.6",
+    "bottom": "4.0",
+    "page": 9,
+    "id": 98,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p09_04.webp",
+    "photos": [
+      "effects/web/thumb/p09_04.webp"
+    ]
+  },
+  {
+    "series": "Armor",
+    "type": "GRILL PAN",
+    "art_no": "TM-TQGF28CM",
+    "size": "28x28x5.0",
+    "wall": "1.8-4.6",
+    "bottom": "4.0",
+    "page": 9,
+    "id": 99,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p09_05.webp",
+    "photos": [
+      "effects/web/thumb/p09_05.webp"
+    ]
+  },
+  {
+    "series": "Amor 3#",
+    "type": "SAUCE PAN",
+    "art_no": "TM-TM16CM",
+    "size": "Φ16x8.0",
+    "wall": "1.8-4.6",
+    "bottom": "5.0",
+    "page": 10,
+    "id": 100,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p10_02.webp",
+    "photos": [
+      "effects/web/thumb/p10_02.webp"
+    ]
+  },
+  {
+    "series": "Amor 3#",
+    "type": "SAUCE PAN",
+    "art_no": "TM-TM20CM",
+    "size": "Φ20x10.0",
+    "wall": "1.8-4.6",
+    "bottom": "4.0",
+    "page": 10,
+    "id": 101,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p10_02.webp",
+    "photos": [
+      "effects/web/thumb/p10_02.webp"
+    ]
+  },
+  {
+    "series": "Amor 3#",
+    "type": "CASSEROLE",
+    "art_no": "TM-TS20CM",
+    "size": "Φ20x10.0",
+    "wall": "1.8-4.6",
+    "bottom": "4.5",
+    "page": 10,
+    "id": 102,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p10_01.webp",
+    "photos": [
+      "effects/web/thumb/p10_01.webp"
+    ]
+  },
+  {
+    "series": "Amor 3#",
+    "type": "CASSEROLE",
+    "art_no": "TM-TS24CM",
+    "size": "Φ24x12.0",
+    "wall": "1.8-4.6",
+    "bottom": "4.7",
+    "page": 10,
+    "id": 103,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p10_01.webp",
+    "photos": [
+      "effects/web/thumb/p10_01.webp"
+    ]
+  },
+  {
+    "series": "Amor 3#",
+    "type": "CASSEROLE",
+    "art_no": "TM-TS28CM",
+    "size": "Φ28x13.5",
+    "wall": "1.8-4.6",
+    "bottom": "4.6",
+    "page": 10,
+    "id": 104,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p10_01.webp",
+    "photos": [
+      "effects/web/thumb/p10_01.webp"
+    ]
+  },
+  {
+    "series": "Amor 3#",
+    "type": "CASSEROLE",
+    "art_no": "TM-TS32CM",
+    "size": "Φ32x14.2",
+    "wall": "1.8-4.6",
+    "bottom": "4.0",
+    "page": 10,
+    "id": 105,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p10_01.webp",
+    "photos": [
+      "effects/web/thumb/p10_01.webp"
+    ]
+  },
+  {
+    "series": "Amor 3#",
+    "type": "SHALLOW CASSEROLE",
+    "art_no": "TM-TST28CM",
+    "size": "Φ28x8.0",
+    "wall": "1.8-4.6",
+    "bottom": "3.7",
+    "page": 10,
+    "id": 106,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p10_03.webp",
+    "photos": [
+      "effects/web/thumb/p10_03.webp"
+    ]
+  },
+  {
+    "series": "Amor 3#",
+    "type": "SHALLOW CASSEROLE",
+    "art_no": "TM-TST30CM",
+    "size": "Φ30x8.5",
+    "wall": "1.8-4.6",
+    "bottom": "5.0",
+    "page": 10,
+    "id": 107,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p10_03.webp",
+    "photos": [
+      "effects/web/thumb/p10_03.webp"
+    ]
+  },
+  {
+    "series": "Amor 3#",
+    "type": "SHALLOW CASSEROLE",
+    "art_no": "TM-TST34CM",
+    "size": "Φ34x9.5",
+    "wall": "1.8-4.6",
+    "bottom": "4.5",
+    "page": 10,
+    "id": 108,
+    "spec_conflict": true,
+    "photo": "effects/web/thumb/p10_03.webp",
+    "photos": [
+      "effects/web/thumb/p10_03.webp"
+    ]
+  },
+  {
+    "series": "Amor 3#",
+    "type": "WOK",
+    "art_no": "TM-TW28CM",
+    "size": "Φ28x8.5",
+    "wall": "1.8-4.6",
+    "bottom": "4.0",
+    "page": 10,
+    "id": 109,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p10_04.webp",
+    "photos": [
+      "effects/web/thumb/p10_04.webp",
+      "effects/web/thumb/p10_05.webp",
+      "effects/web/thumb/p10_07.webp"
+    ]
+  },
+  {
+    "series": "Amor 3#",
+    "type": "WOK",
+    "art_no": "TM-TW30CM",
+    "size": "Φ30x9.0",
+    "wall": "1.8-4.6",
+    "bottom": "4.5",
+    "page": 10,
+    "id": 110,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p10_04.webp",
+    "photos": [
+      "effects/web/thumb/p10_04.webp",
+      "effects/web/thumb/p10_05.webp",
+      "effects/web/thumb/p10_07.webp"
+    ]
+  },
+  {
+    "series": "Amor 3#",
+    "type": "WOK",
+    "art_no": "TM-TW32CM",
+    "size": "Φ32x9.5",
+    "wall": "1.8-4.6",
+    "bottom": "4.5",
+    "page": 10,
+    "id": 111,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p10_04.webp",
+    "photos": [
+      "effects/web/thumb/p10_04.webp",
+      "effects/web/thumb/p10_05.webp",
+      "effects/web/thumb/p10_07.webp"
+    ]
+  },
+  {
+    "series": "Amor 3#",
+    "type": "DEEP FRY PAN",
+    "art_no": "TM-TDF28CM",
+    "size": "Φ28x8.0",
+    "wall": "1.8-4.6",
+    "bottom": "4.0",
+    "page": 10,
+    "id": 112,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p10_08.webp",
+    "photos": [
+      "effects/web/thumb/p10_08.webp"
+    ]
+  },
+  {
+    "series": "Amor 3#",
+    "type": "FRY PAN",
+    "art_no": "TM-TF20CM",
+    "size": "Φ20x5.0",
+    "wall": "1.8-4.6",
+    "bottom": "4.5",
+    "page": 10,
+    "id": 113,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p10_06.webp",
+    "photos": [
+      "effects/web/thumb/p10_06.webp"
+    ]
+  },
+  {
+    "series": "Amor 3#",
+    "type": "FRY PAN",
+    "art_no": "TM-TF24CM",
+    "size": "Φ24x5.5",
+    "wall": "1.8-4.6",
+    "bottom": "4.5",
+    "page": 10,
+    "id": 114,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p10_06.webp",
+    "photos": [
+      "effects/web/thumb/p10_06.webp"
+    ]
+  },
+  {
+    "series": "Amor 3#",
+    "type": "FRY PAN",
+    "art_no": "TM-TF26CM",
+    "size": "Φ26x6.0",
+    "wall": "1.8-4.6",
+    "bottom": "4.5",
+    "page": 10,
+    "id": 115,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p10_06.webp",
+    "photos": [
+      "effects/web/thumb/p10_06.webp"
+    ]
+  },
+  {
+    "series": "Amor 3#",
+    "type": "FRY PAN",
+    "art_no": "TM-TF28CM",
+    "size": "Φ28x6.0",
+    "wall": "1.8-4.6",
+    "bottom": "4.5",
+    "page": 10,
+    "id": 116,
+    "spec_conflict": true,
+    "photo": "effects/web/thumb/p10_06.webp",
+    "photos": [
+      "effects/web/thumb/p10_06.webp"
+    ]
+  },
+  {
+    "series": "Amor 3#",
+    "type": "FRY PAN",
+    "art_no": "TM-TF30CM",
+    "size": "Φ30x6.5",
+    "wall": "1.8-4.6",
+    "bottom": "4.0",
+    "page": 10,
+    "id": 117,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p10_06.webp",
+    "photos": [
+      "effects/web/thumb/p10_06.webp"
+    ]
+  },
+  {
+    "series": "Amor 3#",
+    "type": "FRY PAN",
+    "art_no": "TM-TF32CM",
+    "size": "Φ32x7.0",
+    "wall": "1.8-4.6",
+    "bottom": "4.0",
+    "page": 10,
+    "id": 118,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p10_06.webp",
+    "photos": [
+      "effects/web/thumb/p10_06.webp"
+    ]
+  },
+  {
+    "series": "Amor 3#",
+    "type": "GRILL PAN",
+    "art_no": "TM-TQGF28CM",
+    "size": "Φ28x5.0",
+    "wall": "1.8-4.6",
+    "bottom": "4.0",
+    "page": 10,
+    "id": 119,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p10_09.webp",
+    "photos": [
+      "effects/web/thumb/p10_09.webp"
+    ]
+  },
+  {
+    "series": "Granite",
+    "type": "FRY PAN",
+    "art_no": "TM-AF20CM",
+    "size": "Φ20x4.5",
+    "wall": "1.6",
+    "bottom": "4.5",
+    "page": 11,
+    "id": 120,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p11_07.webp",
+    "photos": [
+      "effects/web/thumb/p11_07.webp"
+    ]
+  },
+  {
+    "series": "Granite",
+    "type": "FRY PAN",
+    "art_no": "TM-AF24CM",
+    "size": "Φ24x5.5",
+    "wall": "1.6",
+    "bottom": "4.5",
+    "page": 11,
+    "id": 121,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p11_07.webp",
+    "photos": [
+      "effects/web/thumb/p11_07.webp"
+    ]
+  },
+  {
+    "series": "Granite",
+    "type": "FRY PAN",
+    "art_no": "TM-AF26CM",
+    "size": "Φ26x6.0",
+    "wall": "1.6",
+    "bottom": "4.5",
+    "page": 11,
+    "id": 122,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p11_07.webp",
+    "photos": [
+      "effects/web/thumb/p11_07.webp"
+    ]
+  },
+  {
+    "series": "Granite",
+    "type": "FRY PAN",
+    "art_no": "TM-AF28CM",
+    "size": "Φ28x6.0",
+    "wall": "1.6",
+    "bottom": "4.5",
+    "page": 11,
+    "id": 123,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p11_07.webp",
+    "photos": [
+      "effects/web/thumb/p11_07.webp"
+    ]
+  },
+  {
+    "series": "Granite",
+    "type": "FRY PAN",
+    "art_no": "TM-AF30CM",
+    "size": "Φ30x6.5",
+    "wall": "1.8",
+    "bottom": "4.0",
+    "page": 11,
+    "id": 124,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p11_07.webp",
+    "photos": [
+      "effects/web/thumb/p11_07.webp"
+    ]
+  },
+  {
+    "series": "Granite",
+    "type": "GRILL PAN",
+    "art_no": "TM-TQF28CM",
+    "size": "28x28x4.5",
+    "wall": "1.8",
+    "bottom": "4.5",
+    "page": 11,
+    "id": 125,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p11_08.webp",
+    "photos": [
+      "effects/web/thumb/p11_08.webp"
+    ]
+  },
+  {
+    "series": "Granite",
+    "type": "DEEP FRY PAN",
+    "art_no": "TM-ADF24CM",
+    "size": "Φ24x6.5",
+    "wall": "1.6",
+    "bottom": "4.5",
+    "page": 11,
+    "id": 126,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p11_09.webp",
+    "photos": [
+      "effects/web/thumb/p11_09.webp"
+    ]
+  },
+  {
+    "series": "Granite",
+    "type": "DEEP FRY PAN",
+    "art_no": "TM-ADF28CM",
+    "size": "Φ28x7.5",
+    "wall": "1.6",
+    "bottom": "4.5",
+    "page": 11,
+    "id": 127,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p11_09.webp",
+    "photos": [
+      "effects/web/thumb/p11_09.webp"
+    ]
+  },
+  {
+    "series": "Granite",
+    "type": "WOK",
+    "art_no": "TM-AW28CM",
+    "size": "Φ28x9.0",
+    "wall": "1.6",
+    "bottom": "4.6",
+    "page": 11,
+    "id": 128,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p11_01.webp",
+    "photos": [
+      "effects/web/thumb/p11_01.webp",
+      "effects/web/thumb/p11_02.webp"
+    ]
+  },
+  {
+    "series": "Granite",
+    "type": "WOK",
+    "art_no": "TM-AW32CM",
+    "size": "Φ32x9.8",
+    "wall": "2.3",
+    "bottom": "8.0",
+    "page": 11,
+    "id": 129,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p11_01.webp",
+    "photos": [
+      "effects/web/thumb/p11_01.webp",
+      "effects/web/thumb/p11_02.webp"
+    ]
+  },
+  {
+    "series": "Granite",
+    "type": "SAUCE PAN",
+    "art_no": "TM-AM16CM",
+    "size": "Φ16x8.0",
+    "wall": "1.6",
+    "bottom": "4.5",
+    "page": 11,
+    "id": 130,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p11_04.webp",
+    "photos": [
+      "effects/web/thumb/p11_04.webp"
+    ]
+  },
+  {
+    "series": "Granite",
+    "type": "SAUCE PAN",
+    "art_no": "TM-AM20CM",
+    "size": "Φ20x9.5",
+    "wall": "1.8",
+    "bottom": "4.5",
+    "page": 11,
+    "id": 131,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p11_04.webp",
+    "photos": [
+      "effects/web/thumb/p11_04.webp"
+    ]
+  },
+  {
+    "series": "Granite",
+    "type": "CASSEROLE",
+    "art_no": "TM-AS20CM",
+    "size": "Φ20x9.5",
+    "wall": "1.6",
+    "bottom": "4.2",
+    "page": 11,
+    "id": 132,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p11_03.webp",
+    "photos": [
+      "effects/web/thumb/p11_03.webp",
+      "effects/web/thumb/p11_05.webp"
+    ]
+  },
+  {
+    "series": "Granite",
+    "type": "CASSEROLE",
+    "art_no": "TM-AS24CM",
+    "size": "Φ24x11.5",
+    "wall": "1.6",
+    "bottom": "4.2",
+    "page": 11,
+    "id": 133,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p11_03.webp",
+    "photos": [
+      "effects/web/thumb/p11_03.webp",
+      "effects/web/thumb/p11_05.webp"
+    ]
+  },
+  {
+    "series": "Granite",
+    "type": "CASSEROLE",
+    "art_no": "TM-AS28CM",
+    "size": "Φ28x12.5",
+    "wall": "1.6",
+    "bottom": "4.5",
+    "page": 11,
+    "id": 134,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p11_03.webp",
+    "photos": [
+      "effects/web/thumb/p11_03.webp",
+      "effects/web/thumb/p11_05.webp"
+    ]
+  },
+  {
+    "series": "Granite",
+    "type": "CASSEROLE",
+    "art_no": "TM-AKS20CM",
+    "size": "Φ20x9",
+    "wall": "1.6",
+    "bottom": "4.5",
+    "page": 11,
+    "id": 135,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p11_03.webp",
+    "photos": [
+      "effects/web/thumb/p11_03.webp",
+      "effects/web/thumb/p11_05.webp"
+    ]
+  },
+  {
+    "series": "Granite",
+    "type": "CASSEROLE",
+    "art_no": "TM-AKS24CM",
+    "size": "Φ24x11",
+    "wall": "1.6",
+    "bottom": "4.5",
+    "page": 11,
+    "id": 136,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p11_03.webp",
+    "photos": [
+      "effects/web/thumb/p11_03.webp",
+      "effects/web/thumb/p11_05.webp"
+    ]
+  },
+  {
+    "series": "Nature",
+    "type": "SAUCE PAN",
+    "art_no": "TM-MM16",
+    "size": "Φ16x8.0",
+    "wall": "1.7-4.6",
+    "bottom": "4.0",
+    "page": 12,
+    "id": 137,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p12_02.webp",
+    "photos": [
+      "effects/web/thumb/p12_02.webp"
+    ]
+  },
+  {
+    "series": "Nature",
+    "type": "CASSEROLE",
+    "art_no": "TM-MS20CM",
+    "size": "Φ20x9.5",
+    "wall": "1.7-4.6",
+    "bottom": "4.0",
+    "page": 12,
+    "id": 138,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p12_03.webp",
+    "photos": [
+      "effects/web/thumb/p12_03.webp"
+    ]
+  },
+  {
+    "series": "Nature",
+    "type": "CASSEROLE",
+    "art_no": "TM-MS24CM",
+    "size": "Φ24x11.5",
+    "wall": "1.9-4.5",
+    "bottom": "4.0",
+    "page": 12,
+    "id": 139,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p12_03.webp",
+    "photos": [
+      "effects/web/thumb/p12_03.webp"
+    ]
+  },
+  {
+    "series": "Nature",
+    "type": "CASSEROLE",
+    "art_no": "TM-MS28CM",
+    "size": "Φ28x12.5",
+    "wall": "1.7-4.6",
+    "bottom": "4.0",
+    "page": 12,
+    "id": 140,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p12_03.webp",
+    "photos": [
+      "effects/web/thumb/p12_03.webp"
+    ]
+  },
+  {
+    "series": "Nature",
+    "type": "CASSEROLE",
+    "art_no": "TM-MS32CM",
+    "size": "Φ32x14.5",
+    "wall": "1.5",
+    "bottom": "4.0",
+    "page": 12,
+    "id": 141,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p12_03.webp",
+    "photos": [
+      "effects/web/thumb/p12_03.webp"
+    ]
+  },
+  {
+    "series": "Nature",
+    "type": "SHALLOW CASSEROLE",
+    "art_no": "TM-MST28CM",
+    "size": "Φ28x8.0",
+    "wall": "1.7-4.6",
+    "bottom": "4.0",
+    "page": 12,
+    "id": 142,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p12_04.webp",
+    "photos": [
+      "effects/web/thumb/p12_04.webp"
+    ]
+  },
+  {
+    "series": "Nature",
+    "type": "SHALLOW CASSEROLE",
+    "art_no": "TM-MST32CM",
+    "size": "Φ32x8.0",
+    "wall": "1.6",
+    "bottom": "4.0",
+    "page": 12,
+    "id": 143,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p12_04.webp",
+    "photos": [
+      "effects/web/thumb/p12_04.webp"
+    ]
+  },
+  {
+    "series": "Nature",
+    "type": "WOK",
+    "art_no": "TM-MW30CM",
+    "size": "Φ30x9.0",
+    "wall": "1.7-4.6",
+    "bottom": "4.0",
+    "page": 12,
+    "id": 144,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p12_05.webp",
+    "photos": [
+      "effects/web/thumb/p12_05.webp"
+    ]
+  },
+  {
+    "series": "Nature",
+    "type": "WOK",
+    "art_no": "TM-MW32CM",
+    "size": "Φ32x9.5",
+    "wall": "1.7-4.6",
+    "bottom": "4.0",
+    "page": 12,
+    "id": 145,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p12_05.webp",
+    "photos": [
+      "effects/web/thumb/p12_05.webp"
+    ]
+  },
+  {
+    "series": "Nature",
+    "type": "FRY PAN",
+    "art_no": "TM-MF20CM",
+    "size": "Φ20x5.0",
+    "wall": "1.7",
+    "bottom": "3.8",
+    "page": 12,
+    "id": 146,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p12_07.webp",
+    "photos": [
+      "effects/web/thumb/p12_07.webp"
+    ]
+  },
+  {
+    "series": "Nature",
+    "type": "FRY PAN",
+    "art_no": "TM-MF24CM",
+    "size": "Φ24x5.5",
+    "wall": "1.7-4.6",
+    "bottom": "4.0",
+    "page": 12,
+    "id": 147,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p12_07.webp",
+    "photos": [
+      "effects/web/thumb/p12_07.webp"
+    ]
+  },
+  {
+    "series": "Nature",
+    "type": "FRY PAN",
+    "art_no": "TM-MF28CM",
+    "size": "Φ28x6.0",
+    "wall": "1.7-4.6",
+    "bottom": "4.0",
+    "page": 12,
+    "id": 148,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p12_07.webp",
+    "photos": [
+      "effects/web/thumb/p12_07.webp"
+    ]
+  },
+  {
+    "series": "Nature",
+    "type": "FRY PAN",
+    "art_no": "TM-MF32CM",
+    "size": "Φ32x6.2",
+    "wall": "1.6",
+    "bottom": "4.0",
+    "page": 12,
+    "id": 149,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p12_07.webp",
+    "photos": [
+      "effects/web/thumb/p12_07.webp"
+    ]
+  },
+  {
+    "series": "Peak",
+    "type": "CASSEROLE",
+    "art_no": "TM-DS24CM",
+    "size": "Φ24x11.5",
+    "wall": "1.8",
+    "bottom": "4.2",
+    "page": 14,
+    "id": 150,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p14_03.webp",
+    "photos": [
+      "effects/web/thumb/p14_03.webp"
+    ]
+  },
+  {
+    "series": "Peak",
+    "type": "CASSEROLE",
+    "art_no": "TM-DS28CM",
+    "size": "Φ28x12.5",
+    "wall": "1.8",
+    "bottom": "4.2",
+    "page": 14,
+    "id": 151,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p14_03.webp",
+    "photos": [
+      "effects/web/thumb/p14_03.webp"
+    ]
+  },
+  {
+    "series": "Peak",
+    "type": "GRILL PAN",
+    "art_no": "TM-DPGF24CM",
+    "size": "24x24x5.5",
+    "wall": "1.5",
+    "bottom": "4.0",
+    "page": 14,
+    "id": 152,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p14_04.webp",
+    "photos": [
+      "effects/web/thumb/p14_04.webp"
+    ]
+  },
+  {
+    "series": "Peak",
+    "type": "GRILL PAN",
+    "art_no": "TM-DPGF28CM",
+    "size": "28x28x5.5",
+    "wall": "1.5",
+    "bottom": "4.0",
+    "page": 14,
+    "id": 153,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p14_04.webp",
+    "photos": [
+      "effects/web/thumb/p14_04.webp"
+    ]
+  },
+  {
+    "series": "Peak",
+    "type": "FRY PAN",
+    "art_no": "TM-DF20CM",
+    "size": "Φ20x5.0",
+    "wall": "1.5",
+    "bottom": "4.0",
+    "page": 14,
+    "id": 154,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p14_02.webp",
+    "photos": [
+      "effects/web/thumb/p14_02.webp"
+    ]
+  },
+  {
+    "series": "Peak",
+    "type": "FRY PAN",
+    "art_no": "TM-DF24CM",
+    "size": "Φ24x5.5",
+    "wall": "1.7",
+    "bottom": "4.0",
+    "page": 14,
+    "id": 155,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p14_02.webp",
+    "photos": [
+      "effects/web/thumb/p14_02.webp"
+    ]
+  },
+  {
+    "series": "Peak",
+    "type": "FRY PAN",
+    "art_no": "TM-DF26CM",
+    "size": "Φ26x6.0",
+    "wall": "1.7",
+    "bottom": "4.0",
+    "page": 14,
+    "id": 156,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p14_02.webp",
+    "photos": [
+      "effects/web/thumb/p14_02.webp"
+    ]
+  },
+  {
+    "series": "Peak",
+    "type": "FRY PAN",
+    "art_no": "TM-DF28CM",
+    "size": "Φ28x6.0",
+    "wall": "1.8",
+    "bottom": "4.0",
+    "page": 14,
+    "id": 157,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p14_02.webp",
+    "photos": [
+      "effects/web/thumb/p14_02.webp"
+    ]
+  },
+  {
+    "series": "Amir",
+    "type": "SAUCE PAN",
+    "art_no": "TM-XM18CM",
+    "size": "Φ18x8.5",
+    "wall": "1.8-4.5",
+    "bottom": "4.0",
+    "page": 14,
+    "id": 158,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p14_09.webp",
+    "photos": [
+      "effects/web/thumb/p14_09.webp"
+    ]
+  },
+  {
+    "series": "Amir",
+    "type": "CASSEROLE",
+    "art_no": "TM-XS20CM",
+    "size": "Φ20x9.5",
+    "wall": "1.3-4.5",
+    "bottom": "4.0",
+    "page": 14,
+    "id": 159,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p14_11.webp",
+    "photos": [
+      "effects/web/thumb/p14_11.webp"
+    ]
+  },
+  {
+    "series": "Amir",
+    "type": "CASSEROLE",
+    "art_no": "TM-XS24CM",
+    "size": "Φ24x11.5",
+    "wall": "1.5-4.3",
+    "bottom": "4.0",
+    "page": 14,
+    "id": 160,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p14_11.webp",
+    "photos": [
+      "effects/web/thumb/p14_11.webp"
+    ]
+  },
+  {
+    "series": "Amir",
+    "type": "CASSEROLE",
+    "art_no": "TM-XS26CM",
+    "size": "Φ26x12.5",
+    "wall": "1.8-4.5",
+    "bottom": "4.0",
+    "page": 14,
+    "id": 161,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p14_11.webp",
+    "photos": [
+      "effects/web/thumb/p14_11.webp"
+    ]
+  },
+  {
+    "series": "Amir",
+    "type": "SHALLOW CASSEROLE",
+    "art_no": "TM-XST26CM",
+    "size": "Φ26x8.0",
+    "wall": "1.7-4.5",
+    "bottom": "4.0",
+    "page": 14,
+    "id": 162,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p14_10.webp",
+    "photos": [
+      "effects/web/thumb/p14_10.webp"
+    ]
+  },
+  {
+    "series": "Amir",
+    "type": "SHALLOW CASSEROLE",
+    "art_no": "TM-XST30CM",
+    "size": "Φ30x8.0",
+    "wall": "1.7-4.5",
+    "bottom": "4.0",
+    "page": 14,
+    "id": 163,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p14_10.webp",
+    "photos": [
+      "effects/web/thumb/p14_10.webp"
+    ]
+  },
+  {
+    "series": "Amir",
+    "type": "FRY PAN",
+    "art_no": "TM-XF20CM",
+    "size": "Φ20x4.5",
+    "wall": "1.8-4.5",
+    "bottom": "4.0",
+    "page": 14,
+    "id": 164,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p14_08.webp",
+    "photos": [
+      "effects/web/thumb/p14_08.webp"
+    ]
+  },
+  {
+    "series": "Amir",
+    "type": "FRY PAN",
+    "art_no": "TM-XF26CM",
+    "size": "Φ26x5.0",
+    "wall": "1.8-4.5",
+    "bottom": "4.0",
+    "page": 14,
+    "id": 165,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p14_08.webp",
+    "photos": [
+      "effects/web/thumb/p14_08.webp"
+    ]
+  },
+  {
+    "series": "Lattice",
+    "type": "SAUCE PAN",
+    "art_no": "TM-AGM16CM",
+    "size": "Φ16x8.0",
+    "wall": "1.2-1.8",
+    "bottom": "3.5",
+    "page": 16,
+    "id": 166,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p16_10.webp",
+    "photos": [
+      "effects/web/thumb/p16_10.webp"
+    ]
+  },
+  {
+    "series": "Lattice",
+    "type": "CASSEROLE",
+    "art_no": "TM-AGS16CM",
+    "size": "Φ16x8.0",
+    "wall": "1.2-1.8",
+    "bottom": "3.5",
+    "page": 16,
+    "id": 167,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p16_11.webp",
+    "photos": [
+      "effects/web/thumb/p16_11.webp"
+    ]
+  },
+  {
+    "series": "Lattice",
+    "type": "CASSEROLE",
+    "art_no": "TM-AGS20CM",
+    "size": "Φ20x9.5",
+    "wall": "1.2-1.8",
+    "bottom": "3.5",
+    "page": 16,
+    "id": 168,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p16_11.webp",
+    "photos": [
+      "effects/web/thumb/p16_11.webp"
+    ]
+  },
+  {
+    "series": "Lattice",
+    "type": "CASSEROLE",
+    "art_no": "TM-AGS24CM",
+    "size": "Φ24x11.4",
+    "wall": "1.2-1.8",
+    "bottom": "3.5",
+    "page": 16,
+    "id": 169,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p16_11.webp",
+    "photos": [
+      "effects/web/thumb/p16_11.webp"
+    ]
+  },
+  {
+    "series": "Lattice",
+    "type": "CASSEROLE",
+    "art_no": "TM-AGS28CM",
+    "size": "Φ28x12.5",
+    "wall": "1.2-1.8",
+    "bottom": "3.5",
+    "page": 16,
+    "id": 170,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p16_11.webp",
+    "photos": [
+      "effects/web/thumb/p16_11.webp"
+    ]
+  },
+  {
+    "series": "Lattice",
+    "type": "CASSEROLE",
+    "art_no": "TM-AGS32CM",
+    "size": "Φ32x14.5",
+    "wall": "1.2-1.8",
+    "bottom": "3.5",
+    "page": 16,
+    "id": 171,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p16_11.webp",
+    "photos": [
+      "effects/web/thumb/p16_11.webp"
+    ]
+  },
+  {
+    "series": "Lattice",
+    "type": "SHALLOW CASSEROLE",
+    "art_no": "TM-AGST28CM",
+    "size": "Φ28x7.5",
+    "wall": "1.2-1.8",
+    "bottom": "3.5",
+    "page": 16,
+    "id": 172,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p16_13.webp",
+    "photos": [
+      "effects/web/thumb/p16_13.webp"
+    ]
+  },
+  {
+    "series": "Lattice",
+    "type": "DEEP FRY PAN",
+    "art_no": "TM-AGDF28CM",
+    "size": "Φ28x7.5",
+    "wall": "1.2-1.8",
+    "bottom": "3.5",
+    "page": 16,
+    "id": 173,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p16_12.webp",
+    "photos": [
+      "effects/web/thumb/p16_12.webp"
+    ]
+  },
+  {
+    "series": "Lattice",
+    "type": "FRY PAN",
+    "art_no": "TM-AGF20CM",
+    "size": "Φ20x5.0",
+    "wall": "1.2-1.8",
+    "bottom": "3.5",
+    "page": 16,
+    "id": 174,
+    "spec_conflict": true,
+    "photo": "effects/web/thumb/p16_14.webp",
+    "photos": [
+      "effects/web/thumb/p16_14.webp"
+    ]
+  },
+  {
+    "series": "Lattice",
+    "type": "FRY PAN",
+    "art_no": "TM-AGF24CM",
+    "size": "Φ24x5.5",
+    "wall": "1.2-1.8",
+    "bottom": "3.5",
+    "page": 16,
+    "id": 175,
+    "spec_conflict": true,
+    "photo": "effects/web/thumb/p16_14.webp",
+    "photos": [
+      "effects/web/thumb/p16_14.webp"
+    ]
+  },
+  {
+    "series": "Lattice",
+    "type": "FRY PAN",
+    "art_no": "TM-AGF26CM",
+    "size": "Φ26x5.7",
+    "wall": "1.2-1.8",
+    "bottom": "3.5",
+    "page": 16,
+    "id": 176,
+    "spec_conflict": true,
+    "photo": "effects/web/thumb/p16_14.webp",
+    "photos": [
+      "effects/web/thumb/p16_14.webp"
+    ]
+  },
+  {
+    "series": "Lattice",
+    "type": "FRY PAN",
+    "art_no": "TM-AGF28CM",
+    "size": "Φ28x6.0",
+    "wall": "1.2-1.8",
+    "bottom": "3.5",
+    "page": 16,
+    "id": 177,
+    "spec_conflict": true,
+    "photo": "effects/web/thumb/p16_14.webp",
+    "photos": [
+      "effects/web/thumb/p16_14.webp"
+    ]
+  },
+  {
+    "series": "Line",
+    "type": "SAUCE PAN",
+    "art_no": "TM-GM16CM",
+    "size": "Φ16x8.0",
+    "wall": "1.8-2.1",
+    "bottom": "4.5",
+    "page": 16,
+    "id": 178,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p16_03.webp",
+    "photos": [
+      "effects/web/thumb/p16_03.webp"
+    ]
+  },
+  {
+    "series": "Line",
+    "type": "CASSEROLE",
+    "art_no": "TM-GS16CM",
+    "size": "Φ16x8.0",
+    "wall": "1.6-2.0",
+    "bottom": "4.5",
+    "page": 16,
+    "id": 179,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p16_05.webp",
+    "photos": [
+      "effects/web/thumb/p16_05.webp"
+    ]
+  },
+  {
+    "series": "Line",
+    "type": "CASSEROLE",
+    "art_no": "TM-GS20CM",
+    "size": "Φ20x9.5",
+    "wall": "1.4-2.1",
+    "bottom": "4.5",
+    "page": 16,
+    "id": 180,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p16_05.webp",
+    "photos": [
+      "effects/web/thumb/p16_05.webp"
+    ]
+  },
+  {
+    "series": "Line",
+    "type": "CASSEROLE",
+    "art_no": "TM-GS24CM",
+    "size": "Φ24x11.5",
+    "wall": "1.4-2.1",
+    "bottom": "4.5",
+    "page": 16,
+    "id": 181,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p16_05.webp",
+    "photos": [
+      "effects/web/thumb/p16_05.webp"
+    ]
+  },
+  {
+    "series": "Line",
+    "type": "CASSEROLE",
+    "art_no": "TM-GS28CM",
+    "size": "Φ28x12.5",
+    "wall": "1.4-2.1",
+    "bottom": "4.5",
+    "page": 16,
+    "id": 182,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p16_05.webp",
+    "photos": [
+      "effects/web/thumb/p16_05.webp"
+    ]
+  },
+  {
+    "series": "Line",
+    "type": "CASSEROLE",
+    "art_no": "TM-GS32CM",
+    "size": "Φ32x14.5",
+    "wall": "1.4-2.1",
+    "bottom": "4.5",
+    "page": 16,
+    "id": 183,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p16_05.webp",
+    "photos": [
+      "effects/web/thumb/p16_05.webp"
+    ]
+  },
+  {
+    "series": "Line",
+    "type": "FRY PAN",
+    "art_no": "TM-AGF20CM",
+    "size": "Φ20x5.0",
+    "wall": "1.4/2.0",
+    "bottom": "4.0",
+    "page": 16,
+    "id": 184,
+    "spec_conflict": true,
+    "photo": "effects/web/thumb/p16_01.webp",
+    "photos": [
+      "effects/web/thumb/p16_01.webp"
+    ]
+  },
+  {
+    "series": "Line",
+    "type": "FRY PAN",
+    "art_no": "TM-AGF24CM",
+    "size": "Φ24x5.5",
+    "wall": "1.4/2.0",
+    "bottom": "4.5/3.5",
+    "page": 16,
+    "id": 185,
+    "spec_conflict": true,
+    "photo": "effects/web/thumb/p16_01.webp",
+    "photos": [
+      "effects/web/thumb/p16_01.webp"
+    ]
+  },
+  {
+    "series": "Line",
+    "type": "FRY PAN",
+    "art_no": "TM-AGF26CM",
+    "size": "Φ26x5.7",
+    "wall": "1.4/2.0",
+    "bottom": "3.5",
+    "page": 16,
+    "id": 186,
+    "spec_conflict": true,
+    "photo": "effects/web/thumb/p16_01.webp",
+    "photos": [
+      "effects/web/thumb/p16_01.webp"
+    ]
+  },
+  {
+    "series": "Line",
+    "type": "FRY PAN",
+    "art_no": "TM-AGF28CM",
+    "size": "Φ28x6.0",
+    "wall": "1.4/2.0",
+    "bottom": "4.5",
+    "page": 16,
+    "id": 187,
+    "spec_conflict": true,
+    "photo": "effects/web/thumb/p16_01.webp",
+    "photos": [
+      "effects/web/thumb/p16_01.webp"
+    ]
+  },
+  {
+    "series": "Line",
+    "type": "SHALLOW CASSEROLE",
+    "art_no": "TM-GST28CM",
+    "size": "Φ28x7.5",
+    "wall": "1.4-2.1",
+    "bottom": "4.5",
+    "page": 16,
+    "id": 188,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p16_02.webp",
+    "photos": [
+      "effects/web/thumb/p16_02.webp"
+    ]
+  },
+  {
+    "series": "Line",
+    "type": "DEEP FRY PAN",
+    "art_no": "TM-GDF28CM",
+    "size": "Φ28x7.5",
+    "wall": "1.4-2.1",
+    "bottom": "4.5",
+    "page": 16,
+    "id": 189,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p16_04.webp",
+    "photos": [
+      "effects/web/thumb/p16_04.webp"
+    ]
+  },
+  {
+    "series": "Multi-functional",
+    "type": "CASSEROLE",
+    "art_no": "TM-BS20CM",
+    "size": "Φ20x10",
+    "wall": "2",
+    "bottom": "4.0",
+    "page": 18,
+    "id": 190,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p18_02.webp",
+    "photos": [
+      "effects/web/thumb/p18_02.webp",
+      "effects/web/thumb/p18_05.webp"
+    ]
+  },
+  {
+    "series": "Multi-functional",
+    "type": "CASSEROLE",
+    "art_no": "TM-BS24CM",
+    "size": "Φ24x11.5",
+    "wall": "2",
+    "bottom": "4.0",
+    "page": 18,
+    "id": 191,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p18_02.webp",
+    "photos": [
+      "effects/web/thumb/p18_02.webp",
+      "effects/web/thumb/p18_05.webp"
+    ]
+  },
+  {
+    "series": "Multi-functional",
+    "type": "CASSEROLE",
+    "art_no": "TM-BS28CM",
+    "size": "Φ28x13.5",
+    "wall": "2",
+    "bottom": "4.2",
+    "page": 18,
+    "id": 192,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p18_02.webp",
+    "photos": [
+      "effects/web/thumb/p18_02.webp",
+      "effects/web/thumb/p18_05.webp"
+    ]
+  },
+  {
+    "series": "Multi-functional",
+    "type": "SHALLOW CASSEROLE",
+    "art_no": "TM-BST28CM",
+    "size": "Φ28x8",
+    "wall": "2",
+    "bottom": "4.0",
+    "page": 18,
+    "id": 193,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p18_03.webp",
+    "photos": [
+      "effects/web/thumb/p18_03.webp",
+      "effects/web/thumb/p18_04.webp"
+    ]
+  },
+  {
+    "series": "Superlite",
+    "type": "EGG PAN",
+    "art_no": "TM-ZQGF18CM",
+    "size": "15x18x3.8",
+    "wall": "1.8-4.6",
+    "bottom": "3.2",
+    "page": 18,
+    "id": 194,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p18_06.webp",
+    "photos": [
+      "effects/web/thumb/p18_06.webp"
+    ]
+  },
+  {
+    "series": "Superlite",
+    "type": "FRY PAN",
+    "art_no": "TM-ZF20CM",
+    "size": "Φ20x4.5",
+    "wall": "1.8-4.6",
+    "bottom": "3.2",
+    "page": 18,
+    "id": 195,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p18_07.webp",
+    "photos": [
+      "effects/web/thumb/p18_07.webp"
+    ]
+  },
+  {
+    "series": "Superlite",
+    "type": "FRY PAN",
+    "art_no": "TM-ZF24CM",
+    "size": "Φ24x5.5",
+    "wall": "1.8-4.6",
+    "bottom": "3.2",
+    "page": 18,
+    "id": 196,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p18_07.webp",
+    "photos": [
+      "effects/web/thumb/p18_07.webp"
+    ]
+  },
+  {
+    "series": "Superlite",
+    "type": "FRY PAN",
+    "art_no": "TM-ZF26CM",
+    "size": "Φ26x6",
+    "wall": "1.8-4.6",
+    "bottom": "3.2",
+    "page": 18,
+    "id": 197,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p18_07.webp",
+    "photos": [
+      "effects/web/thumb/p18_07.webp"
+    ]
+  },
+  {
+    "series": "Superlite",
+    "type": "FRY PAN",
+    "art_no": "TM-ZF28CM",
+    "size": "Φ28x6.5",
+    "wall": "1.8-4.6",
+    "bottom": "3.2",
+    "page": 18,
+    "id": 198,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p18_07.webp",
+    "photos": [
+      "effects/web/thumb/p18_07.webp"
+    ]
+  },
+  {
+    "series": "Superlite",
+    "type": "DEEP FRY PAN",
+    "art_no": "TM-ZDF20CM",
+    "size": "Φ20x7",
+    "wall": "1.8-4.6",
+    "bottom": "3.3",
+    "page": 18,
+    "id": 199,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p18_08.webp",
+    "photos": [
+      "effects/web/thumb/p18_08.webp"
+    ]
+  },
+  {
+    "series": "Superlite",
+    "type": "DEEP FRY PAN",
+    "art_no": "TM-ZDF24CM",
+    "size": "Φ24x8",
+    "wall": "1.8-4.6",
+    "bottom": "3.3",
+    "page": 18,
+    "id": 200,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p18_08.webp",
+    "photos": [
+      "effects/web/thumb/p18_08.webp"
+    ]
+  },
+  {
+    "series": "Superlite",
+    "type": "DEEP FRY PAN",
+    "art_no": "TM-ZDF26CM",
+    "size": "Φ26x8.5",
+    "wall": "1.8-4.6",
+    "bottom": "3.3",
+    "page": 18,
+    "id": 201,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p18_08.webp",
+    "photos": [
+      "effects/web/thumb/p18_08.webp"
+    ]
+  },
+  {
+    "series": "Superlite",
+    "type": "DEEP FRY PAN",
+    "art_no": "TM-ZDF28CM",
+    "size": "Φ28x9",
+    "wall": "1.8-4.6",
+    "bottom": "3.3",
+    "page": 18,
+    "id": 202,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p18_08.webp",
+    "photos": [
+      "effects/web/thumb/p18_08.webp"
+    ]
+  },
+  {
+    "series": "Annika",
+    "type": "FRY PAN",
+    "art_no": "TM-ABF20CM",
+    "size": "Φ20x4.2",
+    "wall": "1.8",
+    "bottom": "4.0",
+    "page": 18,
+    "id": 203,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p18_10.webp",
+    "photos": [
+      "effects/web/thumb/p18_10.webp"
+    ]
+  },
+  {
+    "series": "Annika",
+    "type": "FRY PAN",
+    "art_no": "TM-ABF24CM",
+    "size": "Φ24x4.5",
+    "wall": "1.8",
+    "bottom": "4.0",
+    "page": 18,
+    "id": 204,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p18_10.webp",
+    "photos": [
+      "effects/web/thumb/p18_10.webp"
+    ]
+  },
+  {
+    "series": "Annika",
+    "type": "FRY PAN",
+    "art_no": "TM-ABF26CM",
+    "size": "Φ26x4.5",
+    "wall": "1.8",
+    "bottom": "4.0",
+    "page": 18,
+    "id": 205,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p18_10.webp",
+    "photos": [
+      "effects/web/thumb/p18_10.webp"
+    ]
+  },
+  {
+    "series": "Annika",
+    "type": "FRY PAN",
+    "art_no": "TM-ABF28CM",
+    "size": "Φ28x4.8",
+    "wall": "1.8",
+    "bottom": "4.0",
+    "page": 18,
+    "id": 206,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p18_10.webp",
+    "photos": [
+      "effects/web/thumb/p18_10.webp"
+    ]
+  },
+  {
+    "series": "Annika",
+    "type": "CREPE PAN",
+    "art_no": "TM-ABP20CM",
+    "size": "Φ20x4.2",
+    "wall": "1.6",
+    "bottom": "3.8",
+    "page": 18,
+    "id": 207,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p18_11.webp",
+    "photos": [
+      "effects/web/thumb/p18_11.webp"
+    ]
+  },
+  {
+    "series": "Annika",
+    "type": "CREPE PAN",
+    "art_no": "TM-ABP24CM",
+    "size": "Φ24x1.2",
+    "wall": "1.7",
+    "bottom": "3.8",
+    "page": 18,
+    "id": 208,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p18_11.webp",
+    "photos": [
+      "effects/web/thumb/p18_11.webp"
+    ]
+  },
+  {
+    "series": "Classic",
+    "type": "CASSEROLE",
+    "art_no": "TM-LS16CM",
+    "size": "Φ16x7.7",
+    "wall": "1.5",
+    "bottom": "4.5",
+    "page": 20,
+    "id": 209,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p20_08.webp",
+    "photos": [
+      "effects/web/thumb/p20_08.webp",
+      "effects/web/thumb/p20_10.webp"
+    ]
+  },
+  {
+    "series": "Classic",
+    "type": "CASSEROLE",
+    "art_no": "TM-LS20CM",
+    "size": "Φ20x8.5",
+    "wall": "1.9",
+    "bottom": "4.4",
+    "page": 20,
+    "id": 210,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p20_08.webp",
+    "photos": [
+      "effects/web/thumb/p20_08.webp",
+      "effects/web/thumb/p20_10.webp"
+    ]
+  },
+  {
+    "series": "Classic",
+    "type": "CASSEROLE",
+    "art_no": "TM-LS24CM",
+    "size": "Φ24x10.5",
+    "wall": "1.6",
+    "bottom": "4.9",
+    "page": 20,
+    "id": 211,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p20_08.webp",
+    "photos": [
+      "effects/web/thumb/p20_08.webp",
+      "effects/web/thumb/p20_10.webp"
+    ]
+  },
+  {
+    "series": "Classic",
+    "type": "CASSEROLE",
+    "art_no": "TM-LS28CM",
+    "size": "Φ28x12.5",
+    "wall": "1.8",
+    "bottom": "5.3",
+    "page": 20,
+    "id": 212,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p20_08.webp",
+    "photos": [
+      "effects/web/thumb/p20_08.webp",
+      "effects/web/thumb/p20_10.webp"
+    ]
+  },
+  {
+    "series": "Classic",
+    "type": "SHALLOW CASSEROLE",
+    "art_no": "TM-LST24CM",
+    "size": "Φ24x6.5",
+    "wall": "1.7",
+    "bottom": "4.0",
+    "page": 20,
+    "id": 213,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p20_05.webp",
+    "photos": [
+      "effects/web/thumb/p20_05.webp"
+    ]
+  },
+  {
+    "series": "Classic",
+    "type": "SHALLOW CASSEROLE",
+    "art_no": "TM-LST26CM",
+    "size": "Φ26x7.5",
+    "wall": "1.7",
+    "bottom": "4.0",
+    "page": 20,
+    "id": 214,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p20_05.webp",
+    "photos": [
+      "effects/web/thumb/p20_05.webp"
+    ]
+  },
+  {
+    "series": "Classic",
+    "type": "SHALLOW CASSEROLE",
+    "art_no": "TM-LST28CM",
+    "size": "Φ28x7.5",
+    "wall": "1.8",
+    "bottom": "4.5",
+    "page": 20,
+    "id": 215,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p20_05.webp",
+    "photos": [
+      "effects/web/thumb/p20_05.webp"
+    ]
+  },
+  {
+    "series": "Classic",
+    "type": "SHALLOW CASSEROLE",
+    "art_no": "TM-LST30CM",
+    "size": "Φ30x7.5",
+    "wall": "1.8",
+    "bottom": "4.0",
+    "page": 20,
+    "id": 216,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p20_05.webp",
+    "photos": [
+      "effects/web/thumb/p20_05.webp"
+    ]
+  },
+  {
+    "series": "Classic",
+    "type": "SHALLOW CASSEROLE",
+    "art_no": "TM-LST32CM",
+    "size": "Φ32x7.5",
+    "wall": "1.6-2.0",
+    "bottom": "4.5",
+    "page": 20,
+    "id": 217,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p20_05.webp",
+    "photos": [
+      "effects/web/thumb/p20_05.webp"
+    ]
+  },
+  {
+    "series": "Classic",
+    "type": "SHALLOW CASSEROLE",
+    "art_no": "TM-LST36CM",
+    "size": "Φ36x8.0",
+    "wall": "1.7",
+    "bottom": "4.0",
+    "page": 20,
+    "id": 218,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p20_05.webp",
+    "photos": [
+      "effects/web/thumb/p20_05.webp"
+    ]
+  },
+  {
+    "series": "Classic",
+    "type": "SHALLOW CASSEROLE",
+    "art_no": "TM-LST40CM",
+    "size": "Φ40x8.0",
+    "wall": "1.7",
+    "bottom": "4.0",
+    "page": 20,
+    "id": 219,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p20_05.webp",
+    "photos": [
+      "effects/web/thumb/p20_05.webp"
+    ]
+  },
+  {
+    "series": "Classic",
+    "type": "WOK",
+    "art_no": "TM-LW28CM",
+    "size": "Φ28x8.0",
+    "wall": "1.8",
+    "bottom": "6.3",
+    "page": 20,
+    "id": 220,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p20_11.webp",
+    "photos": [
+      "effects/web/thumb/p20_11.webp"
+    ]
+  },
+  {
+    "series": "Classic",
+    "type": "WOK",
+    "art_no": "TM-LW30CM",
+    "size": "Φ30x9.0",
+    "wall": "2.0",
+    "bottom": "5.0",
+    "page": 20,
+    "id": 221,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p20_11.webp",
+    "photos": [
+      "effects/web/thumb/p20_11.webp"
+    ]
+  },
+  {
+    "series": "Classic",
+    "type": "FRY PAN",
+    "art_no": "TM-LF20CM",
+    "size": "Φ20x4.0",
+    "wall": "1.8",
+    "bottom": "4.8",
+    "page": 20,
+    "id": 222,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p20_03.webp",
+    "photos": [
+      "effects/web/thumb/p20_03.webp"
+    ]
+  },
+  {
+    "series": "Classic",
+    "type": "FRY PAN",
+    "art_no": "TM-LF24CM",
+    "size": "Φ24x4.8",
+    "wall": "1.8",
+    "bottom": "4.8",
+    "page": 20,
+    "id": 223,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p20_03.webp",
+    "photos": [
+      "effects/web/thumb/p20_03.webp"
+    ]
+  },
+  {
+    "series": "Classic",
+    "type": "FRY PAN",
+    "art_no": "TM-LF26CM",
+    "size": "Φ26x5.0",
+    "wall": "1.8",
+    "bottom": "4.8",
+    "page": 20,
+    "id": 224,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p20_03.webp",
+    "photos": [
+      "effects/web/thumb/p20_03.webp"
+    ]
+  },
+  {
+    "series": "Classic",
+    "type": "GRILL PAN",
+    "art_no": "TM-LPQF24CM",
+    "size": "24x24x4.0",
+    "wall": "2.4",
+    "bottom": "5.4",
+    "page": 20,
+    "id": 225,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p20_04.webp",
+    "photos": [
+      "effects/web/thumb/p20_04.webp"
+    ]
+  },
+  {
+    "series": "Classic",
+    "type": "GRILL PAN",
+    "art_no": "TM-LPQF28CM",
+    "size": "28x28x4.5",
+    "wall": "1.7",
+    "bottom": "4.3",
+    "page": 20,
+    "id": 226,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p20_04.webp",
+    "photos": [
+      "effects/web/thumb/p20_04.webp"
+    ]
+  },
+  {
+    "series": "Classic",
+    "type": "DEEP FRY PAN",
+    "art_no": "TM-LDF24CM",
+    "size": "Φ24x6.5",
+    "wall": "1.9",
+    "bottom": "4.0",
+    "page": 20,
+    "id": 227,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p20_02.webp",
+    "photos": [
+      "effects/web/thumb/p20_02.webp"
+    ]
+  },
+  {
+    "series": "Classic",
+    "type": "DEEP FRY PAN",
+    "art_no": "TM-LDF28CM",
+    "size": "Φ28x7.0",
+    "wall": "1.6",
+    "bottom": "4.5",
+    "page": 20,
+    "id": 228,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p20_02.webp",
+    "photos": [
+      "effects/web/thumb/p20_02.webp"
+    ]
+  },
+  {
+    "series": "Classic",
+    "type": "DEEP FRY PAN",
+    "art_no": "TM-LDF32CM",
+    "size": "Φ32x8.0",
+    "wall": "1.8",
+    "bottom": "5.0",
+    "page": 20,
+    "id": 229,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p20_02.webp",
+    "photos": [
+      "effects/web/thumb/p20_02.webp"
+    ]
+  },
+  {
+    "series": "Classic",
+    "type": "CASSEROLE",
+    "art_no": "TM-CS16CM",
+    "size": "Φ16x7.5",
+    "wall": "2.0",
+    "bottom": "5.5",
+    "page": 20,
+    "id": 230,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p20_08.webp",
+    "photos": [
+      "effects/web/thumb/p20_08.webp",
+      "effects/web/thumb/p20_10.webp"
+    ]
+  },
+  {
+    "series": "Classic",
+    "type": "CASSEROLE",
+    "art_no": "TM-CS20CM",
+    "size": "Φ20x9.0",
+    "wall": "2.0",
+    "bottom": "5.5",
+    "page": 20,
+    "id": 231,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p20_08.webp",
+    "photos": [
+      "effects/web/thumb/p20_08.webp",
+      "effects/web/thumb/p20_10.webp"
+    ]
+  },
+  {
+    "series": "Classic",
+    "type": "CASSEROLE",
+    "art_no": "TM-CS24CM",
+    "size": "Φ24x11",
+    "wall": "2.0",
+    "bottom": "5.5",
+    "page": 20,
+    "id": 232,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p20_08.webp",
+    "photos": [
+      "effects/web/thumb/p20_08.webp",
+      "effects/web/thumb/p20_10.webp"
+    ]
+  },
+  {
+    "series": "Classic",
+    "type": "SAUCE PAN",
+    "art_no": "TM-LM16CM",
+    "size": "Φ16x8.5",
+    "wall": "1.4",
+    "bottom": "4.5",
+    "page": 20,
+    "id": 233,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p20_07.webp",
+    "photos": [
+      "effects/web/thumb/p20_07.webp"
+    ]
+  },
+  {
+    "series": "Classic",
+    "type": "OVAL FISH PAN",
+    "art_no": "TM-LFI36CM",
+    "size": "36x26x4.5",
+    "wall": "2.3",
+    "bottom": "5.0",
+    "page": 20,
+    "id": 234,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p20_06.webp",
+    "photos": [
+      "effects/web/thumb/p20_06.webp"
+    ]
+  },
+  {
+    "series": "Classic",
+    "type": "SAUCE PAN",
+    "art_no": "TM-LPM16CM",
+    "size": "Φ16x8.5",
+    "wall": "1.3",
+    "bottom": "4.1",
+    "page": 20,
+    "id": 235,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p20_07.webp",
+    "photos": [
+      "effects/web/thumb/p20_07.webp"
+    ]
+  },
+  {
+    "series": "Grill",
+    "type": "GRILL TRAY",
+    "art_no": "TM-QG4828BCM",
+    "size": "50x28x1.5",
+    "wall": "2.3",
+    "bottom": "3.0",
+    "page": 21,
+    "id": 236,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p21_12.webp",
+    "photos": [
+      "effects/web/thumb/p21_12.webp",
+      "effects/web/thumb/p21_17.webp",
+      "effects/web/thumb/p21_18.webp",
+      "effects/web/thumb/p21_19.webp",
+      "effects/web/thumb/p21_20.webp",
+      "effects/web/thumb/p21_21.webp"
+    ]
+  },
+  {
+    "series": "Grill",
+    "type": "GRILL TRAY",
+    "art_no": "TM-QG4828CM",
+    "size": "50x28x1.5",
+    "wall": "2.3",
+    "bottom": "2.2",
+    "page": 21,
+    "id": 237,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p21_12.webp",
+    "photos": [
+      "effects/web/thumb/p21_12.webp",
+      "effects/web/thumb/p21_17.webp",
+      "effects/web/thumb/p21_18.webp",
+      "effects/web/thumb/p21_19.webp",
+      "effects/web/thumb/p21_20.webp",
+      "effects/web/thumb/p21_21.webp"
+    ]
+  },
+  {
+    "series": "Grill",
+    "type": "GRILL TRAY",
+    "art_no": "TM-QF30CM",
+    "size": "30x30x1.3",
+    "wall": "3.5",
+    "bottom": "6.0",
+    "page": 21,
+    "id": 238,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p21_12.webp",
+    "photos": [
+      "effects/web/thumb/p21_12.webp",
+      "effects/web/thumb/p21_17.webp",
+      "effects/web/thumb/p21_18.webp",
+      "effects/web/thumb/p21_19.webp",
+      "effects/web/thumb/p21_20.webp",
+      "effects/web/thumb/p21_21.webp"
+    ]
+  },
+  {
+    "series": "Grill",
+    "type": "GRILL TRAY",
+    "art_no": "TM-QG30CM",
+    "size": "30x30x2.5",
+    "wall": "3.5",
+    "bottom": "5.5",
+    "page": 21,
+    "id": 239,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p21_12.webp",
+    "photos": [
+      "effects/web/thumb/p21_12.webp",
+      "effects/web/thumb/p21_17.webp",
+      "effects/web/thumb/p21_18.webp",
+      "effects/web/thumb/p21_19.webp",
+      "effects/web/thumb/p21_20.webp",
+      "effects/web/thumb/p21_21.webp"
+    ]
+  },
+  {
+    "series": "Grill",
+    "type": "GRILL TRAY",
+    "art_no": "TM-QG32CM",
+    "size": "32x32x7",
+    "wall": "3.0",
+    "bottom": "4.0",
+    "page": 21,
+    "id": 240,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p21_12.webp",
+    "photos": [
+      "effects/web/thumb/p21_12.webp",
+      "effects/web/thumb/p21_17.webp",
+      "effects/web/thumb/p21_18.webp",
+      "effects/web/thumb/p21_19.webp",
+      "effects/web/thumb/p21_20.webp",
+      "effects/web/thumb/p21_21.webp"
+    ]
+  },
+  {
+    "series": "Grill",
+    "type": "HALLOW BBQ GRILL TRAY",
+    "art_no": "TM-QG12IN",
+    "size": "30x30x3.5",
+    "wall": "2.2",
+    "bottom": "3.0",
+    "page": 21,
+    "id": 241,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p21_15.webp",
+    "photos": [
+      "effects/web/thumb/p21_15.webp",
+      "effects/web/thumb/p21_16.webp"
+    ]
+  },
+  {
+    "series": "Grill",
+    "type": "HALLOW BBQ GRILL TRAY",
+    "art_no": "TM-QG18IN",
+    "size": "46x30x3.5",
+    "wall": "2.2",
+    "bottom": "3.0",
+    "page": 21,
+    "id": 242,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p21_15.webp",
+    "photos": [
+      "effects/web/thumb/p21_15.webp",
+      "effects/web/thumb/p21_16.webp"
+    ]
+  },
+  {
+    "series": "Grill",
+    "type": "BBQ GRILL",
+    "art_no": "TM-QR30CM",
+    "size": "30x30x2.8",
+    "wall": "2.0",
+    "bottom": "2.0",
+    "page": 21,
+    "id": 243,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p21_13.webp",
+    "photos": [
+      "effects/web/thumb/p21_13.webp"
+    ]
+  },
+  {
+    "series": "Multifunctional Grill",
+    "type": "3 IN 1 GRILL PAN",
+    "art_no": "TM-QG3424CM",
+    "size": "34x24x4.8",
+    "wall": "1.8",
+    "bottom": "4.2",
+    "page": 21,
+    "id": 244,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p21_03.webp",
+    "photos": [
+      "effects/web/thumb/p21_03.webp",
+      "effects/web/thumb/p21_05.webp"
+    ]
+  },
+  {
+    "series": "Multifunctional Grill",
+    "type": "5 IN 1 GRILL PAN",
+    "art_no": "TM-QG3226CM",
+    "size": "32x26x3.3",
+    "wall": "1.8",
+    "bottom": "5.7",
+    "page": 21,
+    "id": 245,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p21_06.webp",
+    "photos": [
+      "effects/web/thumb/p21_06.webp",
+      "effects/web/thumb/p21_22.webp"
+    ]
+  },
+  {
+    "series": "Multifunctional Grill",
+    "type": "3 IN 1 GRILL PAN",
+    "art_no": "TM-QG3125CM",
+    "size": "31.5x25.5x3.5",
+    "wall": "1.9",
+    "bottom": "5.6",
+    "page": 21,
+    "id": 246,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p21_03.webp",
+    "photos": [
+      "effects/web/thumb/p21_03.webp",
+      "effects/web/thumb/p21_05.webp"
+    ]
+  },
+  {
+    "series": "Multifunctional Grill",
+    "type": "4 IN 1 GRILL PAN",
+    "art_no": "TM-QG32CM",
+    "size": "31x31x3.5",
+    "wall": "1.8",
+    "bottom": "5.8",
+    "page": 21,
+    "id": 247,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p21_07.webp",
+    "photos": [
+      "effects/web/thumb/p21_07.webp"
+    ]
+  },
+  {
+    "series": "Multifunctional Grill",
+    "type": "5 IN 1 GRILL PAN",
+    "art_no": "TM-LG3829CM",
+    "size": "38x29.5x5",
+    "wall": "1.9-2.3",
+    "bottom": "4.0",
+    "page": 21,
+    "id": 248,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p21_06.webp",
+    "photos": [
+      "effects/web/thumb/p21_06.webp",
+      "effects/web/thumb/p21_22.webp"
+    ]
+  },
+  {
+    "series": "Roaster",
+    "type": "SQUARE ROASTER",
+    "art_no": "TM-MFI3425CM",
+    "size": "34.5x26x6.8",
+    "wall": "1.9",
+    "bottom": "3.7-5.7",
+    "page": 22,
+    "id": 249,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p22_01.webp",
+    "photos": [
+      "effects/web/thumb/p22_01.webp",
+      "effects/web/thumb/p22_02.webp",
+      "effects/web/thumb/p22_05.webp",
+      "effects/web/thumb/p22_07.webp",
+      "effects/web/thumb/p22_08.webp",
+      "effects/web/thumb/p22_10.webp",
+      "effects/web/thumb/p22_11.webp"
+    ]
+  },
+  {
+    "series": "Roaster",
+    "type": "SQUARE ROASTER",
+    "art_no": "TM-MFBI32LCM",
+    "size": "31.5x20.3x5.5",
+    "wall": "2.2",
+    "bottom": "4.5",
+    "page": 22,
+    "id": 250,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p22_01.webp",
+    "photos": [
+      "effects/web/thumb/p22_01.webp",
+      "effects/web/thumb/p22_02.webp",
+      "effects/web/thumb/p22_05.webp",
+      "effects/web/thumb/p22_07.webp",
+      "effects/web/thumb/p22_08.webp",
+      "effects/web/thumb/p22_10.webp",
+      "effects/web/thumb/p22_11.webp"
+    ]
+  },
+  {
+    "series": "Roaster",
+    "type": "SQUARE ROASTER",
+    "art_no": "TM-MFBI32BCM",
+    "size": "32x20.5x11",
+    "wall": "1.6-2.5",
+    "bottom": "4.5",
+    "page": 22,
+    "id": 251,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p22_01.webp",
+    "photos": [
+      "effects/web/thumb/p22_01.webp",
+      "effects/web/thumb/p22_02.webp",
+      "effects/web/thumb/p22_05.webp",
+      "effects/web/thumb/p22_07.webp",
+      "effects/web/thumb/p22_08.webp",
+      "effects/web/thumb/p22_10.webp",
+      "effects/web/thumb/p22_11.webp"
+    ]
+  },
+  {
+    "series": "Roaster",
+    "type": "ROASTER",
+    "art_no": "TM-QFI3424BCM",
+    "size": "34.5x24.5x12.2",
+    "wall": "1.8",
+    "bottom": "2.8-5.0",
+    "page": 22,
+    "id": 252,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p22_03.webp",
+    "photos": [
+      "effects/web/thumb/p22_03.webp",
+      "effects/web/thumb/p22_04.webp"
+    ]
+  },
+  {
+    "series": "Roaster",
+    "type": "ROASTER",
+    "art_no": "TM-QFI3424LCM",
+    "size": "33.5x23.5x5.4",
+    "wall": "1.8",
+    "bottom": "2.8-5.0",
+    "page": 22,
+    "id": 253,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p22_03.webp",
+    "photos": [
+      "effects/web/thumb/p22_03.webp",
+      "effects/web/thumb/p22_04.webp"
+    ]
+  },
+  {
+    "series": "Roaster",
+    "type": "ROASTER",
+    "art_no": "TM-QFI3122BCM",
+    "size": "31.2x22.3x11.1",
+    "wall": "1.8",
+    "bottom": "2.8-5.0",
+    "page": 22,
+    "id": 254,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p22_03.webp",
+    "photos": [
+      "effects/web/thumb/p22_03.webp",
+      "effects/web/thumb/p22_04.webp"
+    ]
+  },
+  {
+    "series": "Roaster",
+    "type": "ROASTER",
+    "art_no": "TM-QFI3122LCM",
+    "size": "30.3x21.5x5.0",
+    "wall": "1.8",
+    "bottom": "2.8-5.0",
+    "page": 22,
+    "id": 255,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p22_03.webp",
+    "photos": [
+      "effects/web/thumb/p22_03.webp",
+      "effects/web/thumb/p22_04.webp"
+    ]
+  },
+  {
+    "series": "Roaster",
+    "type": "SQUARE ROASTER",
+    "art_no": "TM-KFI34CM",
+    "size": "34x24.5x9",
+    "wall": "1.8",
+    "bottom": "4.3",
+    "page": 22,
+    "id": 256,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p22_01.webp",
+    "photos": [
+      "effects/web/thumb/p22_01.webp",
+      "effects/web/thumb/p22_02.webp",
+      "effects/web/thumb/p22_05.webp",
+      "effects/web/thumb/p22_07.webp",
+      "effects/web/thumb/p22_08.webp",
+      "effects/web/thumb/p22_10.webp",
+      "effects/web/thumb/p22_11.webp"
+    ]
+  },
+  {
+    "series": "Roaster",
+    "type": "OVAL ROASTER",
+    "art_no": "TM-MFI4223CM",
+    "size": "42x23x7.5",
+    "wall": "1.8",
+    "bottom": "4.2",
+    "page": 22,
+    "id": 257,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p22_09.webp",
+    "photos": [
+      "effects/web/thumb/p22_09.webp"
+    ]
+  },
+  {
+    "series": "Roaster",
+    "type": "SQUARE ROASTER",
+    "art_no": "TM-MFI32CM",
+    "size": "32.3x20.5x11.4",
+    "wall": "2.3",
+    "bottom": "4.5",
+    "page": 22,
+    "id": 258,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p22_01.webp",
+    "photos": [
+      "effects/web/thumb/p22_01.webp",
+      "effects/web/thumb/p22_02.webp",
+      "effects/web/thumb/p22_05.webp",
+      "effects/web/thumb/p22_07.webp",
+      "effects/web/thumb/p22_08.webp",
+      "effects/web/thumb/p22_10.webp",
+      "effects/web/thumb/p22_11.webp"
+    ]
+  },
+  {
+    "series": "Roaster",
+    "type": "SQUARE ROASTER",
+    "art_no": "TM-PFI32CM",
+    "size": "32.3x21.5x11.2",
+    "wall": "1.6",
+    "bottom": "4.5",
+    "page": 22,
+    "id": 259,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p22_01.webp",
+    "photos": [
+      "effects/web/thumb/p22_01.webp",
+      "effects/web/thumb/p22_02.webp",
+      "effects/web/thumb/p22_05.webp",
+      "effects/web/thumb/p22_07.webp",
+      "effects/web/thumb/p22_08.webp",
+      "effects/web/thumb/p22_10.webp",
+      "effects/web/thumb/p22_11.webp"
+    ]
+  },
+  {
+    "series": "Roaster",
+    "type": "SQUARE ROASTER",
+    "art_no": "TM-PFI34CM",
+    "size": "34x25x10",
+    "wall": "1.6",
+    "bottom": "4.5",
+    "page": 22,
+    "id": 260,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p22_01.webp",
+    "photos": [
+      "effects/web/thumb/p22_01.webp",
+      "effects/web/thumb/p22_02.webp",
+      "effects/web/thumb/p22_05.webp",
+      "effects/web/thumb/p22_07.webp",
+      "effects/web/thumb/p22_08.webp",
+      "effects/web/thumb/p22_10.webp",
+      "effects/web/thumb/p22_11.webp"
+    ]
+  },
+  {
+    "series": "Wok",
+    "type": "WOK",
+    "art_no": "TM-NW32CM",
+    "size": "Φ32x10.3",
+    "wall": "2.2",
+    "bottom": "5.0",
+    "page": 23,
+    "id": 261,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p23_13.webp",
+    "photos": [
+      "effects/web/thumb/p23_13.webp",
+      "effects/web/thumb/p23_14.webp",
+      "effects/web/thumb/p23_15.webp"
+    ]
+  },
+  {
+    "series": "Wok",
+    "type": "WOK",
+    "art_no": "TM-RW28CM",
+    "size": "Φ28x9",
+    "wall": "1.7",
+    "bottom": "4.0",
+    "page": 23,
+    "id": 262,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p23_13.webp",
+    "photos": [
+      "effects/web/thumb/p23_13.webp",
+      "effects/web/thumb/p23_14.webp",
+      "effects/web/thumb/p23_15.webp"
+    ]
+  },
+  {
+    "series": "Wok",
+    "type": "WOK",
+    "art_no": "TM-RW30CM",
+    "size": "Φ30x9.8",
+    "wall": "1.7",
+    "bottom": "4.0",
+    "page": 23,
+    "id": 263,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p23_13.webp",
+    "photos": [
+      "effects/web/thumb/p23_13.webp",
+      "effects/web/thumb/p23_14.webp",
+      "effects/web/thumb/p23_15.webp"
+    ]
+  },
+  {
+    "series": "Wok",
+    "type": "WOK",
+    "art_no": "TM-RW32CM",
+    "size": "Φ32x10.5",
+    "wall": "1.7",
+    "bottom": "4.0",
+    "page": 23,
+    "id": 264,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p23_13.webp",
+    "photos": [
+      "effects/web/thumb/p23_13.webp",
+      "effects/web/thumb/p23_14.webp",
+      "effects/web/thumb/p23_15.webp"
+    ]
+  },
+  {
+    "series": "Grill",
+    "type": "P-ROASTER",
+    "art_no": "TM-MFBI32Y",
+    "size": "32x20.5x6.5",
+    "wall": "1.8-4.6",
+    "bottom": "4.0",
+    "page": 24,
+    "id": 265,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p24_02.webp",
+    "photos": [
+      "effects/web/thumb/p24_02.webp"
+    ]
+  },
+  {
+    "series": "Grill",
+    "type": "FAT-AWAY PAN",
+    "art_no": "TM-ZGF28",
+    "size": "Φ28x8",
+    "wall": "1.8-4.6",
+    "bottom": "4.0",
+    "page": 24,
+    "id": 266,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p24_03.webp",
+    "photos": [
+      "effects/web/thumb/p24_03.webp"
+    ]
+  },
+  {
+    "series": "Grill",
+    "type": "CASSEROLE",
+    "art_no": "TM-VS24CM",
+    "size": "Φ24x11.5",
+    "wall": "1.7",
+    "bottom": "5.0",
+    "page": 24,
+    "id": 267,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p24_06.webp",
+    "photos": [
+      "effects/web/thumb/p24_06.webp",
+      "effects/web/thumb/p24_07.webp",
+      "effects/web/thumb/p24_08.webp"
+    ]
+  },
+  {
+    "series": "Grill",
+    "type": "CASSEROLE",
+    "art_no": "TM-VS26CM",
+    "size": "Φ26x12.5",
+    "wall": "1.7",
+    "bottom": "5.0",
+    "page": 24,
+    "id": 268,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p24_06.webp",
+    "photos": [
+      "effects/web/thumb/p24_06.webp",
+      "effects/web/thumb/p24_07.webp",
+      "effects/web/thumb/p24_08.webp"
+    ]
+  },
+  {
+    "series": "Grill",
+    "type": "CASSEROLE",
+    "art_no": "TM-VS28CM",
+    "size": "Φ28x13.5",
+    "wall": "1.7",
+    "bottom": "5.0",
+    "page": 24,
+    "id": 269,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p24_06.webp",
+    "photos": [
+      "effects/web/thumb/p24_06.webp",
+      "effects/web/thumb/p24_07.webp",
+      "effects/web/thumb/p24_08.webp"
+    ]
+  },
+  {
+    "series": "Grill",
+    "type": "CASSEROLE",
+    "art_no": "TM-VS30CM",
+    "size": "Φ30x14.0",
+    "wall": "1.8",
+    "bottom": "5.0",
+    "page": 24,
+    "id": 270,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p24_06.webp",
+    "photos": [
+      "effects/web/thumb/p24_06.webp",
+      "effects/web/thumb/p24_07.webp",
+      "effects/web/thumb/p24_08.webp"
+    ]
+  },
+  {
+    "series": "Grill",
+    "type": "CASSEROLE",
+    "art_no": "TM-VS32CM",
+    "size": "Φ32x14.0",
+    "wall": "1.8",
+    "bottom": "5.0",
+    "page": 24,
+    "id": 271,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p24_06.webp",
+    "photos": [
+      "effects/web/thumb/p24_06.webp",
+      "effects/web/thumb/p24_07.webp",
+      "effects/web/thumb/p24_08.webp"
+    ]
+  },
+  {
+    "series": "Grill",
+    "type": "CASSEROLE",
+    "art_no": "TM-VS36CM",
+    "size": "Φ36x14.5",
+    "wall": "1.9",
+    "bottom": "4.5",
+    "page": 24,
+    "id": 272,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p24_06.webp",
+    "photos": [
+      "effects/web/thumb/p24_06.webp",
+      "effects/web/thumb/p24_07.webp",
+      "effects/web/thumb/p24_08.webp"
+    ]
+  },
+  {
+    "series": "Double Fry Pan",
+    "type": "DOUBLE FRY PAN",
+    "art_no": "TM-JDG28CM",
+    "size": "28x22x6.5",
+    "wall": "",
+    "bottom": "",
+    "page": 24,
+    "id": 273,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p24_05.webp",
+    "photos": [
+      "effects/web/thumb/p24_05.webp"
+    ]
+  },
+  {
+    "series": "Double Fry Pan",
+    "type": "DOUBLE FRY PAN",
+    "art_no": "TM-JDG32CM",
+    "size": "32x24x7.5",
+    "wall": "",
+    "bottom": "",
+    "page": 24,
+    "id": 274,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p24_05.webp",
+    "photos": [
+      "effects/web/thumb/p24_05.webp"
+    ]
+  },
+  {
+    "series": "Double Fry Pan",
+    "type": "DOUBLE FRY PAN",
+    "art_no": "TM-JDG34CM",
+    "size": "34x24.5x7.5",
+    "wall": "",
+    "bottom": "",
+    "page": 24,
+    "id": 275,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p24_05.webp",
+    "photos": [
+      "effects/web/thumb/p24_05.webp"
+    ]
+  },
+  {
+    "series": "Double Fry Pan",
+    "type": "DOUBLE FRY PAN",
+    "art_no": "TM-JDG36CM",
+    "size": "36x24.5x8.0",
+    "wall": "",
+    "bottom": "",
+    "page": 24,
+    "id": 276,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p24_05.webp",
+    "photos": [
+      "effects/web/thumb/p24_05.webp"
+    ]
+  },
+  {
+    "series": "Double Fry Pan",
+    "type": "DOUBLE FRY PAN",
+    "art_no": "TM-JDG44CM",
+    "size": "44x25.5x8.0",
+    "wall": "",
+    "bottom": "",
+    "page": 24,
+    "id": 277,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p24_05.webp",
+    "photos": [
+      "effects/web/thumb/p24_05.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "SAUCE PAN",
+    "art_no": "TM-FG-M160-2.7",
+    "size": "Φ16x7.5",
+    "wall": "1.6-2.8",
+    "bottom": "3.0",
+    "page": 25,
+    "id": 278,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p26_05.webp",
+    "photos": [
+      "effects/web/thumb/p26_05.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "CASSEROLE",
+    "art_no": "TM-FG-M200-2.7",
+    "size": "Φ20x9.0",
+    "wall": "1.6-3.2",
+    "bottom": "3.0",
+    "page": 25,
+    "id": 279,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p27_03.webp",
+    "photos": [
+      "effects/web/thumb/p27_03.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "CASSEROLE",
+    "art_no": "TM-FG-S240-2.7",
+    "size": "Φ24x10.5",
+    "wall": "1.6-2.8",
+    "bottom": "3.0",
+    "page": 25,
+    "id": 280,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p27_03.webp",
+    "photos": [
+      "effects/web/thumb/p27_03.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "CASSEROLE",
+    "art_no": "TM-FG-S280-2.7",
+    "size": "Φ28x11.2",
+    "wall": "1.6-2.8",
+    "bottom": "3.0",
+    "page": 25,
+    "id": 281,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p27_03.webp",
+    "photos": [
+      "effects/web/thumb/p27_03.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "WOK",
+    "art_no": "TM-FA-W280-3.5",
+    "size": "Φ28x8.0",
+    "wall": "1.6-3.3",
+    "bottom": "3.5",
+    "page": 25,
+    "id": 282,
+    "spec_conflict": false,
+    "photo": "",
+    "photos": []
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "WOK",
+    "art_no": "TM-FA-W300-3.5",
+    "size": "Φ30x9.0",
+    "wall": "1.6-3.3",
+    "bottom": "3.5",
+    "page": 25,
+    "id": 283,
+    "spec_conflict": false,
+    "photo": "",
+    "photos": []
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "WOK",
+    "art_no": "TM-FA-W320-3.5",
+    "size": "Φ32x9.5",
+    "wall": "1.6-3.3",
+    "bottom": "3.5",
+    "page": 25,
+    "id": 284,
+    "spec_conflict": false,
+    "photo": "",
+    "photos": []
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "GRILL PAN",
+    "art_no": "TM-FA-QF280-3.0",
+    "size": "28x28x4.5",
+    "wall": "1.6-3.3",
+    "bottom": "3.0",
+    "page": 25,
+    "id": 285,
+    "spec_conflict": false,
+    "photo": "",
+    "photos": []
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "FRY PAN",
+    "art_no": "TM-FA-F200-3.0",
+    "size": "Φ20x4.2",
+    "wall": "1.6-2.8",
+    "bottom": "3.0",
+    "page": 25,
+    "id": 286,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p27_02.webp",
+    "photos": [
+      "effects/web/thumb/p27_02.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "FRY PAN",
+    "art_no": "TM-FA-F240-2.7",
+    "size": "Φ24x4.8",
+    "wall": "1.6-2.8",
+    "bottom": "3.0",
+    "page": 25,
+    "id": 287,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p27_02.webp",
+    "photos": [
+      "effects/web/thumb/p27_02.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "FRY PAN",
+    "art_no": "TM-FA-F260-2.7",
+    "size": "Φ26x5.0",
+    "wall": "1.6-2.8",
+    "bottom": "3.0",
+    "page": 25,
+    "id": 288,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p27_02.webp",
+    "photos": [
+      "effects/web/thumb/p27_02.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "FRY PAN",
+    "art_no": "TM-FA-F280-2.7",
+    "size": "Φ28x5.3",
+    "wall": "1.6-2.8",
+    "bottom": "3.0",
+    "page": 25,
+    "id": 289,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p27_02.webp",
+    "photos": [
+      "effects/web/thumb/p27_02.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "FRY PAN",
+    "art_no": "TM-FA-F200-3.5",
+    "size": "Φ22x4.5",
+    "wall": "1.6-3.2",
+    "bottom": "3.5",
+    "page": 25,
+    "id": 290,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p27_02.webp",
+    "photos": [
+      "effects/web/thumb/p27_02.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "FRY PAN",
+    "art_no": "TM-FA-F220-3.5",
+    "size": "Φ22x4.5",
+    "wall": "1.6-3.2",
+    "bottom": "3.5",
+    "page": 25,
+    "id": 291,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p27_02.webp",
+    "photos": [
+      "effects/web/thumb/p27_02.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "FRY PAN",
+    "art_no": "TM-FA-F240-3.5",
+    "size": "Φ24x4.8",
+    "wall": "1.6-2.8",
+    "bottom": "3.5",
+    "page": 25,
+    "id": 292,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p27_02.webp",
+    "photos": [
+      "effects/web/thumb/p27_02.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "FRY PAN",
+    "art_no": "TM-FA-F260-3.5",
+    "size": "Φ26x5.0",
+    "wall": "1.6-2.8",
+    "bottom": "3.5",
+    "page": 25,
+    "id": 293,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p27_02.webp",
+    "photos": [
+      "effects/web/thumb/p27_02.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "FRY PAN",
+    "art_no": "TM-FA-F280-3.5",
+    "size": "Φ28x5.3",
+    "wall": "1.6-2.8",
+    "bottom": "3.5",
+    "page": 25,
+    "id": 294,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p27_02.webp",
+    "photos": [
+      "effects/web/thumb/p27_02.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "SAUCE PAN",
+    "art_no": "TM-FB-M160-3.8",
+    "size": "Φ16x7.5",
+    "wall": "2.0-3.2",
+    "bottom": "4.0",
+    "page": 26,
+    "id": 295,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p26_05.webp",
+    "photos": [
+      "effects/web/thumb/p26_05.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "CREP PAN",
+    "art_no": "TM-FB-P220-2.7",
+    "size": "Φ22x1.8",
+    "wall": "2.0-2.8",
+    "bottom": "3.0",
+    "page": 26,
+    "id": 296,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p26_07.webp",
+    "photos": [
+      "effects/web/thumb/p26_07.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "CREP PAN",
+    "art_no": "TM-FB-P240-2.7",
+    "size": "Φ24x1.8",
+    "wall": "2.0-2.8",
+    "bottom": "3.0",
+    "page": 26,
+    "id": 297,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p26_07.webp",
+    "photos": [
+      "effects/web/thumb/p26_07.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "DEEP FRY PAN",
+    "art_no": "TM-FB-DF240-2.7",
+    "size": "Φ24x6.0",
+    "wall": "1.6-2.8",
+    "bottom": "3.0",
+    "page": 26,
+    "id": 298,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p26_06.webp",
+    "photos": [
+      "effects/web/thumb/p26_06.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "DEEP FRY PAN",
+    "art_no": "TM-FB-DF260-2.7",
+    "size": "Φ26x6.6",
+    "wall": "1.6-2.8",
+    "bottom": "3.0",
+    "page": 26,
+    "id": 299,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p26_06.webp",
+    "photos": [
+      "effects/web/thumb/p26_06.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "DEEP FRY PAN",
+    "art_no": "TM-FB-DF280-2.7",
+    "size": "Φ28x7.4",
+    "wall": "1.6-2.8",
+    "bottom": "3.0",
+    "page": 26,
+    "id": 300,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p26_06.webp",
+    "photos": [
+      "effects/web/thumb/p26_06.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "DEEP FRY PAN",
+    "art_no": "TM-FB-DF240-3.1",
+    "size": "Φ24x6.6",
+    "wall": "1.8-3.2",
+    "bottom": "3.1",
+    "page": 26,
+    "id": 301,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p26_06.webp",
+    "photos": [
+      "effects/web/thumb/p26_06.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "DEEP FRY PAN",
+    "art_no": "TM-FB-DF260-3.1",
+    "size": "Φ26x6.5",
+    "wall": "1.8-3.2",
+    "bottom": "3.1",
+    "page": 26,
+    "id": 302,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p26_06.webp",
+    "photos": [
+      "effects/web/thumb/p26_06.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "DEEP FRY PAN",
+    "art_no": "TM-FB-DF280-3.1",
+    "size": "Φ28x7.0",
+    "wall": "1.8-3.2",
+    "bottom": "3.1",
+    "page": 26,
+    "id": 303,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p26_06.webp",
+    "photos": [
+      "effects/web/thumb/p26_06.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "FRY PAN",
+    "art_no": "TM-FC-F240-3.5",
+    "size": "Φ24x4.8",
+    "wall": "1.6-3.3",
+    "bottom": "3.5",
+    "page": 26,
+    "id": 304,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p27_02.webp",
+    "photos": [
+      "effects/web/thumb/p27_02.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "FRY PAN",
+    "art_no": "TM-FC-F260-3.5",
+    "size": "Φ26x5.0",
+    "wall": "1.6-3.3",
+    "bottom": "3.5",
+    "page": 26,
+    "id": 305,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p27_02.webp",
+    "photos": [
+      "effects/web/thumb/p27_02.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "FRY PAN",
+    "art_no": "TM-FC-F280-3.5",
+    "size": "Φ28x5.3",
+    "wall": "1.6-3.3",
+    "bottom": "3.5",
+    "page": 26,
+    "id": 306,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p27_02.webp",
+    "photos": [
+      "effects/web/thumb/p27_02.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "CASSEROLE",
+    "art_no": "TM-FD-S240-3.5",
+    "size": "Φ24x12",
+    "wall": "1.6-3.3",
+    "bottom": "3.5",
+    "page": 26,
+    "id": 307,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p27_03.webp",
+    "photos": [
+      "effects/web/thumb/p27_03.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "CASSEROLE",
+    "art_no": "TM-FD-S240-3.5",
+    "size": "Φ24x14",
+    "wall": "1.6-3.3",
+    "bottom": "3.5",
+    "page": 26,
+    "id": 308,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p27_03.webp",
+    "photos": [
+      "effects/web/thumb/p27_03.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "DEEP FRY PAN",
+    "art_no": "TM-FC-DF240-3.5",
+    "size": "Φ24x6.5",
+    "wall": "1.6-3.3",
+    "bottom": "3.5",
+    "page": 26,
+    "id": 309,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p26_06.webp",
+    "photos": [
+      "effects/web/thumb/p26_06.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "DEEP FRY PAN",
+    "art_no": "TM-FC-DF260-3.5",
+    "size": "Φ26x6.8",
+    "wall": "1.6-3.3",
+    "bottom": "3.5",
+    "page": 26,
+    "id": 310,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p26_06.webp",
+    "photos": [
+      "effects/web/thumb/p26_06.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "DEEP FRY PAN",
+    "art_no": "TM-FC-DF280-3.5",
+    "size": "Φ28x7.0",
+    "wall": "1.6-3.3",
+    "bottom": "3.5",
+    "page": 26,
+    "id": 311,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p26_06.webp",
+    "photos": [
+      "effects/web/thumb/p26_06.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "DEEP FRY PAN",
+    "art_no": "TM-LC-DF260-3.0",
+    "size": "Φ26x7.0",
+    "wall": "3.0",
+    "bottom": "3.0",
+    "page": 27,
+    "id": 312,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p26_06.webp",
+    "photos": [
+      "effects/web/thumb/p26_06.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "CASSEROLE",
+    "art_no": "TM-LB-S240-3.0",
+    "size": "Φ24x11",
+    "wall": "3.0",
+    "bottom": "3.0",
+    "page": 27,
+    "id": 313,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p27_03.webp",
+    "photos": [
+      "effects/web/thumb/p27_03.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "SAUCE PAN",
+    "art_no": "TM-LC-M160-3.0",
+    "size": "Φ16x7.5",
+    "wall": "3.0",
+    "bottom": "3.0",
+    "page": 27,
+    "id": 314,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p26_05.webp",
+    "photos": [
+      "effects/web/thumb/p26_05.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "FRY PAN",
+    "art_no": "TM-LC-F240-3.0",
+    "size": "Φ24x5.5",
+    "wall": "3.0",
+    "bottom": "3.0",
+    "page": 27,
+    "id": 315,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p27_02.webp",
+    "photos": [
+      "effects/web/thumb/p27_02.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "CASSEROLE",
+    "art_no": "TM-FGJ-S180-3.0",
+    "size": "Φ18x7.5",
+    "wall": "1.6-2.8",
+    "bottom": "3.0",
+    "page": 27,
+    "id": 316,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p27_03.webp",
+    "photos": [
+      "effects/web/thumb/p27_03.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "CASSEROLE",
+    "art_no": "TM-FGJ-S240-3.5",
+    "size": "Φ24x10",
+    "wall": "1.6-3.2",
+    "bottom": "3.5",
+    "page": 27,
+    "id": 317,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p27_03.webp",
+    "photos": [
+      "effects/web/thumb/p27_03.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "CASSEROLE",
+    "art_no": "TM-FGJ-S280-3.0",
+    "size": "Φ28x11.5",
+    "wall": "1.6-2.8",
+    "bottom": "3.0",
+    "page": 27,
+    "id": 318,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p27_03.webp",
+    "photos": [
+      "effects/web/thumb/p27_03.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "WOK",
+    "art_no": "TM-FGJ-W300-3.5",
+    "size": "Φ30x9.0",
+    "wall": "1.6-3.3",
+    "bottom": "3.5",
+    "page": 27,
+    "id": 319,
+    "spec_conflict": false,
+    "photo": "",
+    "photos": []
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "FRY PAN",
+    "art_no": "TM-FGJ-F200-3.0",
+    "size": "Φ20x4.2",
+    "wall": "1.6-2.8",
+    "bottom": "3.0",
+    "page": 27,
+    "id": 320,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p27_02.webp",
+    "photos": [
+      "effects/web/thumb/p27_02.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "FRY PAN",
+    "art_no": "TM-FGJ-F240-3.5",
+    "size": "Φ24x4.8",
+    "wall": "1.6-3.2",
+    "bottom": "3.5",
+    "page": 27,
+    "id": 321,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p27_02.webp",
+    "photos": [
+      "effects/web/thumb/p27_02.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "FRY PAN",
+    "art_no": "TM-FGJ-F260-3.0",
+    "size": "Φ26x5.0",
+    "wall": "1.6-2.8",
+    "bottom": "3.0",
+    "page": 27,
+    "id": 322,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p27_02.webp",
+    "photos": [
+      "effects/web/thumb/p27_02.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "FRY PAN",
+    "art_no": "TM-FGJ-F280-3.5",
+    "size": "Φ28x5.3",
+    "wall": "1.6-3.2",
+    "bottom": "3.5",
+    "page": 27,
+    "id": 323,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p27_02.webp",
+    "photos": [
+      "effects/web/thumb/p27_02.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "CASSEROLE",
+    "art_no": "TM-FSL-S180-3.0",
+    "size": "Φ18x7.5",
+    "wall": "1.6-2.8",
+    "bottom": "3.0",
+    "page": 27,
+    "id": 324,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p27_03.webp",
+    "photos": [
+      "effects/web/thumb/p27_03.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "CASSEROLE",
+    "art_no": "TM-FSL-S240-3.5",
+    "size": "Φ24x10",
+    "wall": "1.6-3.2",
+    "bottom": "3.5",
+    "page": 27,
+    "id": 325,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p27_03.webp",
+    "photos": [
+      "effects/web/thumb/p27_03.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "CASSEROLE",
+    "art_no": "TM-FSL-S280-3.5",
+    "size": "Φ28x11.5",
+    "wall": "1.6-3.2",
+    "bottom": "3.5",
+    "page": 27,
+    "id": 326,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p27_03.webp",
+    "photos": [
+      "effects/web/thumb/p27_03.webp"
+    ]
+  },
+  {
+    "series": "Forged Aluminum",
+    "type": "FRY PAN",
+    "art_no": "TM-FSL-F280-3.0",
+    "size": "Φ28x5.3",
+    "wall": "1.6-2.8",
+    "bottom": "3.0",
+    "page": 27,
+    "id": 327,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p27_02.webp",
+    "photos": [
+      "effects/web/thumb/p27_02.webp"
+    ]
+  },
+  {
+    "series": "Wing",
+    "type": "CASSEROLE",
+    "art_no": "TM-LA-S240-3.0",
+    "size": "Φ24x12",
+    "wall": "3.0",
+    "bottom": "3.0",
+    "page": 28,
+    "id": 328,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p28_05.webp",
+    "photos": [
+      "effects/web/thumb/p28_05.webp"
+    ]
+  },
+  {
+    "series": "Wing",
+    "type": "CASSEROLE",
+    "art_no": "TM-LA-SP240-3.0",
+    "size": "Φ24x13",
+    "wall": "3.0",
+    "bottom": "3.0",
+    "page": 28,
+    "id": 329,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p28_05.webp",
+    "photos": [
+      "effects/web/thumb/p28_05.webp"
+    ]
+  },
+  {
+    "series": "Wing",
+    "type": "CASSEROLE",
+    "art_no": "TM-LA-SP240-3.0",
+    "size": "Φ24x14",
+    "wall": "3.0",
+    "bottom": "3.0",
+    "page": 28,
+    "id": 330,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p28_05.webp",
+    "photos": [
+      "effects/web/thumb/p28_05.webp"
+    ]
+  },
+  {
+    "series": "Wing",
+    "type": "DEEP FRY PAN",
+    "art_no": "TM-LA-F240-3.0",
+    "size": "Φ24x7",
+    "wall": "3.0",
+    "bottom": "3.0",
+    "page": 28,
+    "id": 331,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p28_04.webp",
+    "photos": [
+      "effects/web/thumb/p28_04.webp"
+    ]
+  },
+  {
+    "series": "Pressed Aluminum",
+    "type": "DEEP FRY PAN",
+    "art_no": "TM-LB-DF260-2.9",
+    "size": "Φ26x6.5",
+    "wall": "2.9",
+    "bottom": "2.9",
+    "page": 28,
+    "id": 332,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p29_04.webp",
+    "photos": [
+      "effects/web/thumb/p29_04.webp"
+    ]
+  },
+  {
+    "series": "Pressed Aluminum",
+    "type": "SAUCE PAN",
+    "art_no": "TM-LB-M160-2.9",
+    "size": "Φ16x7.5",
+    "wall": "2.9",
+    "bottom": "2.9",
+    "page": 28,
+    "id": 333,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p29_03.webp",
+    "photos": [
+      "effects/web/thumb/p29_03.webp"
+    ]
+  },
+  {
+    "series": "Pressed Aluminum",
+    "type": "SAUCE PAN",
+    "art_no": "TM-LB-M200-2.9",
+    "size": "Φ20x9.0",
+    "wall": "2.9",
+    "bottom": "2.9",
+    "page": 28,
+    "id": 334,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p29_03.webp",
+    "photos": [
+      "effects/web/thumb/p29_03.webp"
+    ]
+  },
+  {
+    "series": "Pressed Aluminum",
+    "type": "FRY PAN",
+    "art_no": "TM-LB-F200-2.9",
+    "size": "Φ20x4.5",
+    "wall": "2.9",
+    "bottom": "2.9",
+    "page": 28,
+    "id": 335,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p29_05.webp",
+    "photos": [
+      "effects/web/thumb/p29_05.webp"
+    ]
+  },
+  {
+    "series": "Pressed Aluminum",
+    "type": "FRY PAN",
+    "art_no": "TM-LB-F240-2.9",
+    "size": "Φ24x4.9",
+    "wall": "2.9",
+    "bottom": "2.9",
+    "page": 28,
+    "id": 336,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p29_05.webp",
+    "photos": [
+      "effects/web/thumb/p29_05.webp"
+    ]
+  },
+  {
+    "series": "Pressed Aluminum",
+    "type": "FRY PAN",
+    "art_no": "TM-LB-F260-2.9",
+    "size": "Φ26x5.0",
+    "wall": "2.9",
+    "bottom": "2.9",
+    "page": 28,
+    "id": 337,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p29_05.webp",
+    "photos": [
+      "effects/web/thumb/p29_05.webp"
+    ]
+  },
+  {
+    "series": "Pressed Aluminum",
+    "type": "FRY PAN",
+    "art_no": "TM-LB-F300-2.9",
+    "size": "Φ30x5.5",
+    "wall": "2.9",
+    "bottom": "2.9",
+    "page": 28,
+    "id": 338,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p29_05.webp",
+    "photos": [
+      "effects/web/thumb/p29_05.webp"
+    ]
+  },
+  {
+    "series": "Pressed Aluminum",
+    "type": "CASSEROLE",
+    "art_no": "TM-LB-S240-2.9",
+    "size": "Φ24x10.3",
+    "wall": "2.9",
+    "bottom": "2.9",
+    "page": 28,
+    "id": 339,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p29_02.webp",
+    "photos": [
+      "effects/web/thumb/p29_02.webp"
+    ]
+  },
+  {
+    "series": "New Armor",
+    "type": "SAUCE PAN",
+    "art_no": "TM-TM16CM",
+    "size": "Φ16x8",
+    "wall": "1.8-4.6",
+    "bottom": "5.0",
+    "page": 3,
+    "id": 340,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p03_09.webp",
+    "photos": [
+      "effects/web/thumb/p03_09.webp"
+    ]
+  },
+  {
+    "series": "New Armor",
+    "type": "SAUCE PAN",
+    "art_no": "TM-TM20CM",
+    "size": "Φ20x10",
+    "wall": "1.8-4.6",
+    "bottom": "4.0",
+    "page": 3,
+    "id": 341,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p03_09.webp",
+    "photos": [
+      "effects/web/thumb/p03_09.webp"
+    ]
+  },
+  {
+    "series": "New Armor",
+    "type": "CASSEROLE",
+    "art_no": "TM-TS20CM",
+    "size": "Φ20x10",
+    "wall": "1.8-4.6",
+    "bottom": "4.5",
+    "page": 3,
+    "id": 342,
+    "spec_conflict": true,
+    "photo": "effects/web/thumb/p03_10.webp",
+    "photos": [
+      "effects/web/thumb/p03_10.webp"
+    ]
+  },
+  {
+    "series": "New Armor",
+    "type": "CASSEROLE",
+    "art_no": "TM-TS24CM",
+    "size": "Φ24x12",
+    "wall": "1.8-4.6",
+    "bottom": "4.7",
+    "page": 3,
+    "id": 343,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p03_10.webp",
+    "photos": [
+      "effects/web/thumb/p03_10.webp"
+    ]
+  },
+  {
+    "series": "New Armor",
+    "type": "CASSEROLE",
+    "art_no": "TM-TS28CM",
+    "size": "Φ28x13.5",
+    "wall": "1.8-4.6",
+    "bottom": "4.6",
+    "page": 3,
+    "id": 344,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p03_10.webp",
+    "photos": [
+      "effects/web/thumb/p03_10.webp"
+    ]
+  },
+  {
+    "series": "New Armor",
+    "type": "CASSEROLE",
+    "art_no": "TM-TS32CM",
+    "size": "Φ32x14.2",
+    "wall": "1.8-4.6",
+    "bottom": "4.0",
+    "page": 3,
+    "id": 345,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p03_10.webp",
+    "photos": [
+      "effects/web/thumb/p03_10.webp"
+    ]
+  },
+  {
+    "series": "New Armor",
+    "type": "SHALLOW CASSEROLE",
+    "art_no": "TM-TST28CM",
+    "size": "Φ28x8",
+    "wall": "1.8-4.6",
+    "bottom": "3.7",
+    "page": 3,
+    "id": 346,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p03_08.webp",
+    "photos": [
+      "effects/web/thumb/p03_08.webp"
+    ]
+  },
+  {
+    "series": "New Armor",
+    "type": "SHALLOW CASSEROLE",
+    "art_no": "TM-TST30CM",
+    "size": "Φ30x8.5",
+    "wall": "1.8-4.6",
+    "bottom": "5.0",
+    "page": 3,
+    "id": 347,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p03_08.webp",
+    "photos": [
+      "effects/web/thumb/p03_08.webp"
+    ]
+  },
+  {
+    "series": "New Armor",
+    "type": "SHALLOW CASSEROLE",
+    "art_no": "TM-TST34CM",
+    "size": "Φ34x9.5",
+    "wall": "1.8-4.6",
+    "bottom": "5.0",
+    "page": 3,
+    "id": 348,
+    "spec_conflict": true,
+    "photo": "effects/web/thumb/p03_08.webp",
+    "photos": [
+      "effects/web/thumb/p03_08.webp"
+    ]
+  },
+  {
+    "series": "New Armor",
+    "type": "DEEP FRY PAN",
+    "art_no": "TM-TDF28CM",
+    "size": "Φ28x8",
+    "wall": "1.8-4.6",
+    "bottom": "4.0",
+    "page": 3,
+    "id": 349,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p03_05.webp",
+    "photos": [
+      "effects/web/thumb/p03_05.webp"
+    ]
+  },
+  {
+    "series": "New Armor",
+    "type": "FRY PAN",
+    "art_no": "TM-TF20CM",
+    "size": "Φ20x5.0",
+    "wall": "1.8-4.6",
+    "bottom": "4.5",
+    "page": 3,
+    "id": 350,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p03_12.webp",
+    "photos": [
+      "effects/web/thumb/p03_12.webp"
+    ]
+  },
+  {
+    "series": "New Armor",
+    "type": "FRY PAN",
+    "art_no": "TM-TF24CM",
+    "size": "Φ24x5.5",
+    "wall": "1.8-4.6",
+    "bottom": "4.5",
+    "page": 3,
+    "id": 351,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p03_12.webp",
+    "photos": [
+      "effects/web/thumb/p03_12.webp"
+    ]
+  },
+  {
+    "series": "New Armor",
+    "type": "FRY PAN",
+    "art_no": "TM-TF26CM",
+    "size": "Φ26x6.0",
+    "wall": "1.8-4.6",
+    "bottom": "4.5",
+    "page": 3,
+    "id": 352,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p03_12.webp",
+    "photos": [
+      "effects/web/thumb/p03_12.webp"
+    ]
+  },
+  {
+    "series": "New Armor",
+    "type": "FRY PAN",
+    "art_no": "TM-TF28CM",
+    "size": "Φ28x6.0",
+    "wall": "1.8-4.6",
+    "bottom": "4.5",
+    "page": 3,
+    "id": 353,
+    "spec_conflict": true,
+    "photo": "effects/web/thumb/p03_12.webp",
+    "photos": [
+      "effects/web/thumb/p03_12.webp"
+    ]
+  },
+  {
+    "series": "New Armor",
+    "type": "FRY PAN",
+    "art_no": "TM-TF30CM",
+    "size": "Φ30x6.5",
+    "wall": "1.8-4.6",
+    "bottom": "4.0",
+    "page": 3,
+    "id": 354,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p03_12.webp",
+    "photos": [
+      "effects/web/thumb/p03_12.webp"
+    ]
+  },
+  {
+    "series": "New Armor",
+    "type": "FRY PAN",
+    "art_no": "TM-TF32CM",
+    "size": "Φ32x7.0",
+    "wall": "1.8-4.6",
+    "bottom": "4.0",
+    "page": 3,
+    "id": 355,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p03_12.webp",
+    "photos": [
+      "effects/web/thumb/p03_12.webp"
+    ]
+  },
+  {
+    "series": "New Armor",
+    "type": "GRILL PAN",
+    "art_no": "TM-TQGF28CM",
+    "size": "28x28x5.0",
+    "wall": "1.8-4.6",
+    "bottom": "4.0",
+    "page": 3,
+    "id": 356,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p03_13.webp",
+    "photos": [
+      "effects/web/thumb/p03_13.webp"
+    ]
+  },
+  {
+    "series": "New Armor",
+    "type": "WOK",
+    "art_no": "TM-TW28CM",
+    "size": "Φ28x8.5",
+    "wall": "1.8-4.6",
+    "bottom": "4.0",
+    "page": 3,
+    "id": 357,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p03_06.webp",
+    "photos": [
+      "effects/web/thumb/p03_06.webp",
+      "effects/web/thumb/p03_07.webp",
+      "effects/web/thumb/p03_11.webp"
+    ]
+  },
+  {
+    "series": "New Armor",
+    "type": "WOK",
+    "art_no": "TM-TW30CM",
+    "size": "Φ30x9.0",
+    "wall": "1.8-4.6",
+    "bottom": "4.5",
+    "page": 3,
+    "id": 358,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p03_06.webp",
+    "photos": [
+      "effects/web/thumb/p03_06.webp",
+      "effects/web/thumb/p03_07.webp",
+      "effects/web/thumb/p03_11.webp"
+    ]
+  },
+  {
+    "series": "New Armor",
+    "type": "WOK",
+    "art_no": "TM-TW32CM",
+    "size": "Φ32x9.5",
+    "wall": "1.8-4.6",
+    "bottom": "4.5",
+    "page": 3,
+    "id": 359,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p03_06.webp",
+    "photos": [
+      "effects/web/thumb/p03_06.webp",
+      "effects/web/thumb/p03_07.webp",
+      "effects/web/thumb/p03_11.webp"
+    ]
+  },
+  {
+    "series": "LEGO (Removable Handle)",
+    "type": "SAUCE PAN",
+    "art_no": "TM-AEPM18-D",
+    "size": "Φ18x8",
+    "wall": "1.4",
+    "bottom": "4.0",
+    "page": 5,
+    "id": 360,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p05_01.webp",
+    "photos": [
+      "effects/web/thumb/p05_01.webp"
+    ]
+  },
+  {
+    "series": "LEGO (Removable Handle)",
+    "type": "CASSEROLE",
+    "art_no": "TM-AES26-D",
+    "size": "Φ26x11.5",
+    "wall": "1.4",
+    "bottom": "4.0",
+    "page": 5,
+    "id": 361,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p05_06.webp",
+    "photos": [
+      "effects/web/thumb/p05_06.webp"
+    ]
+  },
+  {
+    "series": "LEGO (Removable Handle)",
+    "type": "SHALLOW CASSEROLE",
+    "art_no": "TM-AEST26-D",
+    "size": "Φ26x8",
+    "wall": "1.4",
+    "bottom": "4.0",
+    "page": 5,
+    "id": 362,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p05_05.webp",
+    "photos": [
+      "effects/web/thumb/p05_05.webp"
+    ]
+  },
+  {
+    "series": "LEGO (Removable Handle)",
+    "type": "DEEP FRY PAN",
+    "art_no": "TM-AEDF26-D",
+    "size": "Φ26x8",
+    "wall": "1.4",
+    "bottom": "4.0",
+    "page": 5,
+    "id": 363,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p05_02.webp",
+    "photos": [
+      "effects/web/thumb/p05_02.webp"
+    ]
+  },
+  {
+    "series": "LEGO (Removable Handle)",
+    "type": "FRY PAN",
+    "art_no": "TM-AEF26-D",
+    "size": "Φ28x4.5",
+    "wall": "1.4",
+    "bottom": "4.6",
+    "page": 5,
+    "id": 364,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p05_03.webp",
+    "photos": [
+      "effects/web/thumb/p05_03.webp",
+      "effects/web/thumb/p05_27.webp"
+    ]
+  },
+  {
+    "series": "LEGO (Removable Handle)",
+    "type": "FRY PAN",
+    "art_no": "TM-AEF20CM",
+    "size": "Φ20x4.5",
+    "wall": "1.4",
+    "bottom": "4.0",
+    "page": 5,
+    "id": 365,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p05_03.webp",
+    "photos": [
+      "effects/web/thumb/p05_03.webp",
+      "effects/web/thumb/p05_27.webp"
+    ]
+  },
+  {
+    "series": "LEGO (Removable Handle)",
+    "type": "FRY PAN",
+    "art_no": "TM-AEF24CM",
+    "size": "Φ24x4.5",
+    "wall": "1.4",
+    "bottom": "4.0",
+    "page": 5,
+    "id": 366,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p05_03.webp",
+    "photos": [
+      "effects/web/thumb/p05_03.webp",
+      "effects/web/thumb/p05_27.webp"
+    ]
+  },
+  {
+    "series": "LEGO (Removable Handle)",
+    "type": "FRY PAN",
+    "art_no": "TM-MF28CM",
+    "size": "Φ28x5.0",
+    "wall": "1.4",
+    "bottom": "4.0",
+    "page": 5,
+    "id": 367,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p05_03.webp",
+    "photos": [
+      "effects/web/thumb/p05_03.webp",
+      "effects/web/thumb/p05_27.webp"
+    ]
+  },
+  {
+    "series": "Venus",
+    "type": "WOK",
+    "art_no": "TM-HW32CM",
+    "size": "Φ32x11",
+    "wall": "1.8",
+    "bottom": "4.0-4.8",
+    "page": 13,
+    "id": 368,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p13_10.webp",
+    "photos": [
+      "effects/web/thumb/p13_10.webp"
+    ]
+  },
+  {
+    "series": "Venus",
+    "type": "FRY PAN",
+    "art_no": "TM-HF20CM",
+    "size": "Φ20x5.0",
+    "wall": "1.9-4.5",
+    "bottom": "4.2",
+    "page": 13,
+    "id": 369,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p13_09.webp",
+    "photos": [
+      "effects/web/thumb/p13_09.webp"
+    ]
+  },
+  {
+    "series": "Venus",
+    "type": "FRY PAN",
+    "art_no": "TM-HF24CM",
+    "size": "Φ24x6.0",
+    "wall": "1.9-4.5",
+    "bottom": "4.2",
+    "page": 13,
+    "id": 370,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p13_09.webp",
+    "photos": [
+      "effects/web/thumb/p13_09.webp"
+    ]
+  },
+  {
+    "series": "Venus",
+    "type": "FRY PAN",
+    "art_no": "TM-HF26CM",
+    "size": "Φ26x6.5",
+    "wall": "1.9-4.5",
+    "bottom": "4.2",
+    "page": 13,
+    "id": 371,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p13_09.webp",
+    "photos": [
+      "effects/web/thumb/p13_09.webp"
+    ]
+  },
+  {
+    "series": "Venus",
+    "type": "FRY PAN",
+    "art_no": "TM-HF28CM",
+    "size": "Φ28x7.0",
+    "wall": "1.9-4.5",
+    "bottom": "4.2",
+    "page": 13,
+    "id": 372,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p13_09.webp",
+    "photos": [
+      "effects/web/thumb/p13_09.webp"
+    ]
+  },
+  {
+    "series": "Venus",
+    "type": "SAUCE PAN",
+    "art_no": "TM-HM16CM",
+    "size": "Φ16x8.5",
+    "wall": "1.9-4.5",
+    "bottom": "4.0",
+    "page": 13,
+    "id": 373,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p13_08.webp",
+    "photos": [
+      "effects/web/thumb/p13_08.webp"
+    ]
+  },
+  {
+    "series": "Venus",
+    "type": "CASSEROLE",
+    "art_no": "TM-HS20CM",
+    "size": "Φ20x10",
+    "wall": "1.9-4.5",
+    "bottom": "4.2",
+    "page": 13,
+    "id": 374,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p13_07.webp",
+    "photos": [
+      "effects/web/thumb/p13_07.webp"
+    ]
+  },
+  {
+    "series": "Venus",
+    "type": "CASSEROLE",
+    "art_no": "TM-HS24CM",
+    "size": "Φ24x12",
+    "wall": "1.9-4.5",
+    "bottom": "4.2",
+    "page": 13,
+    "id": 375,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p13_07.webp",
+    "photos": [
+      "effects/web/thumb/p13_07.webp"
+    ]
+  },
+  {
+    "series": "Venus",
+    "type": "SHALLOW CASSEROLE",
+    "art_no": "TM-HST26CM",
+    "size": "Φ26x8.0",
+    "wall": "1.9-4.5",
+    "bottom": "4.2",
+    "page": 13,
+    "id": 376,
+    "spec_conflict": false,
+    "photo": "effects/web/thumb/p13_06.webp",
+    "photos": [
+      "effects/web/thumb/p13_06.webp"
+    ]
+  }
+]

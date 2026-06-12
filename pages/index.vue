@@ -199,12 +199,12 @@ const capabilities = [
 const divisions = [
   {
     title: 'Cookware',
-    description: 'Premium frying pans and cookware for professional kitchens and home cooks. Non-stick, stainless steel, cast iron, and ceramic-coated lines.',
+    description: 'A wide range of fry pans, sauce pans, casseroles, woks and grills across 30+ collections — in forged aluminum, die-cast, and stone-coated finishes, each offered in multiple sizes.',
     to: '/products/cookware',
   },
   {
     title: 'Heating Radiators',
-    description: 'High-efficiency heating radiators for residential and industrial applications. Panel, column, and custom configurations.',
+    description: 'High-efficiency aluminum, bimetal, and towel radiators with EN-rated heat output for residential and commercial applications.',
     to: '/products/radiators',
   },
 ]

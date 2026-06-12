@@ -1,212 +1,1058 @@
 [
   {
-    "id": "rd-01",
-    "name": "Compact Panel 600x800",
-    "category": "Panel",
-    "description": "Type 11 single-panel radiator for apartments and small rooms. Space-saving profile with high heat output.",
-    "image": "/images/products/radiators/compact-600x800.jpg",
+    "id": "nl-ta350-100",
+    "name": "NL-TA350/100",
+    "category": "BIMETAL",
+    "model": "NL-TA350/100",
+    "image": "/images/products/radiators/thumb/p02_q1.webp",
+    "full": "/images/products/radiators/full/p02_q1.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p02_q1.webp",
+        "full": "/images/products/radiators/full/p02_q1.webp"
+      }
+    ],
     "specs": [
-      "Type: 11 (single panel, single convector)",
-      "Dimensions: 600 mm (H) x 800 mm (W) x 63 mm (D)",
-      "Heat output: 694 W (EN 442)",
-      "Working pressure: 10 bar, test pressure: 13 bar",
-      "Finish: powder-coated RAL 9016 (white)"
+      "Model: NL-TA350/100",
+      "Category: Bimetal",
+      "Dimensions (L×W×H): 80*96*400 mm",
+      "Central distance: 350 mm",
+      "Thermal output: 120 W",
+      "Weight: 1.39 kg",
+      "Water capacity: 0.18 L",
+      "Working pressure: 2 MPa"
     ]
   },
   {
-    "id": "rd-02",
-    "name": "Compact Panel 600x1200",
-    "category": "Panel",
-    "description": "Mid-size Type 11 panel radiator for living areas. Powder-coated finish with RAL color options.",
-    "image": "/images/products/radiators/compact-600x1200.jpg",
+    "id": "nl-ta500-100",
+    "name": "NL-TA500/100",
+    "category": "BIMETAL",
+    "model": "NL-TA500/100",
+    "image": "/images/products/radiators/thumb/p02_q3.webp",
+    "full": "/images/products/radiators/full/p02_q3.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p02_q3.webp",
+        "full": "/images/products/radiators/full/p02_q3.webp"
+      }
+    ],
     "specs": [
-      "Type: 11 (single panel, single convector)",
-      "Dimensions: 600 mm (H) x 1200 mm (W) x 63 mm (D)",
-      "Heat output: 1041 W (EN 442)",
-      "RAL color options available on request",
-      "Side or bottom connection options"
+      "Model: NL-TA500/100",
+      "Category: Bimetal",
+      "Dimensions (L×W×H): 80*96*550 mm",
+      "Central distance: 500 mm",
+      "Thermal output: 170 W",
+      "Weight: 1.72 kg",
+      "Water capacity: 0.3 L",
+      "Working pressure: 2 MPa"
     ]
   },
   {
-    "id": "rd-03",
-    "name": "Double Panel 600x1000",
-    "category": "Panel",
-    "description": "Type 22 double-panel radiator delivering increased BTU output. Ideal for larger residential spaces.",
-    "image": "/images/products/radiators/double-600x1000.jpg",
+    "id": "nl-bp500-100",
+    "name": "NL-BP500/100",
+    "category": "BIMETAL",
+    "model": "NL-BP500/100",
+    "image": "/images/products/radiators/thumb/p02_q2.webp",
+    "full": "/images/products/radiators/full/p02_q2.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p02_q2.webp",
+        "full": "/images/products/radiators/full/p02_q2.webp"
+      }
+    ],
     "specs": [
-      "Type: 22 (double panel, double convector)",
-      "Dimensions: 600 mm (H) x 1000 mm (W) x 100 mm (D)",
-      "Heat output: 1784 W (EN 442)",
-      "Working pressure: 10 bar",
-      "Supplied with wall brackets and air vent"
+      "Model: NL-BP500/100",
+      "Category: Bimetal",
+      "Dimensions (L×W×H): 80*96*575 mm",
+      "Central distance: 500 mm",
+      "Thermal output: 175 W",
+      "Weight: 1.77 kg",
+      "Water capacity: 0.3 L",
+      "Working pressure: 2 MPa"
     ]
   },
   {
-    "id": "rd-04",
-    "name": "Double Panel 500x1400",
-    "category": "Panel",
-    "description": "Wide-format Type 22 panel for under-window installation. Low profile, high efficiency.",
-    "image": "/images/products/radiators/double-500x1400.jpg",
+    "id": "nl-bt500-100",
+    "name": "NL-BT500/100",
+    "category": "BIMETAL",
+    "model": "NL-BT500/100",
+    "image": "/images/products/radiators/thumb/p02_q4.webp",
+    "full": "/images/products/radiators/full/p02_q4.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p02_q4.webp",
+        "full": "/images/products/radiators/full/p02_q4.webp"
+      }
+    ],
     "specs": [
-      "Type: 22 (double panel, double convector)",
-      "Dimensions: 500 mm (H) x 1400 mm (W) x 100 mm (D)",
-      "Heat output: 2081 W (EN 442)",
-      "Designed for under-window installation",
-      "Low profile for unobstructed window sills"
+      "Model: NL-BT500/100",
+      "Category: Bimetal",
+      "Dimensions (L×W×H): 80*96*575 mm",
+      "Central distance: 500 mm",
+      "Thermal output: 175 W",
+      "Weight: 1.82 kg",
+      "Water capacity: 0.3 L",
+      "Working pressure: 2 MPa"
     ]
   },
   {
-    "id": "rd-05",
-    "name": "Triple Panel 600x1200",
-    "category": "Panel",
-    "description": "Type 33 triple-panel radiator for maximum heat output. Suited for poorly insulated or large rooms.",
-    "image": "/images/products/radiators/triple-600x1200.jpg",
+    "id": "nl-pb350-80",
+    "name": "NL-PB350/80",
+    "category": "BIMETAL",
+    "model": "NL-PB350/80",
+    "image": "/images/products/radiators/thumb/p03_q1.webp",
+    "full": "/images/products/radiators/full/p03_q1.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p03_q1.webp",
+        "full": "/images/products/radiators/full/p03_q1.webp"
+      }
+    ],
     "specs": [
-      "Type: 33 (triple panel, triple convector)",
-      "Dimensions: 600 mm (H) x 1200 mm (W) x 157 mm (D)",
-      "Heat output: 3120 W (EN 442)",
-      "Working pressure: 10 bar, test pressure: 13 bar",
-      "Ideal for poorly insulated or large-volume rooms"
+      "Model: NL-PB350/80",
+      "Category: Bimetal",
+      "Dimensions (L×W×H): 76*80*410 mm",
+      "Central distance: 350 mm",
+      "Thermal output: 120 W",
+      "Weight: 0.98 kg",
+      "Water capacity: 0.18 L",
+      "Working pressure: 2 MPa"
     ]
   },
   {
-    "id": "rd-06",
-    "name": "Vertical Panel 1800x500",
-    "category": "Panel",
-    "description": "Tall vertical panel radiator for narrow wall spaces. Modern aesthetic with top-mounted connections.",
-    "image": "/images/products/radiators/vertical-1800x500.jpg",
+    "id": "nl-pb500-100",
+    "name": "NL-PB500/100",
+    "category": "BIMETAL",
+    "model": "NL-PB500/100",
+    "image": "/images/products/radiators/thumb/p03_q3.webp",
+    "full": "/images/products/radiators/full/p03_q3.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p03_q3.webp",
+        "full": "/images/products/radiators/full/p03_q3.webp"
+      }
+    ],
     "specs": [
-      "Type: 21 (double panel, single convector)",
-      "Dimensions: 1800 mm (H) x 500 mm (W) x 77 mm (D)",
-      "Heat output: 1886 W (EN 442)",
-      "Top-mounted connections for clean installation",
-      "Modern flat-front design"
+      "Model: NL-PB500/100",
+      "Category: Bimetal",
+      "Dimensions (L×W×H): 76*96*560 mm",
+      "Central distance: 500 mm",
+      "Thermal output: 165 W",
+      "Weight: 1.27 kg",
+      "Water capacity: 0.28 L",
+      "Working pressure: 2 MPa"
     ]
   },
   {
-    "id": "rd-07",
-    "name": "Classic Column 2-col 600mm",
-    "category": "Column",
-    "description": "Two-column steel radiator with timeless design. Available in 4 to 30 sections for custom lengths.",
-    "image": "/images/products/radiators/column-2col-600.jpg",
+    "id": "nl-pl500-80",
+    "name": "NL-PL500/80",
+    "category": "BIMETAL",
+    "model": "NL-PL500/80",
+    "image": "/images/products/radiators/thumb/p03_q2.webp",
+    "full": "/images/products/radiators/full/p03_q2.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p03_q2.webp",
+        "full": "/images/products/radiators/full/p03_q2.webp"
+      }
+    ],
     "specs": [
-      "Type: 2-column steel tubular",
-      "Height: 600 mm, depth: 65 mm",
-      "Available in 4 to 30 sections",
-      "Heat output: 62 W per section (EN 442)",
-      "Working pressure: 10 bar"
+      "Model: NL-PL500/80",
+      "Category: Bimetal",
+      "Dimensions (L×W×H): 79*80*560 mm",
+      "Central distance: 500 mm",
+      "Thermal output: 150 W",
+      "Weight: 1.3 kg",
+      "Water capacity: 0.25 L",
+      "Working pressure: 2 MPa"
     ]
   },
   {
-    "id": "rd-08",
-    "name": "Classic Column 3-col 1200mm",
-    "category": "Column",
-    "description": "Tall three-column radiator for period properties and premium renovations. Chrome finish available.",
-    "image": "/images/products/radiators/column-3col-1200.jpg",
+    "id": "nl-p500-80",
+    "name": "NL-P500/80",
+    "category": "BIMETAL",
+    "model": "NL-P500/80",
+    "image": "/images/products/radiators/thumb/p03_q4.webp",
+    "full": "/images/products/radiators/full/p03_q4.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p03_q4.webp",
+        "full": "/images/products/radiators/full/p03_q4.webp"
+      }
+    ],
     "specs": [
-      "Type: 3-column steel tubular",
-      "Height: 1200 mm, depth: 101 mm",
-      "Chrome or powder-coat finish options",
-      "Heat output: 145 W per section (EN 442)",
-      "Suited for period properties and premium interiors"
+      "Model: NL-P500/80",
+      "Category: Bimetal",
+      "Dimensions (L×W×H): 81*80*563 mm",
+      "Central distance: 500 mm",
+      "Thermal output: 170 W",
+      "Weight: 1.54 kg",
+      "Water capacity: 0.28 L",
+      "Working pressure: 2 MPa"
     ]
   },
   {
-    "id": "rd-09",
-    "name": "Column 4-col 600mm",
-    "category": "Column",
-    "description": "Four-column high-output radiator for heritage installations. Cast iron or steel construction.",
-    "image": "/images/products/radiators/column-4col-600.jpg",
+    "id": "nl-bk500-80",
+    "name": "NL-BK500/80",
+    "category": "BIMETAL",
+    "model": "NL-BK500/80",
+    "image": "/images/products/radiators/thumb/p04_q1.webp",
+    "full": "/images/products/radiators/full/p04_q1.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p04_q1.webp",
+        "full": "/images/products/radiators/full/p04_q1.webp"
+      }
+    ],
     "specs": [
-      "Type: 4-column (cast iron or steel)",
-      "Height: 600 mm, depth: 140 mm",
-      "Heat output: 107 W per section (EN 442)",
-      "Heritage style, suitable for listed buildings",
-      "Working pressure: 10 bar (steel), 6 bar (cast iron)"
+      "Model: NL-BK500/80",
+      "Category: Bimetal",
+      "Dimensions (L×W×H): 74*76*545 mm",
+      "Central distance: 500 mm",
+      "Thermal output: 150 W",
+      "Weight: 1.07 kg",
+      "Water capacity: 0.2 L",
+      "Working pressure: 2 MPa"
     ]
   },
   {
-    "id": "rd-10",
-    "name": "Horizontal Column 300x1500",
-    "category": "Column",
-    "description": "Low-profile horizontal column radiator for under-window placement. Brushed nickel finish option.",
-    "image": "/images/products/radiators/horizontal-column-300x1500.jpg",
+    "id": "nl-bk500-100",
+    "name": "NL-BK500/100",
+    "category": "BIMETAL",
+    "model": "NL-BK500/100",
+    "image": "/images/products/radiators/thumb/p04_q3.webp",
+    "full": "/images/products/radiators/full/p04_q3.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p04_q3.webp",
+        "full": "/images/products/radiators/full/p04_q3.webp"
+      }
+    ],
     "specs": [
-      "Type: 2-column horizontal steel",
-      "Dimensions: 300 mm (H) x 1500 mm (W)",
-      "Heat output: 1020 W (EN 442)",
-      "Brushed nickel finish option available",
-      "Under-window or kickboard installation"
+      "Model: NL-BK500/100",
+      "Category: Bimetal",
+      "Dimensions (L×W×H): 74*96*545 mm",
+      "Central distance: 500 mm",
+      "Thermal output: 150 W",
+      "Weight: 1.11 kg",
+      "Water capacity: 0.2 L",
+      "Working pressure: 2 MPa"
     ]
   },
   {
-    "id": "rd-11",
-    "name": "Vertical Column 1800x380",
-    "category": "Column",
-    "description": "Slim vertical column radiator for hallways and narrow spaces. Dual-fuel compatible.",
-    "image": "/images/products/radiators/vertical-column-1800x380.jpg",
+    "id": "nl-bf500-100",
+    "name": "NL-BF500/100",
+    "category": "BIMETAL",
+    "model": "NL-BF500/100",
+    "image": "/images/products/radiators/thumb/p04_q2.webp",
+    "full": "/images/products/radiators/full/p04_q2.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p04_q2.webp",
+        "full": "/images/products/radiators/full/p04_q2.webp"
+      }
+    ],
     "specs": [
-      "Type: 2-column vertical steel",
-      "Dimensions: 1800 mm (H) x 380 mm (W)",
-      "Heat output: 1248 W (EN 442)",
-      "Dual-fuel compatible (central heating + electric element)",
-      "Available in white, anthracite, or custom RAL"
+      "Model: NL-BF500/100",
+      "Category: Bimetal",
+      "Dimensions (L×W×H): 80*96*565 mm",
+      "Central distance: 500 mm",
+      "Thermal output: 170 W",
+      "Weight: 1.56 kg",
+      "Water capacity: 0.3 L",
+      "Working pressure: 2 MPa"
     ]
   },
   {
-    "id": "rd-12",
-    "name": "Industrial Floor Unit HD-2000",
-    "category": "Industrial",
-    "description": "Heavy-duty floor-standing unit for warehouses and factories. Anti-corrosion treated for harsh environments.",
-    "image": "/images/products/radiators/industrial-hd2000.jpg",
+    "id": "nl-bf500-100-black",
+    "name": "NL-BF500/100 BLACK",
+    "category": "BIMETAL",
+    "model": "NL-BF500/100 BLACK",
+    "image": "/images/products/radiators/thumb/p04_q4.webp",
+    "full": "/images/products/radiators/full/p04_q4.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p04_q4.webp",
+        "full": "/images/products/radiators/full/p04_q4.webp"
+      }
+    ],
     "specs": [
-      "Type: floor-standing convector unit",
-      "Heat output: 2000 W",
-      "Construction: heavy-gauge steel with anti-corrosion coating",
-      "Working pressure: 16 bar",
-      "Designed for warehouses, factories, and workshops"
+      "Model: NL-BF500/100 BLACK",
+      "Category: Bimetal",
+      "Dimensions (L×W×H): 80*96*565 mm",
+      "Central distance: 500 mm",
+      "Thermal output: 170 W",
+      "Weight: 1.56 kg",
+      "Water capacity: 0.3 L",
+      "Working pressure: 2 MPa"
     ]
   },
   {
-    "id": "rd-13",
-    "name": "Industrial Wall Mount WM-1500",
-    "category": "Industrial",
-    "description": "Wall-mounted industrial radiator for commercial buildings. High-output steel panel construction.",
-    "image": "/images/products/radiators/industrial-wm1500.jpg",
+    "id": "nl-xb500-100",
+    "name": "NL-XB500/100",
+    "category": "BIMETAL",
+    "model": "NL-XB500/100",
+    "image": "/images/products/radiators/thumb/p05_q1.webp",
+    "full": "/images/products/radiators/full/p05_q1.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p05_q1.webp",
+        "full": "/images/products/radiators/full/p05_q1.webp"
+      }
+    ],
     "specs": [
-      "Type: wall-mounted steel panel",
-      "Heat output: 1500 W",
-      "Construction: heavy-duty powder-coated steel",
-      "Working pressure: 12 bar",
-      "Suitable for commercial and light industrial spaces"
+      "Model: NL-XB500/100",
+      "Category: Bimetal",
+      "Dimensions (L×W×H): 80*96*567 mm",
+      "Central distance: 500 mm",
+      "Thermal output: 170 W",
+      "Weight: 1.67 kg",
+      "Water capacity: 0.3 L",
+      "Working pressure: 2 MPa"
     ]
   },
   {
-    "id": "rd-14",
-    "name": "Industrial Floor Unit HD-3000",
-    "category": "Industrial",
-    "description": "Extra-capacity floor unit for large industrial halls. Working pressure up to 16 bar.",
-    "image": "/images/products/radiators/industrial-hd3000.jpg",
+    "id": "nl-xb500-100-black",
+    "name": "NL-XB500/100 BLACK",
+    "category": "BIMETAL",
+    "model": "NL-XB500/100 BLACK",
+    "image": "/images/products/radiators/thumb/p05_q3.webp",
+    "full": "/images/products/radiators/full/p05_q3.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p05_q3.webp",
+        "full": "/images/products/radiators/full/p05_q3.webp"
+      }
+    ],
     "specs": [
-      "Type: floor-standing convector unit",
-      "Heat output: 3000 W",
-      "Construction: reinforced steel with anti-corrosion treatment",
-      "Working pressure: 16 bar, test pressure: 24 bar",
-      "Suitable for halls up to 300 m\u00b2"
+      "Model: NL-XB500/100 BLACK",
+      "Category: Bimetal",
+      "Dimensions (L×W×H): 80*96*567 mm",
+      "Central distance: 500 mm",
+      "Thermal output: 170 W",
+      "Weight: 1.67 kg",
+      "Water capacity: 0.3 L",
+      "Working pressure: 2 MPa"
     ]
   },
   {
-    "id": "rd-15",
-    "name": "Industrial Ceiling Mount CM-1200",
-    "category": "Industrial",
-    "description": "Ceiling-suspended heating unit for workshops with limited wall and floor space. Thermostatic valve ready.",
-    "image": "/images/products/radiators/industrial-cm1200.jpg",
+    "id": "nl-bd200-100",
+    "name": "NL-BD200/100",
+    "category": "BIMETAL",
+    "model": "NL-BD200/100",
+    "image": "/images/products/radiators/thumb/p05_q2.webp",
+    "full": "/images/products/radiators/full/p05_q2.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p05_q2.webp",
+        "full": "/images/products/radiators/full/p05_q2.webp"
+      }
+    ],
     "specs": [
-      "Type: ceiling-suspended convector unit",
-      "Heat output: 1200 W",
-      "Includes mounting brackets and suspension kit",
-      "Thermostatic valve ready (valve sold separately)",
-      "Ideal for workshops with limited wall/floor space"
+      "Model: NL-BD200/100",
+      "Category: Bimetal",
+      "Dimensions (L×W×H): 76*96*260 mm",
+      "Central distance: 200 mm",
+      "Thermal output: 110 W",
+      "Weight: 0.85 kg",
+      "Water capacity: 0.15 L",
+      "Working pressure: 2 MPa"
+    ]
+  },
+  {
+    "id": "nl-pf1-350-100",
+    "name": "NL-PF1-350/100",
+    "category": "BIMETAL",
+    "model": "NL-PF1-350/100",
+    "image": "/images/products/radiators/thumb/p05_q4.webp",
+    "full": "/images/products/radiators/full/p05_q4.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p05_q4.webp",
+        "full": "/images/products/radiators/full/p05_q4.webp"
+      }
+    ],
+    "specs": [
+      "Model: NL-PF1-350/100",
+      "Category: Bimetal",
+      "Dimensions (L×W×H): 75*96*410 mm",
+      "Central distance: 350 mm",
+      "Thermal output: 120 W",
+      "Weight: 1.02 kg",
+      "Water capacity: 0.18 L",
+      "Working pressure: 2 MPa"
+    ]
+  },
+  {
+    "id": "nl-h1-500-100",
+    "name": "NL-H1-500/100",
+    "category": "ALUMINUM",
+    "model": "NL-H1-500/100",
+    "image": "/images/products/radiators/thumb/p06_q1.webp",
+    "full": "/images/products/radiators/full/p06_q1.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p06_q1.webp",
+        "full": "/images/products/radiators/full/p06_q1.webp"
+      }
+    ],
+    "specs": [
+      "Model: NL-H1-500/100",
+      "Category: Aluminum",
+      "Dimensions (L×W×H): 80*96*580 mm",
+      "Central distance: 500 mm",
+      "Thermal output: 185 W",
+      "Weight: 1.07 kg",
+      "Water capacity: 0.41 L",
+      "Working pressure: 2 MPa"
+    ]
+  },
+  {
+    "id": "nl-o500-100",
+    "name": "NL-O500/100",
+    "category": "ALUMINUM",
+    "model": "NL-O500/100",
+    "image": "/images/products/radiators/thumb/p06_q3.webp",
+    "full": "/images/products/radiators/full/p06_q3.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p06_q3.webp",
+        "full": "/images/products/radiators/full/p06_q3.webp"
+      }
+    ],
+    "specs": [
+      "Model: NL-O500/100",
+      "Category: Aluminum",
+      "Dimensions (L×W×H): 80*96*573 mm",
+      "Central distance: 500 mm",
+      "Thermal output: 190 W",
+      "Weight: 1.14 kg",
+      "Water capacity: 0.41 L",
+      "Working pressure: 2 MPa"
+    ]
+  },
+  {
+    "id": "nl-x500-100",
+    "name": "NL-X500/100",
+    "category": "ALUMINUM",
+    "model": "NL-X500/100",
+    "image": "/images/products/radiators/thumb/p06_q2.webp",
+    "full": "/images/products/radiators/full/p06_q2.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p06_q2.webp",
+        "full": "/images/products/radiators/full/p06_q2.webp"
+      }
+    ],
+    "specs": [
+      "Model: NL-X500/100",
+      "Category: Aluminum",
+      "Dimensions (L×W×H): 80*96*580 mm",
+      "Central distance: 500 mm",
+      "Thermal output: 190 W",
+      "Weight: 1.13 kg",
+      "Water capacity: 0.41 L",
+      "Working pressure: 2 MPa"
+    ]
+  },
+  {
+    "id": "nl-y600-85",
+    "name": "NL-Y600/85",
+    "category": "ALUMINUM",
+    "model": "NL-Y600/85",
+    "image": "/images/products/radiators/thumb/p06_q4.webp",
+    "full": "/images/products/radiators/full/p06_q4.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p06_q4.webp",
+        "full": "/images/products/radiators/full/p06_q4.webp"
+      }
+    ],
+    "specs": [
+      "Model: NL-Y600/85",
+      "Category: Aluminum",
+      "Dimensions (L×W×H): 80*85*578 mm",
+      "Central distance: 600 mm",
+      "Thermal output: 190 W",
+      "Weight: 1.26 kg",
+      "Water capacity: 0.45 L",
+      "Working pressure: 2 MPa"
+    ]
+  },
+  {
+    "id": "nl-w500-100",
+    "name": "NL-W500/100",
+    "category": "ALUMINUM",
+    "model": "NL-W500/100",
+    "image": "/images/products/radiators/thumb/p07_q1.webp",
+    "full": "/images/products/radiators/full/p07_q1.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p07_q1.webp",
+        "full": "/images/products/radiators/full/p07_q1.webp"
+      }
+    ],
+    "specs": [
+      "Model: NL-W500/100",
+      "Category: Aluminum",
+      "Dimensions (L×W×H): 80*96*570 mm",
+      "Central distance: 500 mm",
+      "Thermal output: 180 W",
+      "Weight: 0.93 kg",
+      "Water capacity: 0.41 L",
+      "Working pressure: 2 MPa"
+    ]
+  },
+  {
+    "id": "nl-w500-100-black",
+    "name": "NL-W500/100 BLACK",
+    "category": "ALUMINUM",
+    "model": "NL-W500/100 BLACK",
+    "image": "/images/products/radiators/thumb/p07_q3.webp",
+    "full": "/images/products/radiators/full/p07_q3.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p07_q3.webp",
+        "full": "/images/products/radiators/full/p07_q3.webp"
+      }
+    ],
+    "specs": [
+      "Model: NL-W500/100 BLACK",
+      "Category: Aluminum",
+      "Dimensions (L×W×H): 80*96*570 mm",
+      "Central distance: 500 mm",
+      "Thermal output: 180 W",
+      "Weight: 0.93 kg",
+      "Water capacity: 0.41 L",
+      "Working pressure: 2 MPa"
+    ]
+  },
+  {
+    "id": "nl-v1-500-100",
+    "name": "NL-V1-500/100",
+    "category": "ALUMINUM",
+    "model": "NL-V1-500/100",
+    "image": "/images/products/radiators/thumb/p07_q2.webp",
+    "full": "/images/products/radiators/full/p07_q2.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p07_q2.webp",
+        "full": "/images/products/radiators/full/p07_q2.webp"
+      }
+    ],
+    "specs": [
+      "Model: NL-V1-500/100",
+      "Category: Aluminum",
+      "Dimensions (L×W×H): 78*96*575 mm",
+      "Central distance: 500 mm",
+      "Thermal output: 165 W",
+      "Weight: 0.86 kg",
+      "Water capacity: 0.4 L",
+      "Working pressure: 2 MPa"
+    ]
+  },
+  {
+    "id": "nl-vd1-500-100",
+    "name": "NL-VD1-500/100",
+    "category": "ALUMINUM",
+    "model": "NL-VD1-500/100",
+    "image": "/images/products/radiators/thumb/p07_q4.webp",
+    "full": "/images/products/radiators/full/p07_q4.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p07_q4.webp",
+        "full": "/images/products/radiators/full/p07_q4.webp"
+      }
+    ],
+    "specs": [
+      "Model: NL-VD1-500/100",
+      "Category: Aluminum",
+      "Dimensions (L×W×H): 78*95*565 mm",
+      "Central distance: 500 mm",
+      "Thermal output: 165 W",
+      "Weight: 0.83 kg",
+      "Water capacity: 0.4 L",
+      "Working pressure: 2 MPa"
+    ]
+  },
+  {
+    "id": "nl-m1-350-100",
+    "name": "NL-M1-350/100",
+    "category": "ALUMINUM",
+    "model": "NL-M1-350/100",
+    "image": "/images/products/radiators/thumb/p08_q1.webp",
+    "full": "/images/products/radiators/full/p08_q1.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p08_q1.webp",
+        "full": "/images/products/radiators/full/p08_q1.webp"
+      }
+    ],
+    "specs": [
+      "Model: NL-M1-350/100",
+      "Category: Aluminum",
+      "Dimensions (L×W×H): 80*85*420 mm",
+      "Central distance: 350 mm",
+      "Thermal output: 140 W",
+      "Weight: 0.75 kg",
+      "Water capacity: 0.41 L",
+      "Working pressure: 2 MPa"
+    ]
+  },
+  {
+    "id": "nl-m350-85",
+    "name": "NL-M350/85",
+    "category": "ALUMINUM",
+    "model": "NL-M350/85",
+    "image": "/images/products/radiators/thumb/p08_q3.webp",
+    "full": "/images/products/radiators/full/p08_q3.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p08_q3.webp",
+        "full": "/images/products/radiators/full/p08_q3.webp"
+      }
+    ],
+    "specs": [
+      "Model: NL-M350/85",
+      "Category: Aluminum",
+      "Dimensions (L×W×H): 80*85*420 mm",
+      "Central distance: 350 mm",
+      "Thermal output: 140 W",
+      "Weight: 0.81 kg",
+      "Water capacity: 0.22 L",
+      "Working pressure: 2 MPa"
+    ]
+  },
+  {
+    "id": "nl-m500-85",
+    "name": "NL-M500/85",
+    "category": "ALUMINUM",
+    "model": "NL-M500/85",
+    "image": "/images/products/radiators/thumb/p08_q2.webp",
+    "full": "/images/products/radiators/full/p08_q2.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p08_q2.webp",
+        "full": "/images/products/radiators/full/p08_q2.webp"
+      }
+    ],
+    "specs": [
+      "Model: NL-M500/85",
+      "Category: Aluminum",
+      "Dimensions (L×W×H): 80*85*570 mm",
+      "Central distance: 500 mm",
+      "Thermal output: 180 W",
+      "Weight: 1.0 kg",
+      "Water capacity: 0.4 L",
+      "Working pressure: 2 MPa"
+    ]
+  },
+  {
+    "id": "nl-m1-500-100",
+    "name": "NL-M1-500/100",
+    "category": "ALUMINUM",
+    "model": "NL-M1-500/100",
+    "image": "/images/products/radiators/thumb/p08_q4.webp",
+    "full": "/images/products/radiators/full/p08_q4.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p08_q4.webp",
+        "full": "/images/products/radiators/full/p08_q4.webp"
+      }
+    ],
+    "specs": [
+      "Model: NL-M1-500/100",
+      "Category: Aluminum",
+      "Dimensions (L×W×H): 80*85*570 mm",
+      "Central distance: 500 mm",
+      "Thermal output: 180 W",
+      "Weight: 0.98 kg",
+      "Water capacity: 0.4 L",
+      "Working pressure: 2 MPa"
+    ]
+  },
+  {
+    "id": "nl-m2-500-100",
+    "name": "NL-M2-500/100",
+    "category": "ALUMINUM",
+    "model": "NL-M2-500/100",
+    "image": "/images/products/radiators/thumb/p09_q1.webp",
+    "full": "/images/products/radiators/full/p09_q1.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p09_q1.webp",
+        "full": "/images/products/radiators/full/p09_q1.webp"
+      }
+    ],
+    "specs": [
+      "Model: NL-M2-500/100",
+      "Category: Aluminum",
+      "Dimensions (L×W×H): 80*85*570 mm",
+      "Central distance: 500 mm",
+      "Thermal output: 180 W",
+      "Weight: 0.9 kg",
+      "Water capacity: 0.41 L",
+      "Working pressure: 2 MPa"
+    ]
+  },
+  {
+    "id": "nl-f500-100",
+    "name": "NL-F500/100",
+    "category": "ALUMINUM",
+    "model": "NL-F500/100",
+    "image": "/images/products/radiators/thumb/p09_q3.webp",
+    "full": "/images/products/radiators/full/p09_q3.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p09_q3.webp",
+        "full": "/images/products/radiators/full/p09_q3.webp"
+      }
+    ],
+    "specs": [
+      "Model: NL-F500/100",
+      "Category: Aluminum",
+      "Dimensions (L×W×H): 79*96*575 mm",
+      "Central distance: 500 mm",
+      "Thermal output: 180 W",
+      "Weight: 0.91 kg",
+      "Water capacity: 0.41 L",
+      "Working pressure: 2 MPa"
+    ]
+  },
+  {
+    "id": "nl-hl500-100",
+    "name": "NL-HL500/100",
+    "category": "ALUMINUM",
+    "model": "NL-HL500/100",
+    "image": "/images/products/radiators/thumb/p09_q2.webp",
+    "full": "/images/products/radiators/full/p09_q2.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p09_q2.webp",
+        "full": "/images/products/radiators/full/p09_q2.webp"
+      }
+    ],
+    "specs": [
+      "Model: NL-HL500/100",
+      "Category: Aluminum",
+      "Dimensions (L×W×H): 80*96*586 mm",
+      "Central distance: 500 mm",
+      "Thermal output: 190 W",
+      "Weight: 1.26 kg",
+      "Water capacity: 0.41 L",
+      "Working pressure: 2 MPa"
+    ]
+  },
+  {
+    "id": "nl-hl350-100",
+    "name": "NL-HL350/100",
+    "category": "ALUMINUM",
+    "model": "NL-HL350/100",
+    "image": "/images/products/radiators/thumb/p09_q4.webp",
+    "full": "/images/products/radiators/full/p09_q4.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p09_q4.webp",
+        "full": "/images/products/radiators/full/p09_q4.webp"
+      }
+    ],
+    "specs": [
+      "Model: NL-HL350/100",
+      "Category: Aluminum",
+      "Dimensions (L×W×H): 80*96*435 mm",
+      "Central distance: 350 mm",
+      "Thermal output: 140 W",
+      "Weight: 0.83 kg",
+      "Water capacity: 0.22 L",
+      "Working pressure: 2 MPa"
+    ]
+  },
+  {
+    "id": "nl-k2-500-100",
+    "name": "NL-K2-500/100",
+    "category": "ALUMINUM",
+    "model": "NL-K2-500/100",
+    "image": "/images/products/radiators/thumb/p10_q1.webp",
+    "full": "/images/products/radiators/full/p10_q1.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p10_q1.webp",
+        "full": "/images/products/radiators/full/p10_q1.webp"
+      }
+    ],
+    "specs": [
+      "Model: NL-K2-500/100",
+      "Category: Aluminum",
+      "Dimensions (L×W×H): 72*96*560 mm",
+      "Central distance: 500 mm",
+      "Thermal output: 160 W",
+      "Weight: 0.67 kg",
+      "Water capacity: 0.4 L",
+      "Working pressure: 2 MPa"
+    ]
+  },
+  {
+    "id": "nl-k2-500-80",
+    "name": "NL-K2-500/80",
+    "category": "ALUMINUM",
+    "model": "NL-K2-500/80",
+    "image": "/images/products/radiators/thumb/p10_q3.webp",
+    "full": "/images/products/radiators/full/p10_q3.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p10_q3.webp",
+        "full": "/images/products/radiators/full/p10_q3.webp"
+      }
+    ],
+    "specs": [
+      "Model: NL-K2-500/80",
+      "Category: Aluminum",
+      "Dimensions (L×W×H): 72*75*560 mm",
+      "Central distance: 500 mm",
+      "Thermal output: 150 W",
+      "Weight: 0.63 kg",
+      "Water capacity: 0.4 L",
+      "Working pressure: 2 MPa"
+    ]
+  },
+  {
+    "id": "nl-r500-100",
+    "name": "NL-R500/100",
+    "category": "ALUMINUM",
+    "model": "NL-R500/100",
+    "image": "/images/products/radiators/thumb/p10_q2.webp",
+    "full": "/images/products/radiators/full/p10_q2.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p10_q2.webp",
+        "full": "/images/products/radiators/full/p10_q2.webp"
+      }
+    ],
+    "specs": [
+      "Model: NL-R500/100",
+      "Category: Aluminum",
+      "Dimensions (L×W×H): 80*96*580 mm",
+      "Central distance: 500 mm",
+      "Thermal output: 190 W",
+      "Weight: 1.15 kg",
+      "Water capacity: 0.41 L",
+      "Working pressure: 2 MPa"
+    ]
+  },
+  {
+    "id": "nl-r500-100-black",
+    "name": "NL-R500/100 BLACK",
+    "category": "ALUMINUM",
+    "model": "NL-R500/100 BLACK",
+    "image": "/images/products/radiators/thumb/p10_q4.webp",
+    "full": "/images/products/radiators/full/p10_q4.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p10_q4.webp",
+        "full": "/images/products/radiators/full/p10_q4.webp"
+      }
+    ],
+    "specs": [
+      "Model: NL-R500/100 BLACK",
+      "Category: Aluminum",
+      "Dimensions (L×W×H): 80*96*580 mm",
+      "Central distance: 500 mm",
+      "Thermal output: 190 W",
+      "Weight: 1.15 kg",
+      "Water capacity: 0.41 L",
+      "Working pressure: 2 MPa"
+    ]
+  },
+  {
+    "id": "nl-vd1-350-100",
+    "name": "NL-VD1-350/100",
+    "category": "ALUMINUM",
+    "model": "NL-VD1-350/100",
+    "image": "/images/products/radiators/thumb/p11_q1.webp",
+    "full": "/images/products/radiators/full/p11_q1.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p11_q1.webp",
+        "full": "/images/products/radiators/full/p11_q1.webp"
+      }
+    ],
+    "specs": [
+      "Model: NL-VD1-350/100",
+      "Category: Aluminum",
+      "Dimensions (L×W×H): 76*96*420 mm",
+      "Central distance: 350 mm",
+      "Thermal output: 130 W",
+      "Weight: 0.64 kg",
+      "Water capacity: 0.2 L",
+      "Working pressure: 2 MPa"
+    ]
+  },
+  {
+    "id": "nl-vd2-350-80",
+    "name": "NL-VD2-350/80",
+    "category": "ALUMINUM",
+    "model": "NL-VD2-350/80",
+    "image": "/images/products/radiators/thumb/p11_q3.webp",
+    "full": "/images/products/radiators/full/p11_q3.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p11_q3.webp",
+        "full": "/images/products/radiators/full/p11_q3.webp"
+      }
+    ],
+    "specs": [
+      "Model: NL-VD2-350/80",
+      "Category: Aluminum",
+      "Dimensions (L×W×H): 76*80*420 mm",
+      "Central distance: 350 mm",
+      "Thermal output: 120 W",
+      "Weight: 0.62 kg",
+      "Water capacity: 0.2 L",
+      "Working pressure: 2 MPa"
+    ]
+  },
+  {
+    "id": "nl-vd2-200-80",
+    "name": "NL-VD2-200/80",
+    "category": "ALUMINUM",
+    "model": "NL-VD2-200/80",
+    "image": "/images/products/radiators/thumb/p11_q2.webp",
+    "full": "/images/products/radiators/full/p11_q2.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p11_q2.webp",
+        "full": "/images/products/radiators/full/p11_q2.webp"
+      }
+    ],
+    "specs": [
+      "Model: NL-VD2-200/80",
+      "Category: Aluminum",
+      "Dimensions (L×W×H): 76*78*265 mm",
+      "Central distance: 200 mm",
+      "Thermal output: 110 W",
+      "Weight: 0.55 kg",
+      "Water capacity: 0.16 L",
+      "Working pressure: 2 MPa"
+    ]
+  },
+  {
+    "id": "nl-x200-100",
+    "name": "NL-X200/100",
+    "category": "ALUMINUM",
+    "model": "NL-X200/100",
+    "image": "/images/products/radiators/thumb/p11_q4.webp",
+    "full": "/images/products/radiators/full/p11_q4.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p11_q4.webp",
+        "full": "/images/products/radiators/full/p11_q4.webp"
+      }
+    ],
+    "specs": [
+      "Model: NL-X200/100",
+      "Category: Aluminum",
+      "Dimensions (L×W×H): 80*96*575 mm",
+      "Central distance: 200 mm",
+      "Thermal output: 100 W",
+      "Weight: 0.61 kg",
+      "Water capacity: 0.16 L",
+      "Working pressure: 2 MPa"
+    ]
+  },
+  {
+    "id": "nl-e350-100",
+    "name": "NL-E350/100",
+    "category": "ALUMINUM",
+    "model": "NL-E350/100",
+    "image": "/images/products/radiators/thumb/p12_q1.webp",
+    "full": "/images/products/radiators/full/p12_q1.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p12_q1.webp",
+        "full": "/images/products/radiators/full/p12_q1.webp"
+      }
+    ],
+    "specs": [
+      "Model: NL-E350/100",
+      "Category: Aluminum",
+      "Dimensions (L×W×H): 80*96*410 mm",
+      "Central distance: 350 mm",
+      "Thermal output: 130 W",
+      "Weight: 0.61 kg",
+      "Water capacity: 0.25 L",
+      "Working pressure: 2 MPa"
+    ]
+  },
+  {
+    "id": "nl-z300-80",
+    "name": "NL-Z300/80",
+    "category": "ALUMINUM",
+    "model": "NL-Z300/80",
+    "image": "/images/products/radiators/thumb/p12_q3.webp",
+    "full": "/images/products/radiators/full/p12_q3.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p12_q3.webp",
+        "full": "/images/products/radiators/full/p12_q3.webp"
+      }
+    ],
+    "specs": [
+      "Model: NL-Z300/80",
+      "Category: Aluminum",
+      "Dimensions (L×W×H): 80*80*380 mm",
+      "Central distance: 300 mm",
+      "Thermal output: 120 W",
+      "Weight: 0.9 kg",
+      "Water capacity: 0.2 L",
+      "Working pressure: 2 MPa"
+    ]
+  },
+  {
+    "id": "towel-radiator-12",
+    "name": "Towel Radiator Radiator",
+    "category": "TOWEL RADIATOR",
+    "model": "",
+    "image": "/images/products/radiators/thumb/p12_q2.webp",
+    "full": "/images/products/radiators/full/p12_q2.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p12_q2.webp",
+        "full": "/images/products/radiators/full/p12_q2.webp"
+      }
+    ],
+    "specs": [
+      "Model: ",
+      "Category: Towel Radiator",
+      "Dimensions (L×W×H): 400*600 mm",
+      "Thermal output: 460 W",
+      "Weight: 7 kg",
+      "Working pressure: 1 MPa",
+      "Wall thickness: 1.5/1.8 mm",
+      "Connecting size: 1\" or 3/4\" or 1/2\""
+    ]
+  },
+  {
+    "id": "towel-radiator-12-2",
+    "name": "Towel Radiator Radiator",
+    "category": "TOWEL RADIATOR",
+    "model": "",
+    "image": "/images/products/radiators/thumb/p12_q4.webp",
+    "full": "/images/products/radiators/full/p12_q4.webp",
+    "images": [
+      {
+        "thumb": "/images/products/radiators/thumb/p12_q4.webp",
+        "full": "/images/products/radiators/full/p12_q4.webp"
+      }
+    ],
+    "specs": [
+      "Model: ",
+      "Category: Towel Radiator",
+      "Dimensions (L×W×H): 400*800 mm",
+      "Thermal output: 540 W",
+      "Weight: 9 kg",
+      "Working pressure: 1 MPa",
+      "Wall thickness: 1.5/1.8 mm",
+      "Connecting size: 1\" or 3/4\" or 1/2\""
     ]
   }
 ]
