@@ -94,8 +94,8 @@
             :to="division.to"
             class="group flex flex-col bg-white border border-steel-200 rounded-lg overflow-hidden hover:border-accent-400 transition-colors"
           >
-            <div class="bg-steel-100 h-48 flex items-center justify-center">
-              <span class="text-steel-400 text-lg">[{{ division.title }} photo]</span>
+            <div class="bg-steel-100 h-48 flex items-center justify-center p-6">
+              <img :src="division.image" :alt="division.title" loading="lazy" class="max-h-full max-w-full object-contain" />
             </div>
             <div class="p-8 flex flex-col flex-1">
               <h3 class="text-2xl font-display font-bold text-steel-900 mb-3 group-hover:text-accent-600 transition-colors">
@@ -201,11 +201,13 @@ const divisions = [
     title: 'Cookware',
     description: 'A wide range of fry pans, sauce pans, casseroles, woks and grills across 30+ collections — in forged aluminum, die-cast, and stone-coated finishes, each offered in multiple sizes.',
     to: '/products/cookware',
+    image: '/images/products/cookware/thumb/p02_25.webp',
   },
   {
     title: 'Heating Radiators',
     description: 'High-efficiency aluminum, bimetal, and towel radiators with EN-rated heat output for residential and commercial applications.',
     to: '/products/radiators',
+    image: '/images/products/radiators/full/p04_q4.webp',
   },
 ]
 

@@ -1,38 +1,57 @@
 <template>
   <div>
     <!-- Page Header -->
-    <section class="bg-steel-50 py-16 lg:py-24 border-b border-steel-200">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+    <section class="relative bg-steel-50 border-b border-steel-200 py-16 lg:py-24">
+      <!-- Background image (thumb on mobile, full on desktop) + readability overlay -->
+      <div class="absolute inset-0 bg-cover bg-center bg-no-repeat bg-[url('/images/hero/cookware-hero-thumb.webp')] lg:bg-[url('/images/hero/cookware-hero.webp')]">
+        <div class="absolute inset-0 bg-gradient-to-r from-white/95 via-white/85 to-white/40" />
+      </div>
+      <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <NuxtLink to="/products" class="absolute -bottom-10 lg:-bottom-16 right-4 sm:right-6 lg:right-8 text-accent-600 hover:text-accent-700 text-sm font-medium uppercase tracking-wide">
           &larr; All Products
         </NuxtLink>
         <p class="text-accent-600 font-semibold text-sm uppercase tracking-widest mb-2">Cookware Division</p>
         <h1 class="text-4xl md:text-5xl font-display font-bold text-steel-900">Cookware Catalog</h1>
-        <p class="mt-4 text-lg text-steel-500 max-w-2xl">
+        <p class="mt-4 text-lg text-steel-600 max-w-2xl">
           {{ products.length }} products across {{ collections.length }} collections — browse by
           collection, then narrow by type. Each product is offered in multiple sizes.
         </p>
       </div>
     </section>
 
+    <!-- Sticky mobile filter toolbar (collection + type) -->
+    <div class="lg:hidden sticky top-16 z-30 bg-white/95 backdrop-blur border-b border-steel-200 shadow-sm">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3 space-y-3">
+        <select
+          v-model="activeCollection"
+          class="w-full px-4 py-2 bg-white border border-steel-300 rounded text-steel-900 focus:ring-2 focus:ring-accent-500 focus:border-accent-500 outline-none"
+        >
+          <option value="All">All Collections ({{ products.length }})</option>
+          <option v-for="c in collections" :key="c.name" :value="c.name">{{ c.name }} ({{ c.count }})</option>
+        </select>
+        <div class="flex gap-2 overflow-x-auto -mx-4 px-4 pb-0.5">
+          <button
+            v-for="t in typeGroups"
+            :key="t.name"
+            class="shrink-0 px-3.5 py-1.5 rounded-full text-sm font-medium transition-all"
+            :class="activeType === t.name
+              ? 'bg-accent-600 text-white border border-accent-600'
+              : 'bg-white text-steel-600 border border-steel-200'"
+            @click="activeType = t.name"
+          >
+            {{ t.name }} <span class="opacity-60">{{ t.count }}</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
     <!-- Catalog -->
     <section class="bg-white py-12 lg:py-20">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="lg:grid lg:grid-cols-[16rem_1fr] lg:gap-12">
-          <!-- Collection selector: dropdown on mobile, sidebar on desktop -->
-          <aside class="mb-8 lg:mb-0">
-            <label class="lg:hidden block text-sm font-medium text-steel-700 mb-2">Collection</label>
-            <select
-              v-model="activeCollection"
-              class="lg:hidden w-full px-4 py-2 bg-white border border-steel-300 rounded text-steel-900 focus:ring-2 focus:ring-accent-500 focus:border-accent-500 outline-none"
-            >
-              <option value="All">All Collections ({{ products.length }})</option>
-              <option v-for="c in collections" :key="c.name" :value="c.name">
-                {{ c.name }} ({{ c.count }})
-              </option>
-            </select>
-
-            <nav class="hidden lg:block lg:sticky lg:top-20">
+          <!-- Collections sidebar (desktop) -->
+          <aside class="hidden lg:block">
+            <nav class="lg:sticky lg:top-20">
               <h2 class="text-xs font-semibold text-steel-400 uppercase tracking-widest mb-3">Collections</h2>
               <ul class="space-y-0.5 max-h-[70vh] overflow-y-auto pr-2">
                 <li>
@@ -61,7 +80,7 @@
 
           <!-- Grid + type filter -->
           <div>
-            <div class="flex flex-wrap gap-2 mb-6">
+            <div class="hidden lg:flex flex-wrap gap-2 mb-6">
               <button
                 v-for="t in typeGroups"
                 :key="t.name"

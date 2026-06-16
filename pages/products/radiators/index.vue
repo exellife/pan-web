@@ -1,14 +1,18 @@
 <template>
   <div>
     <!-- Page Header -->
-    <section class="bg-steel-50 py-16 lg:py-24 border-b border-steel-200">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+    <section class="relative bg-steel-50 border-b border-steel-200 py-16 lg:py-24">
+      <!-- Background image (thumb on mobile, full on desktop) + readability overlay -->
+      <div class="absolute inset-0 bg-cover bg-center bg-no-repeat bg-[url('/images/hero/radiators-hero-thumb.webp')] lg:bg-[url('/images/hero/radiators-hero.webp')]">
+        <div class="absolute inset-0 bg-gradient-to-r from-white/95 via-white/85 to-white/40" />
+      </div>
+      <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <NuxtLink to="/products" class="absolute -bottom-10 lg:-bottom-16 right-4 sm:right-6 lg:right-8 text-accent-600 hover:text-accent-700 text-sm font-medium uppercase tracking-wide">
           &larr; All Products
         </NuxtLink>
         <p class="text-accent-600 font-semibold text-sm uppercase tracking-widest mb-2">Heating Division</p>
         <h1 class="text-4xl md:text-5xl font-display font-bold text-steel-900">Radiator Catalog</h1>
-        <p class="mt-4 text-lg text-steel-500 max-w-2xl">
+        <p class="mt-4 text-lg text-steel-600 max-w-2xl">
           High-efficiency aluminum and bimetal heating radiators engineered for optimal
           heat output, durability, and modern aesthetics.
         </p>
