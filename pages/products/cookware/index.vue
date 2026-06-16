@@ -103,13 +103,13 @@
                 :to="`/products/cookware/${product.id}`"
                 class="group flex flex-col bg-white border border-steel-200 rounded-lg overflow-hidden hover:border-accent-400 hover:shadow-lg transition-all"
               >
-                <div class="relative bg-steel-50 aspect-square flex items-center justify-center p-4">
+                <div class="relative aspect-square flex items-center justify-center p-4 bg-[radial-gradient(circle_at_50%_38%,#ffffff,#eceae7_70%,#e2dfdb)]">
                   <img
                     v-if="product.image"
                     :src="product.image"
                     :alt="product.name"
                     loading="lazy"
-                    class="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform"
+                    class="max-h-full max-w-full object-contain drop-shadow-lg transition-transform duration-300 group-hover:scale-105"
                   />
                   <span v-else class="text-steel-300 text-sm">No image</span>
                   <!-- Secondary / alternate views, overlaid bottom-right (gallery products only) -->

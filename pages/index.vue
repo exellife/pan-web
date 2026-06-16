@@ -94,8 +94,8 @@
             :to="division.to"
             class="group flex flex-col bg-white border border-steel-200 rounded-lg overflow-hidden hover:border-accent-400 transition-colors"
           >
-            <div class="bg-steel-100 h-48 flex items-center justify-center p-6">
-              <img :src="division.image" :alt="division.title" loading="lazy" class="max-h-full max-w-full object-contain" />
+            <div class="h-48 flex items-center justify-center p-6 bg-[radial-gradient(circle_at_50%_38%,#ffffff,#eceae7_70%,#e2dfdb)]">
+              <img :src="division.image" :alt="division.title" loading="lazy" class="max-h-full max-w-full object-contain drop-shadow-lg transition-transform duration-300 group-hover:scale-105" />
             </div>
             <div class="p-8 flex flex-col flex-1">
               <h3 class="text-2xl font-display font-bold text-steel-900 mb-3 group-hover:text-accent-600 transition-colors">

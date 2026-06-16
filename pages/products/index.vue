@@ -1,11 +1,15 @@
 <template>
   <div>
     <!-- Page Header -->
-    <section class="bg-steel-50 py-16 lg:py-24 border-b border-steel-200">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section class="relative bg-steel-50 border-b border-steel-200 py-16 lg:py-24">
+      <!-- Background image (thumb on mobile, full on desktop) + readability overlay -->
+      <div class="absolute inset-0 bg-cover bg-center bg-no-repeat bg-[url('/images/hero/kitchen-hero-thumb.webp')] lg:bg-[url('/images/hero/kitchen-hero.webp')]">
+        <div class="absolute inset-0 bg-gradient-to-r from-white/95 via-white/85 to-white/40" />
+      </div>
+      <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <p class="text-accent-600 font-semibold text-sm uppercase tracking-widest mb-2">Product Divisions</p>
         <h1 class="text-4xl md:text-5xl font-display font-bold text-steel-900">Our Product Range</h1>
-        <p class="mt-4 text-lg text-steel-500 max-w-2xl">
+        <p class="mt-4 text-lg text-steel-600 max-w-2xl">
           Two product divisions built on the same foundation of precision metalworking,
           advanced surface treatment, and rigorous quality control.
         </p>
@@ -22,8 +26,8 @@
             :to="division.to"
             class="group flex flex-col bg-white border border-steel-200 rounded-lg overflow-hidden hover:border-accent-400 hover:shadow-lg transition-all"
           >
-            <div class="bg-steel-100 h-56 flex items-center justify-center p-6">
-              <img :src="division.image" :alt="division.title" loading="lazy" class="max-h-full max-w-full object-contain" />
+            <div class="h-56 flex items-center justify-center p-6 bg-[radial-gradient(circle_at_50%_38%,#ffffff,#eceae7_70%,#e2dfdb)]">
+              <img :src="division.image" :alt="division.title" loading="lazy" class="max-h-full max-w-full object-contain drop-shadow-lg transition-transform duration-300 group-hover:scale-105" />
             </div>
             <div class="p-8 flex flex-col flex-1">
               <h2 class="text-2xl font-display font-bold text-steel-900 mb-3 group-hover:text-accent-600 transition-colors">

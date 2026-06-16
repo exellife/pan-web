@@ -19,11 +19,30 @@
       </div>
     </section>
 
+    <!-- Sticky mobile filter toolbar (category) -->
+    <div class="lg:hidden sticky top-16 z-30 bg-white/95 backdrop-blur border-b border-steel-200 shadow-sm">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3">
+        <div class="flex gap-2 overflow-x-auto -mx-4 px-4 pb-0.5">
+          <button
+            v-for="cat in categories"
+            :key="cat.name"
+            class="shrink-0 px-3.5 py-1.5 rounded-full text-sm font-medium transition-all"
+            :class="activeCategory === cat.name
+              ? 'bg-accent-600 text-white border border-accent-600'
+              : 'bg-white text-steel-600 border border-steel-200'"
+            @click="activeCategory = cat.name"
+          >
+            {{ cat.label }} <span class="opacity-60">{{ cat.count }}</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
     <!-- Filter + Grid -->
     <section class="bg-white py-16 lg:py-24">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <!-- Category Tabs -->
-        <div class="flex flex-wrap gap-2 mb-12">
+        <!-- Category Tabs (desktop) -->
+        <div class="hidden lg:flex flex-wrap gap-2 mb-12">
           <button
             v-for="cat in categories"
             :key="cat.name"
@@ -45,13 +64,13 @@
             :to="`/products/radiators/${product.id}`"
             class="group flex flex-col bg-white border border-steel-200 rounded-lg overflow-hidden hover:border-accent-400 hover:shadow-lg transition-all"
           >
-            <div class="bg-steel-50 h-56 flex items-center justify-center p-6">
+            <div class="h-56 flex items-center justify-center p-6 bg-[radial-gradient(circle_at_50%_38%,#ffffff,#eceae7_70%,#e2dfdb)]">
               <img
                 v-if="product.image"
                 :src="product.image"
                 :alt="product.name"
                 loading="lazy"
-                class="max-h-full max-w-full object-contain group-hover:scale-105 transition-transform"
+                class="max-h-full max-w-full object-contain drop-shadow-lg transition-transform duration-300 group-hover:scale-105"
               />
               <span v-else class="text-steel-300 text-sm">No image</span>
             </div>
