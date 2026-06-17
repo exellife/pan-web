@@ -31,7 +31,7 @@
               : 'bg-white text-steel-600 border border-steel-200'"
             @click="activeCategory = cat.name"
           >
-            {{ cat.name === 'All' ? $t('common.all') : cat.label }} <span class="opacity-60">{{ cat.count }}</span>
+            {{ cat.name === 'All' ? $t('common.all') : tCat(cat.label) }} <span class="opacity-60">{{ cat.count }}</span>
           </button>
         </div>
       </div>
@@ -51,7 +51,7 @@
               : 'bg-white text-steel-600 border border-steel-200 hover:border-accent-400 hover:text-accent-600'"
             @click="activeCategory = cat.name"
           >
-            {{ cat.name === 'All' ? $t('common.all') : cat.label }} <span class="opacity-60">({{ cat.count }})</span>
+            {{ cat.name === 'All' ? $t('common.all') : tCat(cat.label) }} <span class="opacity-60">({{ cat.count }})</span>
           </button>
         </div>
 
@@ -75,7 +75,7 @@
             </div>
             <div class="p-6 flex flex-col flex-1 border-t border-steel-100">
               <span class="text-accent-600 font-semibold text-xs uppercase tracking-widest">
-                {{ titleCase(product.category) }}
+                {{ tCat(titleCase(product.category)) }}
               </span>
               <h3 class="text-lg font-display font-bold text-steel-900 mt-2 group-hover:text-accent-600 transition-colors">
                 {{ product.name }}
@@ -111,16 +111,18 @@
 <script setup lang="ts">
 import products from '~/data/radiators.json'
 
-const { t } = useI18n()
+const { t, te } = useI18n()
 useHead(() => ({
   title: t('radiators.metaTitle'),
   meta: [{ name: 'description', content: t('radiators.metaDescription') }],
 }))
 
 const titleCase = (s: string) => s.split(' ').map(w => w.charAt(0) + w.slice(1).toLowerCase()).join(' ')
+const slugKey = (v: string) => v.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/(^_|_$)/g, '')
+const tCat = (v: string) => (te(`productCategory.${slugKey(v)}`) ? t(`productCategory.${slugKey(v)}`) : v)
 const thermal = (p: typeof products[number]) => {
-  const s = p.specs.find(x => x.startsWith('Thermal output'))
-  return s ? s.replace('Thermal output:', 'Heat output:') : ''
+  const s = p.specs.find(x => x.label === 'thermalOutput')
+  return s ? `${t('spec.thermalOutput')}: ${s.value}` : ''
 }
 
 const activeCategory = ref('All')

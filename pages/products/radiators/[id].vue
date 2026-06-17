@@ -9,7 +9,7 @@
         <NuxtLinkLocale to="/products/radiators" class="text-accent-600 hover:text-accent-700 text-sm font-medium uppercase tracking-wide mb-4 inline-block">
           &larr; {{ $t('radiators.detail.catalog') }}
         </NuxtLinkLocale>
-        <p class="text-accent-600 font-semibold text-sm uppercase tracking-widest mb-2">{{ titleCase(product.category) }} · {{ $t('radiators.detail.division') }}</p>
+        <p class="text-accent-600 font-semibold text-sm uppercase tracking-widest mb-2">{{ tCat(titleCase(product.category)) }} · {{ $t('radiators.detail.division') }}</p>
         <h1 class="text-4xl md:text-5xl font-display font-bold text-steel-900">{{ product.name }}</h1>
       </div>
     </section>
@@ -33,7 +33,7 @@
           <div class="flex flex-col">
             <div class="flex flex-wrap gap-2">
               <span class="text-accent-700 bg-accent-50 font-semibold text-xs uppercase tracking-widest px-3 py-1 rounded">
-                {{ titleCase(product.category) }}
+                {{ tCat(titleCase(product.category)) }}
               </span>
               <span v-if="product.model" class="text-steel-500 bg-steel-100 font-mono text-xs px-3 py-1 rounded">
                 {{ product.model }}
@@ -44,8 +44,8 @@
             <!-- Specs table -->
             <dl class="mt-6 divide-y divide-steel-100 border-y border-steel-100">
               <div v-for="(spec, i) in product.specs" :key="i" class="flex gap-4 py-2.5 text-sm">
-                <dt class="w-48 shrink-0 text-steel-400">{{ spec.split(':')[0] }}</dt>
-                <dd class="text-steel-700">{{ spec.split(':').slice(1).join(':').trim() }}</dd>
+                <dt class="w-48 shrink-0 text-steel-400">{{ $t(`spec.${spec.label}`) }}</dt>
+                <dd class="text-steel-700">{{ spec.value }}</dd>
               </div>
             </dl>
 
@@ -73,7 +73,7 @@
 
         <!-- Related in category -->
         <div v-if="related.length" class="mt-20 pt-12 border-t border-steel-200">
-          <h2 class="text-2xl font-display font-bold text-steel-900 mb-8">{{ $t('radiators.detail.moreCategory', { category: titleCase(product.category) }) }}</h2>
+          <h2 class="text-2xl font-display font-bold text-steel-900 mb-8">{{ $t('radiators.detail.moreCategory', { category: tCat(titleCase(product.category)) }) }}</h2>
           <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
             <NuxtLinkLocale
               v-for="rel in related"
@@ -114,11 +114,13 @@
 <script setup lang="ts">
 import products from '~/data/radiators.json'
 
-const { t } = useI18n()
+const { t, te } = useI18n()
 const route = useRoute()
 const product = products.find(p => p.id === route.params.id)
 
 const titleCase = (s: string) => s.split(' ').map(w => w.charAt(0) + w.slice(1).toLowerCase()).join(' ')
+const slugKey = (v: string) => v.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/(^_|_$)/g, '')
+const tCat = (v: string) => (te(`productCategory.${slugKey(v)}`) ? t(`productCategory.${slugKey(v)}`) : v)
 
 const shareLabel = ref(t('common.share'))
 async function share() {

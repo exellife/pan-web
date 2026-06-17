@@ -89,7 +89,7 @@
                   : 'bg-white text-steel-600 border border-steel-200 hover:border-accent-400 hover:text-accent-600'"
                 @click="activeType = t.name"
               >
-                {{ t.name === 'All' ? $t('common.all') : t.name }} <span class="opacity-60">{{ t.count }}</span>
+                {{ t.name === 'All' ? $t('common.all') : tType(t.name) }} <span class="opacity-60">{{ t.count }}</span>
               </button>
             </div>
 
@@ -106,7 +106,7 @@
                   <img
                     v-if="product.image"
                     :src="product.image"
-                    :alt="product.name"
+                    :alt="displayName(product)"
                     loading="lazy"
                     class="max-h-full max-w-full object-contain drop-shadow-lg transition-transform duration-300 group-hover:scale-105"
                   />
@@ -129,9 +129,9 @@
                   </div>
                 </div>
                 <div class="p-5 flex flex-col flex-1 border-t border-steel-100">
-                  <span class="text-accent-600 font-semibold text-xs uppercase tracking-widest">{{ product.type }}</span>
+                  <span class="text-accent-600 font-semibold text-xs uppercase tracking-widest">{{ tType(product.type) }}</span>
                   <h3 class="text-base font-display font-bold text-steel-900 mt-1 group-hover:text-accent-600 transition-colors">
-                    {{ product.name }}
+                    {{ displayName(product) }}
                   </h3>
                   <span class="text-steel-400 text-xs mt-1">
                     {{ product.configs.length === 1 ? product.configs[0].size : $t('cookware.sizes', { count: product.configs.length }) }}
@@ -171,11 +171,16 @@
 <script setup lang="ts">
 import products from '~/data/cookware.json'
 
-const { t } = useI18n()
+const { t, te } = useI18n()
 useHead(() => ({
   title: t('cookware.metaTitle'),
   meta: [{ name: 'description', content: t('cookware.metaDescription') }],
 }))
+
+const slugKey = (v: string) => v.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/(^_|_$)/g, '')
+const tType = (v: string) => (te(`productType.${slugKey(v)}`) ? t(`productType.${slugKey(v)}`) : v)
+// Display name: collection stays Latin, type word is translated.
+const displayName = (p: typeof products[number]) => (p.collection ? `${p.section} ${tType(p.type)}` : tType(p.type))
 
 const SPECIALTY = 'Specialty & Grills'
 const activeCollection = ref('All')

@@ -10,7 +10,7 @@
           &larr; {{ $t('cookware.detail.catalog') }}
         </NuxtLinkLocale>
         <p class="text-accent-600 font-semibold text-sm uppercase tracking-widest mb-2">{{ $t('cookware.detail.collectionEyebrow', { name: product.section }) }}</p>
-        <h1 class="text-4xl md:text-5xl font-display font-bold text-steel-900">{{ product.name }}</h1>
+        <h1 class="text-4xl md:text-5xl font-display font-bold text-steel-900">{{ displayName(product) }}</h1>
       </div>
     </section>
 
@@ -24,7 +24,7 @@
               <img
                 v-if="activeImage"
                 :src="activeImage"
-                :alt="product.name"
+                :alt="displayName(product)"
                 class="max-h-full max-w-full object-contain"
               />
               <span v-else class="text-steel-300 text-sm">{{ $t('common.noImage') }}</span>
@@ -37,7 +37,7 @@
                 :class="activeImage === img.full ? 'border-accent-500' : 'border-steel-200 hover:border-accent-300'"
                 @click="activeImage = img.full"
               >
-                <img :src="img.thumb" :alt="`${product.name} ${i + 1}`" class="max-h-full max-w-full object-contain" />
+                <img :src="img.thumb" :alt="`${displayName(product)} ${i + 1}`" class="max-h-full max-w-full object-contain" />
               </button>
             </div>
           </div>
@@ -46,13 +46,13 @@
           <div class="flex flex-col">
             <div class="flex flex-wrap gap-2">
               <span class="text-accent-700 bg-accent-50 font-semibold text-xs uppercase tracking-widest px-3 py-1 rounded">
-                {{ product.type }}
+                {{ tType(product.type) }}
               </span>
               <span class="text-steel-500 bg-steel-100 font-mono text-xs px-3 py-1 rounded">
                 {{ activeConfig.artNo }}
               </span>
             </div>
-            <h2 class="text-3xl font-display font-bold text-steel-900 mt-4">{{ product.name }}</h2>
+            <h2 class="text-3xl font-display font-bold text-steel-900 mt-4">{{ displayName(product) }}</h2>
 
             <!-- Size / config selector -->
             <div v-if="product.configs.length > 1" class="mt-6">
@@ -77,8 +77,8 @@
             <!-- Specs table (reflects the selected size) -->
             <dl class="mt-6 divide-y divide-steel-100 border-y border-steel-100">
               <div v-for="(spec, i) in activeSpecs" :key="i" class="flex gap-4 py-2.5 text-sm">
-                <dt class="w-40 shrink-0 text-steel-400">{{ spec.split(':')[0] }}</dt>
-                <dd class="text-steel-700">{{ spec.split(':').slice(1).join(':').trim() }}</dd>
+                <dt class="w-40 shrink-0 text-steel-400">{{ $t(`spec.${spec.label}`) }}</dt>
+                <dd class="text-steel-700">{{ spec.value }}</dd>
               </div>
             </dl>
 
@@ -115,12 +115,12 @@
               class="group flex flex-col bg-white border border-steel-200 rounded-lg overflow-hidden hover:border-accent-400 hover:shadow-lg transition-all"
             >
               <div class="bg-steel-50 aspect-square flex items-center justify-center p-3">
-                <img v-if="rel.image" :src="rel.image" :alt="rel.name" loading="lazy" class="max-h-full max-w-full object-contain" />
+                <img v-if="rel.image" :src="rel.image" :alt="displayName(rel)" loading="lazy" class="max-h-full max-w-full object-contain" />
                 <span v-else class="text-steel-300 text-xs">{{ $t('common.noImage') }}</span>
               </div>
               <div class="p-3 border-t border-steel-100">
-                <span class="text-accent-600 text-[10px] font-semibold uppercase tracking-widest">{{ rel.type }}</span>
-                <h3 class="text-sm text-steel-800 group-hover:text-accent-600 transition-colors truncate">{{ rel.name }}</h3>
+                <span class="text-accent-600 text-[10px] font-semibold uppercase tracking-widest">{{ tType(rel.type) }}</span>
+                <h3 class="text-sm text-steel-800 group-hover:text-accent-600 transition-colors truncate">{{ displayName(rel) }}</h3>
               </div>
             </NuxtLinkLocale>
           </div>
@@ -148,9 +148,14 @@
 <script setup lang="ts">
 import products from '~/data/cookware.json'
 
-const { t } = useI18n()
+const { t, te } = useI18n()
 const route = useRoute()
 const product = products.find(p => p.id === route.params.id)
+
+const slugKey = (v: string) => v.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/(^_|_$)/g, '')
+const tType = (v: string) => (te(`productType.${slugKey(v)}`) ? t(`productType.${slugKey(v)}`) : v)
+// Display name: collection stays Latin, type word is translated.
+const displayName = (p: typeof products[number]) => (p.collection ? `${p.section} ${tType(p.type)}` : tType(p.type))
 
 const activeImage = ref(product?.full || null)
 const activeConfig = ref(product?.configs[0])
@@ -161,7 +166,7 @@ async function share() {
   const url = window.location.href
   try {
     if (navigator.share) {
-      await navigator.share({ title: `${product.name} — TanDem`, url })
+      await navigator.share({ title: `${displayName(product)} — TanDem`, url })
     } else {
       await navigator.clipboard.writeText(url)
       shareLabel.value = t('common.linkCopied')
@@ -182,7 +187,7 @@ const related = computed(() =>
 
 useHead(() => ({
   title: product
-    ? t('cookware.detail.metaTitle', { name: product.name })
+    ? t('cookware.detail.metaTitle', { name: displayName(product) })
     : t('cookware.detail.metaNotFound'),
 }))
 </script>

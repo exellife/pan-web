@@ -129,17 +129,17 @@ def config_specs(size, wall, bottom, art):
     out = []
     nums = re.findall(r"[\d.]+", size or "")
     if len(nums) >= 3:  # rectangular L×W×H (roasters, grill trays, fish/oval pans)
-        out.append(f"Dimensions: {nums[0]} × {nums[1]} × {nums[2]} cm (L×W×H)")
+        out.append({"label": "dimensions", "value": f"{nums[0]} × {nums[1]} × {nums[2]} cm"})
     elif len(nums) == 2:  # round Ø diameter × height
-        out.append(f"Diameter: {nums[0]} cm, height: {nums[1]} cm")
+        out.append({"label": "diameter", "value": f"{nums[0]} cm"})
+        out.append({"label": "height", "value": f"{nums[1]} cm"})
     elif size:
-        out.append(f"Size: {size}")
+        out.append({"label": "size", "value": size})
     if wall:
-        out.append(f"Wall thickness: {wall} mm")
+        out.append({"label": "wallThickness", "value": f"{wall} mm"})
     if bottom:
-        out.append(f"Bottom thickness: {bottom} mm")
-    out.append(f"Article No: {art}")
-    return out
+        out.append({"label": "bottomThickness", "value": f"{bottom} mm"})
+    return out  # Collection/Type/Article No are shown as badges, not spec rows
 
 
 groups, gorder = {}, []
@@ -192,7 +192,7 @@ for gkey in gorder:
         "image": images[0]["thumb"] if images else None,
         "full": images[0]["full"] if images else None,
         "images": images,
-        "commonSpecs": [f"Collection: {g['collection_label']}", f"Type: {type_disp}"],
+        "commonSpecs": [],
         "configs": g["configs"],
     })
 
@@ -220,20 +220,20 @@ for p in rd_raw:
     if stem:
         t, f = copy_img(f"effects/web/thumb/{stem}.webp", "radiators")
         images.append({"thumb": t, "full": f})
-    specs = [f"Model: {model}", f"Category: {title(cat)}"]
+    specs = []  # Model + Category are shown as badges, not spec rows
     for k, label, unit in [
-        ("dimension_LWH_mm", "Dimensions (L×W×H)", "mm"),
-        ("central_distance_mm", "Central distance", "mm"),
-        ("thermal_output_w", "Thermal output", "W"),
-        ("weight_kg", "Weight", "kg"),
-        ("water_capacity_L", "Water capacity", "L"),
-        ("working_pressure_mpa", "Working pressure", "MPa"),
-        ("wall_thickness_mm", "Wall thickness", "mm"),
-        ("connecting_size", "Connecting size", ""),
+        ("dimension_LWH_mm", "dimensions", "mm"),
+        ("central_distance_mm", "centralDistance", "mm"),
+        ("thermal_output_w", "thermalOutput", "W"),
+        ("weight_kg", "weight", "kg"),
+        ("water_capacity_L", "waterCapacity", "L"),
+        ("working_pressure_mpa", "workingPressure", "MPa"),
+        ("wall_thickness_mm", "wallThickness", "mm"),
+        ("connecting_size", "connectingSize", ""),
     ]:
         v = p.get(k)
         if v not in ("", None):
-            specs.append(f"{label}: {v} {unit}".strip())
+            specs.append({"label": label, "value": f"{v} {unit}".strip()})
     radiators.append({
         "id": pid, "name": name, "category": cat, "model": model,
         "image": images[0]["thumb"] if images else None,
