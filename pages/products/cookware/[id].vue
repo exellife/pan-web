@@ -3,11 +3,11 @@
     <!-- Page Header -->
     <section class="bg-steel-50 py-16 lg:py-24 border-b border-steel-200">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
-        <NuxtLinkLocale to="/products" class="absolute -bottom-10 lg:-bottom-16 right-4 sm:right-6 lg:right-8 text-accent-600 hover:text-accent-700 text-sm font-medium uppercase tracking-wide">
-          &larr; {{ $t('common.allProducts') }}
-        </NuxtLinkLocale>
-        <NuxtLinkLocale to="/products/cookware" class="text-accent-600 hover:text-accent-700 text-sm font-medium uppercase tracking-wide mb-4 inline-block">
+        <NuxtLinkLocale to="/products/cookware" class="absolute -bottom-10 lg:-bottom-16 right-4 sm:right-6 lg:right-8 text-accent-600 hover:text-accent-700 text-sm font-medium uppercase tracking-wide">
           &larr; {{ $t('cookware.detail.catalog') }}
+        </NuxtLinkLocale>
+        <NuxtLinkLocale to="/products" class="text-accent-600 hover:text-accent-700 text-sm font-medium uppercase tracking-wide mb-4 inline-block">
+          &larr; {{ $t('common.allProducts') }}
         </NuxtLinkLocale>
         <p class="text-accent-600 font-semibold text-sm uppercase tracking-widest mb-2">{{ $t('cookware.detail.collectionEyebrow', { name: product.section }) }}</p>
         <h1 class="text-4xl md:text-5xl font-display font-bold text-steel-900">{{ displayName(product) }}</h1>
