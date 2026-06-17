@@ -20,12 +20,12 @@
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
           <!-- Image + gallery -->
           <div>
-            <div class="bg-steel-50 border border-steel-200 rounded-lg aspect-square flex items-center justify-center p-8">
+            <div class="border border-steel-200 rounded-lg aspect-square flex items-center justify-center p-8 bg-[radial-gradient(circle_at_50%_38%,#ffffff,#eceae7_70%,#e2dfdb)]">
               <img
                 v-if="activeImage"
                 :src="activeImage"
                 :alt="displayName(product)"
-                class="max-h-full max-w-full object-contain"
+                class="max-h-full max-w-full object-contain drop-shadow-lg"
               />
               <span v-else class="text-steel-300 text-sm">{{ $t('common.noImage') }}</span>
             </div>
@@ -114,8 +114,8 @@
               :to="`/products/cookware/${rel.id}`"
               class="group flex flex-col bg-white border border-steel-200 rounded-lg overflow-hidden hover:border-accent-400 hover:shadow-lg transition-all"
             >
-              <div class="bg-steel-50 aspect-square flex items-center justify-center p-3">
-                <img v-if="rel.image" :src="rel.image" :alt="displayName(rel)" loading="lazy" class="max-h-full max-w-full object-contain" />
+              <div class="aspect-square flex items-center justify-center p-3 bg-[radial-gradient(circle_at_50%_38%,#ffffff,#eceae7_70%,#e2dfdb)]">
+                <img v-if="rel.image" :src="rel.image" :alt="displayName(rel)" loading="lazy" class="max-h-full max-w-full object-contain drop-shadow-lg transition-transform duration-300 group-hover:scale-105" />
                 <span v-else class="text-steel-300 text-xs">{{ $t('common.noImage') }}</span>
               </div>
               <div class="p-3 border-t border-steel-100">

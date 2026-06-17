@@ -19,12 +19,12 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
           <!-- Image -->
-          <div class="bg-steel-50 border border-steel-200 rounded-lg h-80 lg:h-[28rem] flex items-center justify-center p-8">
+          <div class="border border-steel-200 rounded-lg h-80 lg:h-[28rem] flex items-center justify-center p-8 bg-[radial-gradient(circle_at_50%_38%,#ffffff,#eceae7_70%,#e2dfdb)]">
             <img
               v-if="product.full"
               :src="product.full"
               :alt="product.name"
-              class="max-h-full max-w-full object-contain"
+              class="max-h-full max-w-full object-contain drop-shadow-lg"
             />
             <span v-else class="text-steel-300 text-sm">{{ $t('common.noImage') }}</span>
           </div>
@@ -81,8 +81,8 @@
               :to="`/products/radiators/${rel.id}`"
               class="group flex flex-col bg-white border border-steel-200 rounded-lg overflow-hidden hover:border-accent-400 hover:shadow-lg transition-all"
             >
-              <div class="bg-steel-50 aspect-square flex items-center justify-center p-3">
-                <img v-if="rel.image" :src="rel.image" :alt="rel.name" loading="lazy" class="max-h-full max-w-full object-contain" />
+              <div class="aspect-square flex items-center justify-center p-3 bg-[radial-gradient(circle_at_50%_38%,#ffffff,#eceae7_70%,#e2dfdb)]">
+                <img v-if="rel.image" :src="rel.image" :alt="rel.name" loading="lazy" class="max-h-full max-w-full object-contain drop-shadow-lg transition-transform duration-300 group-hover:scale-105" />
                 <span v-else class="text-steel-300 text-xs">{{ $t('common.noImage') }}</span>
               </div>
               <div class="p-3 border-t border-steel-100">
