@@ -8,30 +8,32 @@
       <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="max-w-3xl">
           <p class="text-accent-600 font-semibold text-sm uppercase tracking-widest mb-4">
-            Established 2017 · Part of the TMAI Group
+            {{ $t('home.hero.eyebrow') }}
           </p>
-          <h1 class="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-steel-900 leading-tight">
-            Precision
-            <span class="text-accent-600">Metalworking</span>
-            & Manufacturing
-          </h1>
+          <i18n-t
+            keypath="home.hero.title"
+            tag="h1"
+            class="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-steel-900 leading-tight"
+          >
+            <template #w1><span class="text-accent-600">{{ $t('home.hero.word1') }}</span></template>
+            <template #w2><span class="text-accent-600">{{ $t('home.hero.word2') }}</span></template>
+          </i18n-t>
           <p class="mt-6 text-lg md:text-xl text-steel-600 leading-relaxed">
-            From premium cookware to central-heating radiators and boilers — we engineer
-            and manufacture metal products for distributors, retailers, and consumers.
+            {{ $t('home.hero.lead') }}
           </p>
           <div class="mt-8 flex flex-col sm:flex-row gap-4">
-            <NuxtLink
+            <NuxtLinkLocale
               to="/products"
               class="inline-block bg-accent-600 text-white px-8 py-3 rounded font-semibold hover:bg-accent-700 transition-colors text-center"
             >
-              Explore Our Products
-            </NuxtLink>
-            <NuxtLink
+              {{ $t('home.hero.ctaExplore') }}
+            </NuxtLinkLocale>
+            <NuxtLinkLocale
               to="/contact"
               class="inline-block border-2 border-steel-300 text-steel-700 px-8 py-3 rounded font-semibold hover:border-accent-500 hover:text-accent-600 transition-colors text-center"
             >
-              Request a Quote
-            </NuxtLink>
+              {{ $t('home.hero.ctaQuote') }}
+            </NuxtLinkLocale>
           </div>
         </div>
       </div>
@@ -41,9 +43,9 @@
     <section class="bg-white border-y border-steel-200">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-          <div v-for="stat in stats" :key="stat.label">
+          <div v-for="stat in stats" :key="stat.key">
             <div class="text-3xl md:text-4xl font-bold text-accent-600">{{ stat.value }}</div>
-            <div class="text-steel-500 text-sm mt-1 uppercase tracking-wide">{{ stat.label }}</div>
+            <div class="text-steel-500 text-sm mt-1 uppercase tracking-wide">{{ $t(`home.stats.${stat.key}`) }}</div>
           </div>
         </div>
       </div>
@@ -53,27 +55,26 @@
     <section class="bg-white py-16 lg:py-24">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12">
-          <p class="text-accent-600 font-semibold text-sm uppercase tracking-widest mb-2">What We Do</p>
+          <p class="text-accent-600 font-semibold text-sm uppercase tracking-widest mb-2">{{ $t('home.capabilities.eyebrow') }}</p>
           <h2 class="text-3xl md:text-4xl font-display font-bold text-steel-900">
-            Manufacturing Capabilities
+            {{ $t('home.capabilities.heading') }}
           </h2>
           <p class="mt-4 text-lg text-steel-500 max-w-2xl mx-auto">
-            Our facility combines advanced machinery with skilled craftsmanship
-            to produce metal products that meet the highest industry standards.
+            {{ $t('home.capabilities.lead') }}
           </p>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div
             v-for="capability in capabilities"
-            :key="capability.title"
+            :key="capability.key"
             class="p-8 rounded-lg bg-steel-50 border border-steel-200 hover:border-accent-400 transition-colors"
           >
             <div class="w-12 h-12 bg-accent-100 rounded-lg flex items-center justify-center mb-4">
               <span class="text-accent-600 text-xl font-bold">{{ capability.icon }}</span>
             </div>
-            <h3 class="text-xl font-semibold text-steel-900 mb-2">{{ capability.title }}</h3>
-            <p class="text-steel-500 leading-relaxed">{{ capability.description }}</p>
+            <h3 class="text-xl font-semibold text-steel-900 mb-2">{{ $t(`home.capabilities.${capability.key}.title`) }}</h3>
+            <p class="text-steel-500 leading-relaxed">{{ $t(`home.capabilities.${capability.key}.desc`) }}</p>
           </div>
         </div>
       </div>
@@ -83,32 +84,32 @@
     <section class="bg-steel-50 py-16 lg:py-24 border-y border-steel-200">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12">
-          <p class="text-accent-600 font-semibold text-sm uppercase tracking-widest mb-2">Our Divisions</p>
+          <p class="text-accent-600 font-semibold text-sm uppercase tracking-widest mb-2">{{ $t('home.divisions.eyebrow') }}</p>
           <h2 class="text-3xl md:text-4xl font-display font-bold text-steel-900">
-            Two Product Lines, One Standard of Excellence
+            {{ $t('home.divisions.heading') }}
           </h2>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <NuxtLink
+          <NuxtLinkLocale
             v-for="division in divisions"
-            :key="division.title"
+            :key="division.key"
             :to="division.to"
             class="group flex flex-col bg-white border border-steel-200 rounded-lg overflow-hidden hover:border-accent-400 transition-colors"
           >
             <div class="h-48 flex items-center justify-center p-6 bg-[radial-gradient(circle_at_50%_38%,#ffffff,#eceae7_70%,#e2dfdb)]">
-              <img :src="division.image" :alt="division.title" loading="lazy" class="max-h-full max-w-full object-contain drop-shadow-lg transition-transform duration-300 group-hover:scale-105" />
+              <img :src="division.image" :alt="$t(`home.divisions.${division.key}.title`)" loading="lazy" class="max-h-full max-w-full object-contain drop-shadow-lg transition-transform duration-300 group-hover:scale-105" />
             </div>
             <div class="p-8 flex flex-col flex-1">
               <h3 class="text-2xl font-display font-bold text-steel-900 mb-3 group-hover:text-accent-600 transition-colors">
-                {{ division.title }}
+                {{ $t(`home.divisions.${division.key}.title`) }}
               </h3>
-              <p class="text-steel-500 leading-relaxed mb-4">{{ division.description }}</p>
+              <p class="text-steel-500 leading-relaxed mb-4">{{ $t(`home.divisions.${division.key}.desc`) }}</p>
               <span class="mt-auto self-end text-accent-600 font-semibold text-sm uppercase tracking-wide">
-                View Products &rarr;
+                {{ $t('home.divisions.viewProducts') }} &rarr;
               </span>
             </div>
-          </NuxtLink>
+          </NuxtLinkLocale>
         </div>
       </div>
     </section>
@@ -117,23 +118,23 @@
     <section class="bg-white py-16 lg:py-24">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12">
-          <p class="text-accent-600 font-semibold text-sm uppercase tracking-widest mb-2">Our Process</p>
+          <p class="text-accent-600 font-semibold text-sm uppercase tracking-widest mb-2">{{ $t('home.process.eyebrow') }}</p>
           <h2 class="text-3xl md:text-4xl font-display font-bold text-steel-900">
-            From Raw Material to Finished Product
+            {{ $t('home.process.heading') }}
           </h2>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
           <div
             v-for="(step, index) in processSteps"
-            :key="step.title"
+            :key="step.key"
             class="text-center"
           >
             <div class="w-14 h-14 bg-accent-600 rounded-full flex items-center justify-center mx-auto mb-4">
               <span class="text-white text-xl font-bold">{{ index + 1 }}</span>
             </div>
-            <h3 class="text-lg font-semibold text-steel-900 mb-2">{{ step.title }}</h3>
-            <p class="text-steel-500 text-sm leading-relaxed">{{ step.description }}</p>
+            <h3 class="text-lg font-semibold text-steel-900 mb-2">{{ $t(`home.process.${step.key}.title`) }}</h3>
+            <p class="text-steel-500 text-sm leading-relaxed">{{ $t(`home.process.${step.key}.desc`) }}</p>
           </div>
         </div>
       </div>
@@ -143,25 +144,24 @@
     <section class="bg-steel-50 py-16 border-t border-steel-200">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 class="text-3xl md:text-4xl font-display font-bold text-steel-900 mb-4">
-          Partner With Us
+          {{ $t('home.cta.heading') }}
         </h2>
         <p class="text-steel-500 text-lg mb-8 max-w-2xl mx-auto">
-          Whether you're a distributor looking for reliable supply, a retailer seeking quality products,
-          or a business with custom manufacturing needs — we'd like to hear from you.
+          {{ $t('home.cta.lead') }}
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <NuxtLink
+          <NuxtLinkLocale
             to="/contact"
             class="inline-block bg-accent-600 text-white px-8 py-3 rounded font-semibold hover:bg-accent-700 transition-colors"
           >
-            Get in Touch
-          </NuxtLink>
-          <NuxtLink
+            {{ $t('home.cta.getInTouch') }}
+          </NuxtLinkLocale>
+          <NuxtLinkLocale
             to="/about"
             class="inline-block border-2 border-steel-300 text-steel-700 px-8 py-3 rounded font-semibold hover:border-accent-500 hover:text-accent-600 transition-colors"
           >
-            Learn About Us
-          </NuxtLink>
+            {{ $t('home.cta.learnAbout') }}
+          </NuxtLinkLocale>
         </div>
       </div>
     </section>
@@ -169,66 +169,33 @@
 </template>
 
 <script setup lang="ts">
-useHead({
-  title: 'TanDem - Precision Metalworking & Manufacturing',
-})
+const { t } = useI18n()
+useHead(() => ({ title: t('home.metaTitle') }))
+
+const yearsOnMarket = new Date().getFullYear() - 2017
 
 const stats = [
-  { value: '2017', label: 'Established' },
-  { value: '2', label: 'Product Divisions' },
-  { value: 'TMAI', label: 'Group Member' },
-  { value: 'ISO 9001', label: 'Certified' },
+  { value: `${yearsOnMarket}+`, key: 'years' },
+  { value: '2', key: 'divisions' },
+  { value: 'TMAI', key: 'group' },
+  { value: 'ISO 9001', key: 'certified' },
 ]
 
 const capabilities = [
-  {
-    icon: '01',
-    title: 'Metal Forging & Casting',
-    description: 'Advanced forging and casting techniques for aluminum, stainless steel, cast iron, and low-carbon steel — delivering structural integrity across product lines.',
-  },
-  {
-    icon: '02',
-    title: 'Surface Treatment & Coating',
-    description: 'Precision coating application — from PFOA-free non-stick for cookware to powder coating and electroplating for radiators and industrial products.',
-  },
-  {
-    icon: '03',
-    title: 'Custom & OEM Production',
-    description: 'We manufacture under your brand or ours. Full customization of materials, finishes, dimensions, and packaging for both product divisions.',
-  },
+  { icon: '01', key: 'casting' },
+  { icon: '02', key: 'coating' },
+  { icon: '03', key: 'oem' },
 ]
 
 const divisions = [
-  {
-    title: 'Cookware',
-    description: 'A wide range of fry pans, sauce pans, casseroles, woks and grills across 30+ collections — in forged aluminum, die-cast, and stone-coated finishes, each offered in multiple sizes.',
-    to: '/products/cookware',
-    image: '/images/products/cookware/thumb/p02_25.webp',
-  },
-  {
-    title: 'Heating Radiators',
-    description: 'High-efficiency aluminum, bimetal, and towel radiators with EN-rated heat output for residential and commercial applications.',
-    to: '/products/radiators',
-    image: '/images/products/radiators/full/p04_q4.webp',
-  },
+  { key: 'cookware', to: '/products/cookware', image: '/images/products/cookware/thumb/p02_25.webp' },
+  { key: 'radiators', to: '/products/radiators', image: '/images/products/radiators/full/p04_q4.webp' },
 ]
 
 const processSteps = [
-  {
-    title: 'Material Selection',
-    description: 'Premium metals sourced from certified suppliers — aluminum, stainless steel, cast iron, and low-carbon steel.',
-  },
-  {
-    title: 'Forming & Shaping',
-    description: 'Precision stamping, forging, and welding on our automated production lines.',
-  },
-  {
-    title: 'Finishing & Assembly',
-    description: 'Surface treatment, coating application, component assembly, and quality finishing.',
-  },
-  {
-    title: 'Quality Control',
-    description: 'Every unit inspected and tested before packaging and shipment.',
-  },
+  { key: 'material' },
+  { key: 'forming' },
+  { key: 'finishing' },
+  { key: 'qc' },
 ]
 </script>

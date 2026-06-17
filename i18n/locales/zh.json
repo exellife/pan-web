@@ -1,0 +1,237 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于我们",
+    "products": "产品",
+    "contact": "联系我们",
+    "getQuote": "获取报价"
+  },
+  "footer": {
+    "tagline": "优质厨具与中央供暖产品，服务于中亚、俄罗斯及欧洲客户。",
+    "navHeading": "导航",
+    "contactHeading": "工厂与办公室",
+    "addressLine1": "比什凯克自由经济区 1/55",
+    "addressLine2": "吉尔吉斯斯坦，比什凯克",
+    "rights": "版权所有。",
+    "links": {
+      "home": "首页",
+      "about": "关于我们",
+      "products": "产品系列",
+      "contact": "联系与询价"
+    }
+  },
+  "language": "语言",
+  "common": {
+    "allProducts": "所有产品",
+    "viewDetails": "查看详情",
+    "noImage": "暂无图片",
+    "requestQuote": "索取报价",
+    "share": "分享",
+    "linkCopied": "链接已复制！",
+    "all": "全部"
+  },
+  "cookware": {
+    "metaTitle": "厨具 - TanDem",
+    "metaDescription": "浏览 TanDem 厨具目录：涵盖 30 多个系列的煎锅、奶锅、炖锅、炒锅、烧烤盘与烤盘，每款均提供多种尺寸。可提供 OEM。",
+    "eyebrow": "厨具部门",
+    "title": "厨具目录",
+    "subtitle": "{count} 款产品，涵盖 {collections} 个系列——按系列浏览，再按类型筛选。每款产品均提供多种尺寸。",
+    "collectionsHeading": "系列",
+    "allCollections": "全部系列",
+    "showing": "显示 {total} 款产品中的 {shown} 款",
+    "noMatch": "没有符合该组合的产品。",
+    "resetType": "重置类型筛选",
+    "sizes": "{count} 种尺寸",
+    "customHeading": "需要定制厨具制造吗？",
+    "customLead": "我们提供 OEM 与贴牌生产。您可自选材料、涂层、手柄设计与包装。需满足最低起订量。",
+    "customButton": "洽谈您的需求",
+    "detail": {
+      "collectionEyebrow": "{name} 系列",
+      "catalog": "厨具目录",
+      "size": "尺寸",
+      "options": "{count} 种可选",
+      "moreFrom": "更多 {name} 系列产品",
+      "notFoundTitle": "未找到产品",
+      "notFoundText": "您查找的厨具产品不存在。请检查网址或浏览目录。",
+      "metaTitle": "{name} - 厨具 - TanDem",
+      "metaNotFound": "未找到产品 - TanDem"
+    }
+  },
+  "home": {
+    "metaTitle": "TanDem - 优质厨具与供暖产品",
+    "hero": {
+      "eyebrow": "成立于 2017 年 · TMAI 集团成员",
+      "title": "优质{w1}与{w2}产品",
+      "word1": "厨具",
+      "word2": "供暖",
+      "lead": "从优质厨具到中央供暖散热器与锅炉——我们为经销商、零售商和消费者设计并制造金属制品。",
+      "ctaExplore": "浏览我们的产品",
+      "ctaQuote": "索取报价"
+    },
+    "stats": {
+      "years": "年市场经验",
+      "divisions": "产品部门",
+      "group": "集团成员",
+      "certified": "认证"
+    },
+    "capabilities": {
+      "eyebrow": "我们的业务",
+      "heading": "制造能力",
+      "lead": "我们将先进的设备与精湛的工艺相结合，按照国际质量标准生产厨具与供暖产品。",
+      "casting": {
+        "title": "铸造与成型",
+        "desc": "通过压铸、锻造和冲压铝材，打造轻盈耐用、导热均匀的产品本体。"
+      },
+      "coating": {
+        "title": "表面处理与涂层",
+        "desc": "从厨具的无 PFOA 不粘涂层与石头涂层，到散热器的耐用粉末喷涂——每一道表面处理都严格按标准施工。"
+      },
+      "oem": {
+        "title": "定制与 OEM 生产",
+        "desc": "以您的品牌或我们的品牌生产——对材料、表面处理、尺寸与包装拥有完全的掌控。"
+      }
+    },
+    "divisions": {
+      "eyebrow": "我们的部门",
+      "heading": "两大产品线，同一品质标准",
+      "viewProducts": "查看产品",
+      "cookware": {
+        "title": "厨具",
+        "desc": "涵盖 30 多个系列的煎锅、奶锅、炖锅、炒锅与烤盘——采用锻造铝、压铸及石头涂层工艺，每款均提供多种尺寸。"
+      },
+      "radiators": {
+        "title": "供暖散热器",
+        "desc": "铝制与双金属板式散热器，以及毛巾架散热器——具备符合 EN 标准的散热量，适用于家居与商业空间。"
+      }
+    },
+    "process": {
+      "eyebrow": "我们的流程",
+      "heading": "从原材料到成品",
+      "material": {
+        "title": "材料选择",
+        "desc": "优质铝材与双金属，采购自经认证的供应商。"
+      },
+      "forming": {
+        "title": "成型与造型",
+        "desc": "在我们的生产线上进行精密压铸、冲压与成型。"
+      },
+      "finishing": {
+        "title": "表面处理与组装",
+        "desc": "涂层与表面处理，随后组装手柄、锅盖、阀门与配件。"
+      },
+      "qc": {
+        "title": "质量控制",
+        "desc": "每件产品在包装与发运前均按 ISO 9001 标准检验与测试。"
+      }
+    },
+    "cta": {
+      "heading": "与我们合作",
+      "lead": "无论您是寻求稳定供货的经销商、寻找优质产品的零售商，还是有定制制造需求的企业——我们都期待与您联系。",
+      "getInTouch": "联系我们",
+      "learnAbout": "了解我们"
+    }
+  },
+  "about": {
+    "metaTitle": "关于我们 - TanDem",
+    "metaDescription": "TanDem——成立于 2017 年，位于吉尔吉斯斯坦的优质厨具与中央供暖散热器及锅炉制造商，按国际认证标准生产。TMAI 集团成员。",
+    "eyebrow": "关于我们",
+    "title": "厨具与供暖，经久耐用",
+    "subtitle": "优质厨具与供暖产品，服务于中亚、俄罗斯及欧洲客户。",
+    "story": {
+      "heading": "我们是谁",
+      "p1": "TanDem LLC 成立于 2017 年，是一家金属加工制造商，隶属于国际化的 TMAI 集团。我们生产两大核心产品线——优质厨具与中央供暖散热器及锅炉——服务于经销商、零售商和消费者。",
+      "p2": "我们的生产基地位于吉尔吉斯斯坦的“比什凯克”自由经济区——这一理想的门户位置使我们能够向中亚、俄罗斯及欧洲的合作伙伴发货。",
+      "p3": "依托集团在金属锻造、铸造与表面处理方面的专长，我们将先进设备与精湛工艺相结合，按国际认证标准生产——可使用我们的品牌或您的品牌，提供全面的 OEM 与定制生产。",
+      "factoryAlt": "TanDem 位于比什凯克的生产基地"
+    },
+    "chips": {
+      "established": "成立于 2017 年",
+      "fez": "“比什凯克”自由经济区",
+      "iso": "ISO 9001 认证",
+      "oem": "OEM / 贴牌"
+    },
+    "certs": {
+      "eyebrow": "标准",
+      "heading": "认证与合规",
+      "intro": "我们的产品按 TMAI 集团所持有的国际公认标准生产——并经独立审核与检测。点击任意证书可查看大图。",
+      "view": "查看证书",
+      "items": {
+        "iso9001": { "name": "ISO 9001:2015", "desc": "质量管理体系" },
+        "ohsas": { "name": "OHSAS 18001:2007", "desc": "职业健康与安全管理" },
+        "amfori": { "name": "amfori BSCI", "desc": "社会责任合规审核" },
+        "tuvFood": { "name": "TÜV Rheinland", "desc": "食品接触安全检测（LFGB）" },
+        "tuvFitness": { "name": "TÜV Rheinland", "desc": "厨具适用性检测（DIN 44904）" },
+        "testReport": { "name": "产品检测报告", "desc": "独立消费品检测" }
+      }
+    },
+    "values": {
+      "eyebrow": "我们的原则",
+      "heading": "我们的追求",
+      "quality": {
+        "title": "品质决不妥协",
+        "desc": "每件产品都经过严格的多点检验。在出厂之前，我们会对结构强度、表面处理、尺寸精度与性能进行测试。"
+      },
+      "certified": {
+        "title": "认证齐全，值得信赖",
+        "desc": "经独立审核与检测——ISO 9001、OHSAS 18001、amfori BSCI 与 TÜV Rheinland——让合作伙伴放心采购。"
+      },
+      "flexible": {
+        "title": "灵活的制造",
+        "desc": "从单一系列到完整的 OEM 与贴牌生产，我们根据每位合作伙伴的需求调整材料、表面处理与包装。"
+      }
+    }
+  },
+  "radiators": {
+    "metaTitle": "供暖散热器 - TanDem",
+    "metaDescription": "探索 TanDem 供暖散热器目录：铝制、双金属与毛巾架散热器，散热量符合 EN 标准。可提供 OEM 与定制制造。",
+    "eyebrow": "供暖部门",
+    "title": "散热器目录",
+    "subtitle": "高效的铝制与双金属供暖散热器，专为出色的散热量、耐用性与现代外观而设计。",
+    "customHeading": "需要定制散热器制造吗？",
+    "customLead": "我们提供 OEM 与贴牌生产。可定制尺寸、散热量、表面处理与配置。需满足最低起订量。",
+    "customButton": "洽谈您的需求",
+    "detail": {
+      "division": "供暖部门",
+      "catalog": "散热器目录",
+      "moreCategory": "更多{category}散热器",
+      "notFoundTitle": "未找到产品",
+      "notFoundText": "您查找的散热器产品不存在。请检查网址或浏览目录。",
+      "metaTitle": "{name} - 散热器 - TanDem",
+      "metaNotFound": "未找到产品 - TanDem"
+    }
+  },
+  "products": {
+    "metaTitle": "产品 - TanDem",
+    "metaDescription": "探索 TanDem 的产品部门——优质厨具与中央供暖散热器，并提供全面的 OEM 与定制制造。",
+    "eyebrow": "产品部门",
+    "title": "我们的产品系列",
+    "subtitle": "两大部门，同一根基——精密铝铸造、专业表面涂层与严格的质量控制。",
+    "divisions": {
+      "viewLines": "查看产品系列",
+      "cookware": {
+        "title": "厨具",
+        "desc": "涵盖 30 多个系列的煎锅、奶锅、炖锅、炒锅、烧烤盘与烤盘——采用锻造铝、压铸及石头涂层工艺，每款均提供多种尺寸。",
+        "lines": [
+          "锻造与冲压铝系列",
+          "压铸与花岗岩石头涂层系列",
+          "Classic、Diamond 与 Nature 系列",
+          "烧烤、烤盘与多功能系列"
+        ]
+      },
+      "radiators": {
+        "title": "供暖散热器",
+        "desc": "符合 EN 标准的散热量、耐用的粉末喷涂表面与简洁现代的外观——为家居与商业空间提供可靠供暖。",
+        "lines": [
+          "铝制散热器",
+          "双金属散热器",
+          "毛巾架散热器"
+        ]
+      }
+    },
+    "custom": {
+      "heading": "需要定制制造吗？",
+      "lead": "我们的两大产品部门均提供 OEM 与贴牌生产。您可自选材料、表面处理、尺寸与包装。需满足最低起订量。",
+      "button": "洽谈您的需求"
+    }
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "contact": "Contact",
+    "getQuote": "Get a Quote"
+  },
+  "footer": {
+    "tagline": "Quality cookware and central-heating products, serving clients across Central Asia, Russia, and Europe.",
+    "navHeading": "Navigation",
+    "contactHeading": "Factory & Office",
+    "addressLine1": "1/55, Free Economic Zone “Bishkek”",
+    "addressLine2": "Bishkek, Kyrgyzstan",
+    "rights": "All rights reserved.",
+    "links": {
+      "home": "Home",
+      "about": "About Us",
+      "products": "Product Lines",
+      "contact": "Contact & Inquiries"
+    }
+  },
+  "language": "Language",
+  "common": {
+    "allProducts": "All Products",
+    "viewDetails": "View Details",
+    "noImage": "No image",
+    "requestQuote": "Request Quote",
+    "share": "Share",
+    "linkCopied": "Link copied!",
+    "all": "All"
+  },
+  "cookware": {
+    "metaTitle": "Cookware - TanDem Manufacturing",
+    "metaDescription": "Browse TanDem's cookware catalog: fry pans, sauce pans, casseroles, woks, grills and roasters across 30+ collections, each in multiple sizes. OEM available.",
+    "eyebrow": "Cookware Division",
+    "title": "Cookware Catalog",
+    "subtitle": "{count} products across {collections} collections — browse by collection, then narrow by type. Each product is offered in multiple sizes.",
+    "collectionsHeading": "Collections",
+    "allCollections": "All Collections",
+    "showing": "Showing {shown} of {total} products",
+    "noMatch": "No products match this combination.",
+    "resetType": "Reset type filter",
+    "sizes": "{count} sizes",
+    "customHeading": "Need Custom Cookware Manufacturing?",
+    "customLead": "We offer OEM and white-label production. Choose your materials, coatings, handle designs, and packaging. Minimum order quantities apply.",
+    "customButton": "Discuss Your Requirements",
+    "detail": {
+      "collectionEyebrow": "{name} Collection",
+      "catalog": "Cookware Catalog",
+      "size": "Size",
+      "options": "{count} options",
+      "moreFrom": "More from {name}",
+      "notFoundTitle": "Product Not Found",
+      "notFoundText": "The cookware product you're looking for doesn't exist. Please check the URL or browse the catalog.",
+      "metaTitle": "{name} - Cookware - TanDem Manufacturing",
+      "metaNotFound": "Product Not Found - TanDem Manufacturing"
+    }
+  },
+  "home": {
+    "metaTitle": "TanDem - Premium Cookware & Heating Products",
+    "hero": {
+      "eyebrow": "Established 2017 · Part of the TMAI Group",
+      "title": "Premium {w1} & {w2} Products",
+      "word1": "Cookware",
+      "word2": "Heating",
+      "lead": "From premium cookware to central-heating radiators and boilers — we engineer and manufacture metal products for distributors, retailers, and consumers.",
+      "ctaExplore": "Explore Our Products",
+      "ctaQuote": "Request a Quote"
+    },
+    "stats": {
+      "years": "Years on the Market",
+      "divisions": "Product Divisions",
+      "group": "Group Member",
+      "certified": "Certified"
+    },
+    "capabilities": {
+      "eyebrow": "What We Do",
+      "heading": "Manufacturing Capabilities",
+      "lead": "We pair advanced machinery with skilled craftsmanship to produce cookware and heating products built to international quality standards.",
+      "casting": {
+        "title": "Casting & Forming",
+        "desc": "Die-casting, forging, and pressing of aluminum into lightweight, durable bodies with even heat distribution."
+      },
+      "coating": {
+        "title": "Surface Treatment & Coating",
+        "desc": "From PFOA-free non-stick and stone-coated finishes for cookware to durable powder coating for radiators — each finish applied to exacting standards."
+      },
+      "oem": {
+        "title": "Custom & OEM Production",
+        "desc": "Manufacture under your brand or ours — with full control over materials, finishes, dimensions, and packaging."
+      }
+    },
+    "divisions": {
+      "eyebrow": "Our Divisions",
+      "heading": "Two Product Lines, Built to the Same Standard",
+      "viewProducts": "View Products",
+      "cookware": {
+        "title": "Cookware",
+        "desc": "A wide range of fry pans, sauce pans, casseroles, woks and grills across 30+ collections — in forged aluminum, die-cast, and stone-coated finishes, each offered in multiple sizes."
+      },
+      "radiators": {
+        "title": "Heating Radiators",
+        "desc": "Aluminum and bimetal panel radiators, plus towel radiators — with EN-rated heat output for homes and commercial spaces."
+      }
+    },
+    "process": {
+      "eyebrow": "Our Process",
+      "heading": "From Raw Material to Finished Product",
+      "material": {
+        "title": "Material Selection",
+        "desc": "Premium aluminum and bimetal sourced from certified suppliers."
+      },
+      "forming": {
+        "title": "Forming & Shaping",
+        "desc": "Precision die-casting, pressing, and forming on our production lines."
+      },
+      "finishing": {
+        "title": "Finishing & Assembly",
+        "desc": "Coating and surface treatment, then assembly of handles, lids, valves, and fittings."
+      },
+      "qc": {
+        "title": "Quality Control",
+        "desc": "Every unit inspected and tested to ISO 9001 standards before packaging and shipment."
+      }
+    },
+    "cta": {
+      "heading": "Partner With Us",
+      "lead": "Whether you're a distributor looking for reliable supply, a retailer seeking quality products, or a business with custom manufacturing needs — we'd like to hear from you.",
+      "getInTouch": "Get in Touch",
+      "learnAbout": "Learn About Us"
+    }
+  },
+  "about": {
+    "metaTitle": "About Us - TanDem Manufacturing",
+    "metaDescription": "TanDem — established 2017, a Kyrgyzstan-based manufacturer of premium cookware and central-heating radiators and boilers, built to internationally certified standards. Part of the TMAI group.",
+    "eyebrow": "About Us",
+    "title": "Cookware and Heating, Made to Last",
+    "subtitle": "Quality cookware and heating, serving clients across Central Asia, Russia, and Europe.",
+    "story": {
+      "heading": "Who We Are",
+      "p1": "Established in 2017, TanDem LLC is a metalworking manufacturer and part of the international TMAI group. We produce two core lines — premium cookware and central-heating radiators and boilers — for distributors, retailers, and consumers.",
+      "p2": "Our manufacturing facility is based in Kyrgyzstan's Free Economic Zone “Bishkek” — an ideal gateway location from which we ship to partners across Central Asia, Russia, and Europe.",
+      "p3": "Backed by the group's expertise in metal forging, casting, and surface treatment, we pair advanced machinery with skilled craftsmanship and manufacture to internationally certified standards — under our own brand or yours, with full OEM and custom production.",
+      "factoryAlt": "TanDem manufacturing facility in Bishkek"
+    },
+    "chips": {
+      "established": "Established 2017",
+      "fez": "Free Economic Zone “Bishkek”",
+      "iso": "ISO 9001 certified",
+      "oem": "OEM / white-label"
+    },
+    "certs": {
+      "eyebrow": "Standards",
+      "heading": "Certifications & Compliance",
+      "intro": "Our products are manufactured to the internationally recognized standards held across the TMAI group — independently audited and tested. Click any certificate to view it in full.",
+      "view": "View certificate",
+      "items": {
+        "iso9001": { "name": "ISO 9001:2015", "desc": "Quality Management System" },
+        "ohsas": { "name": "OHSAS 18001:2007", "desc": "Occupational Health & Safety Management" },
+        "amfori": { "name": "amfori BSCI", "desc": "Social Compliance Audit" },
+        "tuvFood": { "name": "TÜV Rheinland", "desc": "Food-Contact Safety Test (LFGB)" },
+        "tuvFitness": { "name": "TÜV Rheinland", "desc": "Cookware Fitness-for-Use Test (DIN 44904)" },
+        "testReport": { "name": "Product Test Report", "desc": "Independent Consumer-Product Testing" }
+      }
+    },
+    "values": {
+      "eyebrow": "Our Principles",
+      "heading": "What Drives Us",
+      "quality": {
+        "title": "Quality Without Compromise",
+        "desc": "Every product passes rigorous multi-point inspection. We test for structural integrity, surface finish, dimensional accuracy, and performance before any unit leaves our facility."
+      },
+      "certified": {
+        "title": "Certified & Compliant",
+        "desc": "Independently audited and tested — ISO 9001, OHSAS 18001, amfori BSCI, and TÜV Rheinland — so partners can buy with confidence."
+      },
+      "flexible": {
+        "title": "Flexible Manufacturing",
+        "desc": "From a single collection to full OEM and white-label production, we adapt materials, finishes, and packaging to each partner’s needs."
+      }
+    }
+  },
+  "radiators": {
+    "metaTitle": "Heating Radiators - TanDem Manufacturing",
+    "metaDescription": "Explore TanDem's heating radiator catalog: aluminum, bimetal, and towel radiators with EN-rated heat output. OEM and custom manufacturing available.",
+    "eyebrow": "Heating Division",
+    "title": "Radiator Catalog",
+    "subtitle": "High-efficiency aluminum and bimetal heating radiators engineered for optimal heat output, durability, and modern aesthetics.",
+    "customHeading": "Need Custom Radiator Manufacturing?",
+    "customLead": "We offer OEM and white-label production. Custom dimensions, heat outputs, finishes, and configurations available. Minimum order quantities apply.",
+    "customButton": "Discuss Your Requirements",
+    "detail": {
+      "division": "Heating Division",
+      "catalog": "Radiator Catalog",
+      "moreCategory": "More {category} radiators",
+      "notFoundTitle": "Product Not Found",
+      "notFoundText": "The radiator product you're looking for doesn't exist. Please check the URL or browse the catalog.",
+      "metaTitle": "{name} - Radiators - TanDem Manufacturing",
+      "metaNotFound": "Product Not Found - TanDem Manufacturing"
+    }
+  },
+  "products": {
+    "metaTitle": "Products - TanDem Manufacturing",
+    "metaDescription": "Explore TanDem's product divisions — premium cookware and central-heating radiators, with full OEM and custom manufacturing.",
+    "eyebrow": "Product Divisions",
+    "title": "Our Product Range",
+    "subtitle": "Two divisions, one foundation — precision aluminum casting, expert surface coating, and rigorous quality control.",
+    "divisions": {
+      "viewLines": "View Product Lines",
+      "cookware": {
+        "title": "Cookware",
+        "desc": "Fry pans, sauce pans, casseroles, woks, grills and roasters across 30+ collections — in forged aluminum, die-cast, and stone-coated finishes, each offered in multiple sizes.",
+        "lines": [
+          "Forged & Pressed Aluminum Series",
+          "Die-cast & Granite Stone-Coat Collections",
+          "Classic, Diamond & Nature Lines",
+          "Grill, Roaster & Multi-functional Range"
+        ]
+      },
+      "radiators": {
+        "title": "Heating Radiators",
+        "desc": "EN-rated heat output, durable powder-coated finishes, and a clean modern profile — built for reliable heating in homes and commercial spaces.",
+        "lines": [
+          "Aluminum Radiators",
+          "Bimetal Radiators",
+          "Towel Radiators"
+        ]
+      }
+    },
+    "custom": {
+      "heading": "Need Custom Manufacturing?",
+      "lead": "We offer OEM and white-label production across both product divisions. Choose your materials, finishes, dimensions, and packaging. Minimum order quantities apply.",
+      "button": "Discuss Your Requirements"
+    }
+  }
+}

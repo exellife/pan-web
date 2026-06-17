@@ -3,13 +3,13 @@
     <!-- Page Header -->
     <section class="bg-steel-50 py-16 lg:py-24 border-b border-steel-200">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
-        <NuxtLink to="/products" class="absolute -bottom-10 lg:-bottom-16 right-4 sm:right-6 lg:right-8 text-accent-600 hover:text-accent-700 text-sm font-medium uppercase tracking-wide">
-          &larr; All Products
-        </NuxtLink>
-        <NuxtLink to="/products/cookware" class="text-accent-600 hover:text-accent-700 text-sm font-medium uppercase tracking-wide mb-4 inline-block">
-          &larr; Cookware Catalog
-        </NuxtLink>
-        <p class="text-accent-600 font-semibold text-sm uppercase tracking-widest mb-2">{{ product.section }} Collection</p>
+        <NuxtLinkLocale to="/products" class="absolute -bottom-10 lg:-bottom-16 right-4 sm:right-6 lg:right-8 text-accent-600 hover:text-accent-700 text-sm font-medium uppercase tracking-wide">
+          &larr; {{ $t('common.allProducts') }}
+        </NuxtLinkLocale>
+        <NuxtLinkLocale to="/products/cookware" class="text-accent-600 hover:text-accent-700 text-sm font-medium uppercase tracking-wide mb-4 inline-block">
+          &larr; {{ $t('cookware.detail.catalog') }}
+        </NuxtLinkLocale>
+        <p class="text-accent-600 font-semibold text-sm uppercase tracking-widest mb-2">{{ $t('cookware.detail.collectionEyebrow', { name: product.section }) }}</p>
         <h1 class="text-4xl md:text-5xl font-display font-bold text-steel-900">{{ product.name }}</h1>
       </div>
     </section>
@@ -27,7 +27,7 @@
                 :alt="product.name"
                 class="max-h-full max-w-full object-contain"
               />
-              <span v-else class="text-steel-300 text-sm">No image available</span>
+              <span v-else class="text-steel-300 text-sm">{{ $t('common.noImage') }}</span>
             </div>
             <div v-if="product.images.length > 1" class="mt-4 flex flex-wrap gap-3">
               <button
@@ -37,7 +37,7 @@
                 :class="activeImage === img.full ? 'border-accent-500' : 'border-steel-200 hover:border-accent-300'"
                 @click="activeImage = img.full"
               >
-                <img :src="img.thumb" :alt="`${product.name} view ${i + 1}`" class="max-h-full max-w-full object-contain" />
+                <img :src="img.thumb" :alt="`${product.name} ${i + 1}`" class="max-h-full max-w-full object-contain" />
               </button>
             </div>
           </div>
@@ -57,7 +57,7 @@
             <!-- Size / config selector -->
             <div v-if="product.configs.length > 1" class="mt-6">
               <p class="text-xs font-semibold text-steel-400 uppercase tracking-widest mb-2">
-                Size <span class="text-steel-300 normal-case">({{ product.configs.length }} options)</span>
+                {{ $t('cookware.detail.size') }} <span class="text-steel-300 normal-case">({{ $t('cookware.detail.options', { count: product.configs.length }) }})</span>
               </p>
               <div class="flex flex-wrap gap-2">
                 <button
@@ -84,12 +84,12 @@
 
             <!-- CTA Buttons -->
             <div class="mt-8 flex flex-wrap gap-4">
-              <NuxtLink
+              <NuxtLinkLocale
                 to="/contact"
                 class="inline-block bg-accent-600 text-white px-8 py-3 rounded font-semibold hover:bg-accent-700 transition-colors"
               >
-                Request Quote
-              </NuxtLink>
+                {{ $t('common.requestQuote') }}
+              </NuxtLinkLocale>
               <button
                 type="button"
                 class="inline-flex items-center gap-2 bg-white text-steel-700 px-8 py-3 rounded font-semibold border border-steel-300 hover:border-accent-400 hover:text-accent-600 transition-colors"
@@ -106,9 +106,9 @@
 
         <!-- Related -->
         <div v-if="related.length" class="mt-20 pt-12 border-t border-steel-200">
-          <h2 class="text-2xl font-display font-bold text-steel-900 mb-8">More from {{ product.section }}</h2>
+          <h2 class="text-2xl font-display font-bold text-steel-900 mb-8">{{ $t('cookware.detail.moreFrom', { name: product.section }) }}</h2>
           <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
-            <NuxtLink
+            <NuxtLinkLocale
               v-for="rel in related"
               :key="rel.id"
               :to="`/products/cookware/${rel.id}`"
@@ -116,13 +116,13 @@
             >
               <div class="bg-steel-50 aspect-square flex items-center justify-center p-3">
                 <img v-if="rel.image" :src="rel.image" :alt="rel.name" loading="lazy" class="max-h-full max-w-full object-contain" />
-                <span v-else class="text-steel-300 text-xs">No image</span>
+                <span v-else class="text-steel-300 text-xs">{{ $t('common.noImage') }}</span>
               </div>
               <div class="p-3 border-t border-steel-100">
                 <span class="text-accent-600 text-[10px] font-semibold uppercase tracking-widest">{{ rel.type }}</span>
                 <h3 class="text-sm text-steel-800 group-hover:text-accent-600 transition-colors truncate">{{ rel.name }}</h3>
               </div>
-            </NuxtLink>
+            </NuxtLinkLocale>
           </div>
         </div>
       </div>
@@ -133,12 +133,12 @@
   <div v-else>
     <section class="bg-steel-50 py-16 lg:py-24 border-b border-steel-200">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <NuxtLink to="/products/cookware" class="text-accent-600 hover:text-accent-700 text-sm font-medium uppercase tracking-wide mb-4 inline-block">
-          &larr; Cookware Catalog
-        </NuxtLink>
-        <h1 class="text-4xl md:text-5xl font-display font-bold text-steel-900">Product Not Found</h1>
+        <NuxtLinkLocale to="/products/cookware" class="text-accent-600 hover:text-accent-700 text-sm font-medium uppercase tracking-wide mb-4 inline-block">
+          &larr; {{ $t('cookware.detail.catalog') }}
+        </NuxtLinkLocale>
+        <h1 class="text-4xl md:text-5xl font-display font-bold text-steel-900">{{ $t('cookware.detail.notFoundTitle') }}</h1>
         <p class="mt-4 text-lg text-steel-500">
-          The cookware product you're looking for doesn't exist. Please check the URL or browse the catalog.
+          {{ $t('cookware.detail.notFoundText') }}
         </p>
       </div>
     </section>
@@ -148,13 +148,14 @@
 <script setup lang="ts">
 import products from '~/data/cookware.json'
 
+const { t } = useI18n()
 const route = useRoute()
 const product = products.find(p => p.id === route.params.id)
 
 const activeImage = ref(product?.full || null)
 const activeConfig = ref(product?.configs[0])
 
-const shareLabel = ref('Share')
+const shareLabel = ref(t('common.share'))
 async function share() {
   if (!product) return
   const url = window.location.href
@@ -163,8 +164,8 @@ async function share() {
       await navigator.share({ title: `${product.name} — TanDem`, url })
     } else {
       await navigator.clipboard.writeText(url)
-      shareLabel.value = 'Link copied!'
-      setTimeout(() => { shareLabel.value = 'Share' }, 2000)
+      shareLabel.value = t('common.linkCopied')
+      setTimeout(() => { shareLabel.value = t('common.share') }, 2000)
     }
   } catch {
     // share cancelled or unavailable — ignore
@@ -179,9 +180,9 @@ const related = computed(() =>
     : [],
 )
 
-useHead({
+useHead(() => ({
   title: product
-    ? `${product.name} - Cookware - TanDem Manufacturing`
-    : 'Product Not Found - TanDem Manufacturing',
-})
+    ? t('cookware.detail.metaTitle', { name: product.name })
+    : t('cookware.detail.metaNotFound'),
+}))
 </script>

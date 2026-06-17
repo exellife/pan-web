@@ -4,7 +4,22 @@ export default defineNuxtConfig({
 
   modules: [
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/i18n',
   ],
+
+  i18n: {
+    baseUrl: 'https://pan-web-mocha.vercel.app',
+    strategy: 'prefix_except_default',
+    defaultLocale: 'en',
+    locales: [
+      { code: 'en', language: 'en-US', file: 'en.json', name: 'English' },
+      // { code: 'ru', language: 'ru-RU', file: 'ru.json', name: 'Русский' },
+      // { code: 'ky', language: 'ky-KG', file: 'ky.json', name: 'Кыргызча' },
+      { code: 'zh', language: 'zh-CN', file: 'zh.json', name: '中文' },
+    ],
+    langDir: 'locales',
+    detectBrowserLanguage: false,
+  },
 
   nitro: {
     static: true,

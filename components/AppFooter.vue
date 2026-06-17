@@ -8,29 +8,28 @@
             Tan<span class="text-accent-600">Dem</span>
           </h3>
           <p class="text-steel-500 leading-relaxed">
-            Quality cookware and central-heating products, serving clients across Central Asia,
-            Russia, and Europe.
+            {{ $t('footer.tagline') }}
           </p>
         </div>
 
         <!-- Quick Links -->
         <div>
-          <h4 class="text-steel-900 font-semibold mb-4 text-sm uppercase tracking-wide">Navigation</h4>
+          <h4 class="text-steel-900 font-semibold mb-4 text-sm uppercase tracking-wide">{{ $t('footer.navHeading') }}</h4>
           <ul class="space-y-2">
             <li v-for="link in footerLinks" :key="link.to">
-              <NuxtLink :to="link.to" class="hover:text-accent-600 transition-colors">
-                {{ link.label }}
-              </NuxtLink>
+              <NuxtLinkLocale :to="link.to" class="hover:text-accent-600 transition-colors">
+                {{ $t(`footer.links.${link.key}`) }}
+              </NuxtLinkLocale>
             </li>
           </ul>
         </div>
 
         <!-- Contact Info -->
         <div>
-          <h4 class="text-steel-900 font-semibold mb-4 text-sm uppercase tracking-wide">Factory & Office</h4>
+          <h4 class="text-steel-900 font-semibold mb-4 text-sm uppercase tracking-wide">{{ $t('footer.contactHeading') }}</h4>
           <ul class="space-y-2 text-steel-500">
-            <li>1/55, Free Economic Zone &ldquo;Bishkek&rdquo;</li>
-            <li>Bishkek, Kyrgyzstan</li>
+            <li>{{ $t('footer.addressLine1') }}</li>
+            <li>{{ $t('footer.addressLine2') }}</li>
             <li>
               <a href="mailto:info@tandem.kg" class="hover:text-accent-600 transition-colors">
                 info@tandem.kg
@@ -46,7 +45,7 @@
       </div>
 
       <div class="border-t border-steel-200 mt-8 pt-8 text-center text-steel-400 text-sm">
-        &copy; {{ new Date().getFullYear() }} TanDem Manufacturing. All rights reserved.
+        &copy; {{ new Date().getFullYear() }} TanDem Manufacturing. {{ $t('footer.rights') }}
       </div>
     </div>
   </footer>
@@ -54,9 +53,9 @@
 
 <script setup lang="ts">
 const footerLinks = [
-  { to: '/', label: 'Home' },
-  { to: '/about', label: 'About Us' },
-  { to: '/products', label: 'Product Lines' },
-  { to: '/contact', label: 'Contact & Inquiries' },
+  { to: '/', key: 'home' },
+  { to: '/about', key: 'about' },
+  { to: '/products', key: 'products' },
+  { to: '/contact', key: 'contact' },
 ]
 </script>

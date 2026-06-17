@@ -3,13 +3,13 @@
     <!-- Page Header -->
     <section class="bg-steel-50 py-16 lg:py-24 border-b border-steel-200">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
-        <NuxtLink to="/products" class="absolute -bottom-10 lg:-bottom-16 right-4 sm:right-6 lg:right-8 text-accent-600 hover:text-accent-700 text-sm font-medium uppercase tracking-wide">
-          &larr; All Products
-        </NuxtLink>
-        <NuxtLink to="/products/radiators" class="text-accent-600 hover:text-accent-700 text-sm font-medium uppercase tracking-wide mb-4 inline-block">
-          &larr; Radiator Catalog
-        </NuxtLink>
-        <p class="text-accent-600 font-semibold text-sm uppercase tracking-widest mb-2">{{ titleCase(product.category) }} · Heating Division</p>
+        <NuxtLinkLocale to="/products" class="absolute -bottom-10 lg:-bottom-16 right-4 sm:right-6 lg:right-8 text-accent-600 hover:text-accent-700 text-sm font-medium uppercase tracking-wide">
+          &larr; {{ $t('common.allProducts') }}
+        </NuxtLinkLocale>
+        <NuxtLinkLocale to="/products/radiators" class="text-accent-600 hover:text-accent-700 text-sm font-medium uppercase tracking-wide mb-4 inline-block">
+          &larr; {{ $t('radiators.detail.catalog') }}
+        </NuxtLinkLocale>
+        <p class="text-accent-600 font-semibold text-sm uppercase tracking-widest mb-2">{{ titleCase(product.category) }} · {{ $t('radiators.detail.division') }}</p>
         <h1 class="text-4xl md:text-5xl font-display font-bold text-steel-900">{{ product.name }}</h1>
       </div>
     </section>
@@ -26,7 +26,7 @@
               :alt="product.name"
               class="max-h-full max-w-full object-contain"
             />
-            <span v-else class="text-steel-300 text-sm">No image available</span>
+            <span v-else class="text-steel-300 text-sm">{{ $t('common.noImage') }}</span>
           </div>
 
           <!-- Info -->
@@ -51,12 +51,12 @@
 
             <!-- CTA Buttons -->
             <div class="mt-8 flex flex-wrap gap-4">
-              <NuxtLink
+              <NuxtLinkLocale
                 to="/contact"
                 class="inline-block bg-accent-600 text-white px-8 py-3 rounded font-semibold hover:bg-accent-700 transition-colors"
               >
-                Request Quote
-              </NuxtLink>
+                {{ $t('common.requestQuote') }}
+              </NuxtLinkLocale>
               <button
                 type="button"
                 class="inline-flex items-center gap-2 bg-white text-steel-700 px-8 py-3 rounded font-semibold border border-steel-300 hover:border-accent-400 hover:text-accent-600 transition-colors"
@@ -73,9 +73,9 @@
 
         <!-- Related in category -->
         <div v-if="related.length" class="mt-20 pt-12 border-t border-steel-200">
-          <h2 class="text-2xl font-display font-bold text-steel-900 mb-8">More {{ titleCase(product.category) }} radiators</h2>
+          <h2 class="text-2xl font-display font-bold text-steel-900 mb-8">{{ $t('radiators.detail.moreCategory', { category: titleCase(product.category) }) }}</h2>
           <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
-            <NuxtLink
+            <NuxtLinkLocale
               v-for="rel in related"
               :key="rel.id"
               :to="`/products/radiators/${rel.id}`"
@@ -83,12 +83,12 @@
             >
               <div class="bg-steel-50 aspect-square flex items-center justify-center p-3">
                 <img v-if="rel.image" :src="rel.image" :alt="rel.name" loading="lazy" class="max-h-full max-w-full object-contain" />
-                <span v-else class="text-steel-300 text-xs">No image</span>
+                <span v-else class="text-steel-300 text-xs">{{ $t('common.noImage') }}</span>
               </div>
               <div class="p-3 border-t border-steel-100">
                 <h3 class="text-sm text-steel-800 group-hover:text-accent-600 transition-colors truncate">{{ rel.name }}</h3>
               </div>
-            </NuxtLink>
+            </NuxtLinkLocale>
           </div>
         </div>
       </div>
@@ -99,12 +99,12 @@
   <div v-else>
     <section class="bg-steel-50 py-16 lg:py-24 border-b border-steel-200">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <NuxtLink to="/products/radiators" class="text-accent-600 hover:text-accent-700 text-sm font-medium uppercase tracking-wide mb-4 inline-block">
-          &larr; Radiator Catalog
-        </NuxtLink>
-        <h1 class="text-4xl md:text-5xl font-display font-bold text-steel-900">Product Not Found</h1>
+        <NuxtLinkLocale to="/products/radiators" class="text-accent-600 hover:text-accent-700 text-sm font-medium uppercase tracking-wide mb-4 inline-block">
+          &larr; {{ $t('radiators.detail.catalog') }}
+        </NuxtLinkLocale>
+        <h1 class="text-4xl md:text-5xl font-display font-bold text-steel-900">{{ $t('radiators.detail.notFoundTitle') }}</h1>
         <p class="mt-4 text-lg text-steel-500">
-          The radiator product you're looking for doesn't exist. Please check the URL or browse the catalog.
+          {{ $t('radiators.detail.notFoundText') }}
         </p>
       </div>
     </section>
@@ -114,12 +114,13 @@
 <script setup lang="ts">
 import products from '~/data/radiators.json'
 
+const { t } = useI18n()
 const route = useRoute()
 const product = products.find(p => p.id === route.params.id)
 
 const titleCase = (s: string) => s.split(' ').map(w => w.charAt(0) + w.slice(1).toLowerCase()).join(' ')
 
-const shareLabel = ref('Share')
+const shareLabel = ref(t('common.share'))
 async function share() {
   if (!product) return
   const url = window.location.href
@@ -128,8 +129,8 @@ async function share() {
       await navigator.share({ title: `${product.name} — TanDem`, url })
     } else {
       await navigator.clipboard.writeText(url)
-      shareLabel.value = 'Link copied!'
-      setTimeout(() => { shareLabel.value = 'Share' }, 2000)
+      shareLabel.value = t('common.linkCopied')
+      setTimeout(() => { shareLabel.value = t('common.share') }, 2000)
     }
   } catch {
     // share cancelled or unavailable — ignore
@@ -142,9 +143,9 @@ const related = computed(() =>
     : [],
 )
 
-useHead({
+useHead(() => ({
   title: product
-    ? `${product.name} - Radiators - TanDem Manufacturing`
-    : 'Product Not Found - TanDem Manufacturing',
-})
+    ? t('radiators.detail.metaTitle', { name: product.name })
+    : t('radiators.detail.metaNotFound'),
+}))
 </script>
