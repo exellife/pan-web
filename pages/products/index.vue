@@ -76,9 +76,9 @@
 
 <script setup lang="ts">
 useHead({
-  title: 'Products - PanCraft Manufacturing',
+  title: 'Products - TanDem Manufacturing',
   meta: [
-    { name: 'description', content: 'Explore PanCraft\'s two product divisions: premium cookware and high-efficiency heating radiators. OEM and custom manufacturing available.' },
+    { name: 'description', content: 'Explore TanDem\'s two product divisions: premium cookware and high-efficiency heating radiators. OEM and custom manufacturing available.' },
   ],
 })
 

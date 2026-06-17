@@ -90,12 +90,16 @@
               >
                 Request Quote
               </NuxtLink>
-              <NuxtLink
-                to="/contact"
-                class="inline-block bg-white text-steel-700 px-8 py-3 rounded font-semibold border border-steel-300 hover:border-accent-400 hover:text-accent-600 transition-colors"
+              <button
+                type="button"
+                class="inline-flex items-center gap-2 bg-white text-steel-700 px-8 py-3 rounded font-semibold border border-steel-300 hover:border-accent-400 hover:text-accent-600 transition-colors"
+                @click="share"
               >
-                Download Spec Sheet
-              </NuxtLink>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M8.7 10.7l6.6-3.4M8.7 13.3l6.6 3.4M18 8a3 3 0 10-3-3 3 3 0 003 3zm0 13a3 3 0 10-3-3 3 3 0 003 3zM6 15a3 3 0 10-3-3 3 3 0 003 3z" />
+                </svg>
+                {{ shareLabel }}
+              </button>
             </div>
           </div>
         </div>
@@ -149,6 +153,23 @@ const product = products.find(p => p.id === route.params.id)
 
 const activeImage = ref(product?.full || null)
 const activeConfig = ref(product?.configs[0])
+
+const shareLabel = ref('Share')
+async function share() {
+  if (!product) return
+  const url = window.location.href
+  try {
+    if (navigator.share) {
+      await navigator.share({ title: `${product.name} — TanDem`, url })
+    } else {
+      await navigator.clipboard.writeText(url)
+      shareLabel.value = 'Link copied!'
+      setTimeout(() => { shareLabel.value = 'Share' }, 2000)
+    }
+  } catch {
+    // share cancelled or unavailable — ignore
+  }
+}
 const activeSpecs = computed(() => [...(product?.commonSpecs || []), ...(activeConfig.value?.specs || [])])
 
 // Related: other products from the same catalog section.
@@ -160,7 +181,7 @@ const related = computed(() =>
 
 useHead({
   title: product
-    ? `${product.name} - Cookware - PanCraft Manufacturing`
-    : 'Product Not Found - PanCraft Manufacturing',
+    ? `${product.name} - Cookware - TanDem Manufacturing`
+    : 'Product Not Found - TanDem Manufacturing',
 })
 </script>

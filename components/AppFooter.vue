@@ -5,11 +5,11 @@
         <!-- Brand -->
         <div>
           <h3 class="text-2xl font-display font-bold text-steel-900 mb-4">
-            Pan<span class="text-accent-600">Craft</span>
+            Tan<span class="text-accent-600">Dem</span>
           </h3>
           <p class="text-steel-500 leading-relaxed">
-            Precision metalworking manufacturer since 1995. Premium cookware
-            and heating radiators trusted by distributors, retailers, and consumers worldwide.
+            Quality cookware and central-heating products, serving clients across Central Asia,
+            Russia, and Europe.
           </p>
         </div>
 
@@ -29,16 +29,16 @@
         <div>
           <h4 class="text-steel-900 font-semibold mb-4 text-sm uppercase tracking-wide">Factory & Office</h4>
           <ul class="space-y-2 text-steel-500">
-            <li>123 Industrial Boulevard</li>
-            <li>Manufacturing District, MD 10001</li>
+            <li>1/55, Free Economic Zone &ldquo;Bishkek&rdquo;</li>
+            <li>Bishkek, Kyrgyzstan</li>
             <li>
-              <a href="mailto:info@pancraft.com" class="hover:text-accent-600 transition-colors">
-                info@pancraft.com
+              <a href="mailto:info@tandem.kg" class="hover:text-accent-600 transition-colors">
+                info@tandem.kg
               </a>
             </li>
             <li>
-              <a href="tel:+15551234567" class="hover:text-accent-600 transition-colors">
-                +1 (555) 123-4567
+              <a href="tel:+996312900000" class="hover:text-accent-600 transition-colors">
+                +996 312 90 00 00
               </a>
             </li>
           </ul>
@@ -46,7 +46,7 @@
       </div>
 
       <div class="border-t border-steel-200 mt-8 pt-8 text-center text-steel-400 text-sm">
-        &copy; {{ new Date().getFullYear() }} PanCraft Manufacturing. All rights reserved.
+        &copy; {{ new Date().getFullYear() }} TanDem Manufacturing. All rights reserved.
       </div>
     </div>
   </footer>

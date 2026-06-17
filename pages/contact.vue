@@ -120,9 +120,9 @@
 
 <script setup lang="ts">
 useHead({
-  title: 'Contact - PanCraft Manufacturing',
+  title: 'Contact - TanDem Manufacturing',
   meta: [
-    { name: 'description', content: 'Contact PanCraft for wholesale, OEM, retail partnerships, or individual purchases. Request a quote today.' },
+    { name: 'description', content: 'Contact TanDem for wholesale, OEM, retail partnerships, or individual purchases. Request a quote today.' },
   ],
 })
 
@@ -135,11 +135,11 @@ const form = reactive({
 })
 
 const contactInfo = [
-  { label: 'Address', value: '123 Industrial Boulevard, Manufacturing District, MD 10001' },
-  { label: 'Phone', value: '+1 (555) 123-4567' },
-  { label: 'Email', value: 'info@pancraft.com' },
-  { label: 'Sales Department', value: 'sales@pancraft.com' },
-  { label: 'Business Hours', value: 'Monday - Friday, 8:00 AM - 5:00 PM' },
+  { label: 'Address', value: '1/55, Free Economic Zone "Bishkek", Bishkek, Kyrgyzstan' },
+  { label: 'Phone', value: '+996 312 90 00 00' },
+  { label: 'Email', value: 'info@tandem.kg' },
+  { label: 'Sales Department', value: 'sales@tandem.kg' },
+  { label: 'Business Hours', value: 'Monday - Friday, 9:00 AM - 6:00 PM' },
 ]
 
 function handleSubmit() {

@@ -4,7 +4,7 @@
       <div class="flex justify-between items-center h-16">
         <!-- Logo -->
         <NuxtLink to="/" class="flex items-center space-x-2">
-          <span class="text-2xl font-display font-bold text-steel-900">Pan<span class="text-accent-600">Craft</span></span>
+          <span class="text-2xl font-display font-bold text-steel-900">Tan<span class="text-accent-600">Dem</span></span>
         </NuxtLink>
 
         <!-- Desktop Navigation -->

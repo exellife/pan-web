@@ -114,9 +114,9 @@
 import products from '~/data/radiators.json'
 
 useHead({
-  title: 'Heating Radiators - PanCraft Manufacturing',
+  title: 'Heating Radiators - TanDem Manufacturing',
   meta: [
-    { name: 'description', content: 'Explore PanCraft\'s heating radiator catalog: aluminum, bimetal, and towel radiators with EN-rated heat output. OEM and custom manufacturing available.' },
+    { name: 'description', content: 'Explore TanDem\'s heating radiator catalog: aluminum, bimetal, and towel radiators with EN-rated heat output. OEM and custom manufacturing available.' },
   ],
 })
 

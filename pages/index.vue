@@ -2,11 +2,13 @@
   <div>
     <!-- Hero Section -->
     <section class="relative bg-steel-50 py-24 lg:py-36 overflow-hidden">
-      <div class="absolute inset-0 bg-gradient-to-br from-white to-steel-100" />
+      <div class="absolute inset-0 bg-cover bg-center bg-no-repeat bg-[url('/images/hero/home-hero-thumb.webp')] lg:bg-[url('/images/hero/home-hero.webp')]">
+        <div class="absolute inset-0 bg-gradient-to-r from-white/95 via-white/80 to-white/40" />
+      </div>
       <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="max-w-3xl">
           <p class="text-accent-600 font-semibold text-sm uppercase tracking-widest mb-4">
-            Established 1995
+            Established 2017 · Part of the TMAI Group
           </p>
           <h1 class="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-steel-900 leading-tight">
             Precision
@@ -14,8 +16,8 @@
             & Manufacturing
           </h1>
           <p class="mt-6 text-lg md:text-xl text-steel-600 leading-relaxed">
-            From premium cookware to high-efficiency heating radiators — we engineer
-            and manufacture metal products for distributors, retailers, and consumers worldwide.
+            From premium cookware to central-heating radiators and boilers — we engineer
+            and manufacture metal products for distributors, retailers, and consumers.
           </p>
           <div class="mt-8 flex flex-col sm:flex-row gap-4">
             <NuxtLink
@@ -168,14 +170,14 @@
 
 <script setup lang="ts">
 useHead({
-  title: 'PanCraft - Precision Metalworking & Manufacturing',
+  title: 'TanDem - Precision Metalworking & Manufacturing',
 })
 
 const stats = [
-  { value: '30+', label: 'Years of Experience' },
-  { value: '2M+', label: 'Units Produced Yearly' },
-  { value: '45+', label: 'Countries Served' },
-  { value: '200+', label: 'Team Members' },
+  { value: '2017', label: 'Established' },
+  { value: '2', label: 'Product Divisions' },
+  { value: 'TMAI', label: 'Group Member' },
+  { value: 'ISO 9001', label: 'Certified' },
 ]
 
 const capabilities = [

@@ -172,9 +172,9 @@
 import products from '~/data/cookware.json'
 
 useHead({
-  title: 'Cookware - PanCraft Manufacturing',
+  title: 'Cookware - TanDem Manufacturing',
   meta: [
-    { name: 'description', content: 'Browse PanCraft\'s cookware catalog: 147 products across 27 collections — fry pans, sauce pans, casseroles, woks, grills and roasters, each in multiple sizes. OEM available.' },
+    { name: 'description', content: 'Browse TanDem\'s cookware catalog: 147 products across 27 collections — fry pans, sauce pans, casseroles, woks, grills and roasters, each in multiple sizes. OEM available.' },
   ],
 })
 

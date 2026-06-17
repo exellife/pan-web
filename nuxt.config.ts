@@ -12,11 +12,11 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: 'PanCraft - Premium Frying Pans & Cookware',
+      title: 'TanDem - Premium Cookware & Heating Radiators',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { name: 'description', content: 'PanCraft is a precision metalworking manufacturer producing premium cookware and heating radiators for distributors, retailers, and consumers worldwide.' },
+        { name: 'description', content: 'TanDem is a precision metalworking manufacturer in Bishkek, Kyrgyzstan — part of the international TMAI group — producing cookware and central-heating radiators and boilers for distributors, retailers, and consumers.' },
       ],
       link: [
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
